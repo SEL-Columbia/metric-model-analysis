@@ -232,8 +232,12 @@ def analyze_ast_variable(ast_cls, module_name):
                     else:
                         var_info['type'] = "SINGLE_STMT_OTHER"
                 break
-
+    # if the var doesn't have a compute/agg function then it's a leaf
+    if not 'aggregate' in cls_dict and not 'compute' in cls_dict:
+        var_info['type'] = "LEAF_VAR"
+ 
     # Find other curve type variables
+    # These override LEAF_VAR types
     if re.match(r"\w+CurveType$", ast_cls.name):
         var_info['type'] = "CURVE_TYPE"
     elif re.match(r"\w+CurvePoints$", ast_cls.name):
@@ -241,10 +245,7 @@ def analyze_ast_variable(ast_cls, module_name):
     elif re.match(r"\w+Curve$", ast_cls.name):
         var_info['type'] = "CURVE_FUN"
 
-    # if the var doesn't have a compute/agg function then it's a leaf
-    if not 'aggregate' in cls_dict or not 'compute' in cls_dict:
-        var_info['type'] = "LEAF_VAR"
-    
+   
     var_info['dependencies'] = sorted(list(dependencies))
 
     return var_info
