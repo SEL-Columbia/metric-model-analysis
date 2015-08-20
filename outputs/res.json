@@ -1218,6 +1218,7 @@
     "multigraph": false, 
     "nodes": [
         {
+            "alias": "dcff", 
             "default": "", 
             "dep_string": "finance.InterestRatePerYear;finance.TimeHorizon", 
             "dependencies": [
@@ -1230,10 +1231,11 @@
             "section": "finance", 
             "type": "OTHER", 
             "units": "", 
-            "x": 0.10824360600974708, 
-            "y": 0.026798708405331127
+            "x": 0.016937834385153408, 
+            "y": 0.071270271555427256
         }, 
         {
+            "alias": "og_fl", 
             "default": "", 
             "dep_string": "costOffGrid.DieselFuelCostPerLiter;costOffGrid.DieselFuelLitersConsumedPerKilowattHour;costOffGrid.DieselGeneratorActualSystemCapacity;costOffGrid.DieselGeneratorEffectiveHoursOfOperationPerYear", 
             "dependencies": [
@@ -1248,10 +1250,11 @@
             "section": "costOffGrid", 
             "type": "SINGLE_STMT_SIMPLE", 
             "units": "dollars per year", 
-            "x": 0.23609877087650935, 
-            "y": -0.099444625375913184
+            "x": -0.075539898054728147, 
+            "y": -0.19757801341322137
         }, 
         {
+            "alias": "og_nod_lev", 
             "default": "", 
             "dep_string": "costOffGrid.OffGridSystemNodalDiscountedCost;demand.ProjectedNodalDiscountedDemand", 
             "dependencies": [
@@ -1264,10 +1267,11 @@
             "section": "costOffGrid", 
             "type": "OTHER", 
             "units": "dollars per kilowatt-hour", 
-            "x": 0.090633763586675603, 
-            "y": 0.10586435823065646
+            "x": 0.042975395861652763, 
+            "y": 0.046622904877569656
         }, 
         {
+            "alias": "mg_dem_d", 
             "default": 0, 
             "dep_string": "", 
             "dependencies": [], 
@@ -1277,10 +1281,11 @@
             "section": "", 
             "type": "AGGREGATE", 
             "units": "kilowatt-hours", 
-            "x": -0.88905399571956811, 
-            "y": -0.32813645265782676
+            "x": 0.0064346709647633595, 
+            "y": 0.85995506774921393
         }, 
         {
+            "alias": "ed_dc_unit", 
             "default": 0, 
             "dep_string": "", 
             "dependencies": [], 
@@ -1289,10 +1294,11 @@
             "section": "demand", 
             "type": "LEAF_VAR", 
             "units": "kilowatt-hours per year", 
-            "x": 0.040577151879234018, 
-            "y": -0.036992364221354032
+            "x": -0.15822107186142276, 
+            "y": 0.043306549486326125
         }, 
         {
+            "alias": "tgt_ho_prt", 
             "default": 1, 
             "dep_string": "", 
             "dependencies": [], 
@@ -1301,10 +1307,11 @@
             "section": "demand", 
             "type": "LEAF_VAR", 
             "units": "fraction", 
-            "x": -0.14135108693678716, 
-            "y": -0.10061123301845445
+            "x": -0.093681518927351132, 
+            "y": 0.022919604281724595
         }, 
         {
+            "alias": "og_p_om", 
             "default": "", 
             "dep_string": "costOffGrid.PhotovoltaicComponentInitialCost;costOffGrid.PhotovoltaicComponentOperationsAndMaintenanceCostPerYearAsFractionOfComponentCost", 
             "dependencies": [
@@ -1317,10 +1324,11 @@
             "section": "costOffGrid", 
             "type": "SINGLE_STMT_SIMPLE", 
             "units": "dollars per year", 
-            "x": 0.29842733833031537, 
-            "y": 0.3080600497640234
+            "x": 0.084599149777352986, 
+            "y": -0.19142674438328316
         }, 
         {
+            "alias": "og_nod_ddfc", 
             "default": "", 
             "dep_string": "costOffGrid.DieselFuelCostPerYear;finance.DiscountedCashFlowFactor", 
             "dependencies": [
@@ -1333,10 +1341,11 @@
             "section": "costOffGrid", 
             "type": "SINGLE_STMT_SIMPLE", 
             "units": "", 
-            "x": 0.18963031319329576, 
-            "y": -0.031492216614801768
+            "x": -0.023704036125585973, 
+            "y": -0.065236723188904652
         }, 
         {
+            "alias": "og_px_life", 
             "default": 10, 
             "dep_string": "", 
             "dependencies": [], 
@@ -1345,10 +1354,11 @@
             "section": "costOffGrid", 
             "type": "LEAF_VAR", 
             "units": "years", 
-            "x": 0.43574344171171514, 
-            "y": 0.32889476918766686
+            "x": -0.059973496522192797, 
+            "y": -0.14094908459074082
         }, 
         {
+            "alias": "gr_ic", 
             "default": "", 
             "dep_string": "costGrid.GridSocialInfrastructureCount;demand.TargetHouseholdCount", 
             "dependencies": [
@@ -1361,10 +1371,11 @@
             "section": "costGrid", 
             "type": "SINGLE_STMT_SIMPLE", 
             "units": "connection count", 
-            "x": -0.11929632842342881, 
-            "y": 0.012759587796905983
+            "x": 0.01780995076126583, 
+            "y": -0.031765139676543701
         }, 
         {
+            "alias": "p_pkdem_pr", 
             "default": "", 
             "dep_string": "demand.DemandToPeakDemandConversionFactor;demand.ProjectedProductiveDemandPerYear", 
             "dependencies": [
@@ -1377,10 +1388,11 @@
             "section": "demand", 
             "type": "SINGLE_STMT_SIMPLE", 
             "units": "kilowatts", 
-            "x": -0.029243936690808651, 
-            "y": -0.17318219414334649
+            "x": -0.16223888129441674, 
+            "y": -0.10741522555808615
         }, 
         {
+            "alias": "og_px_cf", 
             "default": 0.5, 
             "dep_string": "", 
             "dependencies": [], 
@@ -1389,10 +1401,11 @@
             "section": "costOffGrid", 
             "type": "LEAF_VAR", 
             "units": "", 
-            "x": 0.39442634806521704, 
-            "y": 0.33445618682360395
+            "x": -0.074698610808963464, 
+            "y": 0.0055066671361286351
         }, 
         {
+            "alias": "og_p_rec", 
             "default": "", 
             "dep_string": "costOffGrid.PhotovoltaicBalanceReplacementCostPerYear;costOffGrid.PhotovoltaicBatteryReplacementCostPerYear;costOffGrid.PhotovoltaicComponentOperationsAndMaintenanceCostPerYear;costOffGrid.PhotovoltaicPanelReplacementCostPerYear", 
             "dependencies": [
@@ -1407,10 +1420,11 @@
             "section": "costOffGrid", 
             "type": "SINGLE_STMT_SIMPLE", 
             "units": "dollars per year", 
-            "x": 0.30556197497880688, 
-            "y": 0.25360480344894976
+            "x": 0.060538013185704946, 
+            "y": -0.14178897116605335
         }, 
         {
+            "alias": "p_li", 
             "default": "", 
             "dep_string": "demand.PublicLightingFacilityCountCurve;demographics.ProjectedPopulationCount", 
             "dependencies": [
@@ -1423,10 +1437,11 @@
             "section": "demand", 
             "type": "CURVE_INTERPOLATE", 
             "units": "public lighting facility count", 
-            "x": -0.095782524382416856, 
-            "y": -0.048859089936655074
+            "x": -0.099831874493537143, 
+            "y": 0.06779636808460246
         }, 
         {
+            "alias": "og_nod_d", 
             "default": "", 
             "dep_string": "costOffGrid.OffGridSystemInitialCost;costOffGrid.OffGridSystemRecurringCostPerYear;demand.ProjectedNodalDemandPerYear;finance.DiscountedCashFlowFactor", 
             "dependencies": [
@@ -1441,10 +1456,11 @@
             "section": "costOffGrid", 
             "type": "OTHER", 
             "units": "dollars", 
-            "x": 0.1243354109819995, 
-            "y": 0.073162149429241943
+            "x": 0.034900253150818683, 
+            "y": -0.012629188379021371
         }, 
         {
+            "alias": "mg_loss", 
             "default": 0.1, 
             "dep_string": "", 
             "dependencies": [], 
@@ -1453,10 +1469,11 @@
             "section": "costMiniGrid", 
             "type": "LEAF_VAR", 
             "units": "fraction", 
-            "x": -0.14739300727512489, 
-            "y": -0.019465866121610408
+            "x": 0.2190993475727534, 
+            "y": 0.030956480824886608
         }, 
         {
+            "alias": "mg_ct", 
             "default": 0, 
             "dep_string": "", 
             "dependencies": [], 
@@ -1466,10 +1483,11 @@
             "section": "", 
             "type": "AGGREGATE", 
             "units": "count", 
-            "x": -0.92171937136246684, 
-            "y": 0.12981177618652168
+            "x": -0.80440885882221902, 
+            "y": 0.77409113136632179
         }, 
         {
+            "alias": "mg_g_acp", 
             "default": "", 
             "dep_string": "costMiniGrid.GenerationActualSystemCapacityCounts;costMiniGrid.GenerationAvailableSystemCapacities", 
             "dependencies": [
@@ -1482,10 +1500,11 @@
             "section": "costMiniGrid", 
             "type": "SINGLE_STMT_OTHER", 
             "units": "kilowatts", 
-            "x": -0.11821763086821049, 
-            "y": -0.22070031221508804
+            "x": 0.33464229559581193, 
+            "y": 0.10862849075801005
         }, 
         {
+            "alias": "mg_ini_gc", 
             "default": "", 
             "dep_string": "costMiniGrid.GenerationCost;costMiniGrid.GenerationInstallationCost", 
             "dependencies": [
@@ -1498,10 +1517,11 @@
             "section": "costMiniGrid", 
             "type": "SINGLE_STMT_OTHER", 
             "units": "dollars", 
-            "x": 0.052741970613760659, 
-            "y": -0.17503410539751613
+            "x": 0.21462061584208841, 
+            "y": 0.17608973783754861
         }, 
         {
+            "alias": "ge_recm", 
             "default": "", 
             "dep_string": "costGrid.GridMediumVoltageLineOperationsAndMaintenanceCostPerMeterPerYear;costGrid.GridMediumVoltageLineReplacementCostPerMeterPerYear", 
             "dependencies": [
@@ -1514,10 +1534,11 @@
             "section": "costGrid", 
             "type": "SINGLE_STMT_SIMPLE", 
             "units": "dollars per meter per year", 
-            "x": 0.093158620811578358, 
-            "y": 0.30822840713263727
+            "x": -0.039132184058653666, 
+            "y": 0.36141585636977369
         }, 
         {
+            "alias": "pr_dc_pts", 
             "default": "500 1; 1000 3.06; 5000 3.57; 10000 5.10", 
             "dep_string": "", 
             "dependencies": [], 
@@ -1526,10 +1547,11 @@
             "section": "demand", 
             "type": "CURVE_POINTS", 
             "units": "population and multiplier list", 
-            "x": 0.049463991640220424, 
-            "y": -0.3370004748506692
+            "x": 0.049994068612534116, 
+            "y": -0.28828037034931592
         }, 
         {
+            "alias": "og_p_omf", 
             "default": 0.05, 
             "dep_string": "", 
             "dependencies": [], 
@@ -1538,10 +1560,11 @@
             "section": "costOffGrid", 
             "type": "LEAF_VAR", 
             "units": "", 
-            "x": 0.31801504295674554, 
-            "y": 0.36968045178537945
+            "x": 0.12494876098809723, 
+            "y": -0.2533769617698341
         }, 
         {
+            "alias": "pop_g_r", 
             "default": 0.015, 
             "dep_string": "", 
             "dependencies": [], 
@@ -1550,10 +1573,11 @@
             "section": "demographics", 
             "type": "LEAF_VAR", 
             "units": "fraction per year", 
-            "x": -0.069621765939177002, 
-            "y": -0.21666164309142269
+            "x": -0.25072263109015136, 
+            "y": 0.14389551432548903
         }, 
         {
+            "alias": "economic_g", 
             "default": 0.06, 
             "dep_string": "", 
             "dependencies": [], 
@@ -1562,10 +1586,11 @@
             "section": "finance", 
             "type": "LEAF_VAR", 
             "units": "fraction per year", 
-            "x": 0.25145284365972975, 
-            "y": -0.13123967769633618
+            "x": -0.31179356394323093, 
+            "y": 0.049710267551518299
         }, 
         {
+            "alias": "mg_g_cps", 
             "default": "1000 750 500 400 200 150 100 70 32 19 12 6", 
             "dep_string": "", 
             "dependencies": [], 
@@ -1574,10 +1599,11 @@
             "section": "costMiniGrid", 
             "type": "LEAF_VAR", 
             "units": "kilowatts list", 
-            "x": -0.17898904384810377, 
-            "y": -0.22956021370996263
+            "x": 0.37005817915265726, 
+            "y": 0.07899977681864162
         }, 
         {
+            "alias": "og_p_loss", 
             "default": 0.1, 
             "dep_string": "", 
             "dependencies": [], 
@@ -1586,10 +1612,11 @@
             "section": "costOffGrid", 
             "type": "LEAF_VAR", 
             "units": "fraction", 
-            "x": 0.11912668501721344, 
-            "y": 0.096680793810344279
+            "x": -0.17264698524306057, 
+            "y": -0.14846420336270708
         }, 
         {
+            "alias": "og_pp_dcp", 
             "default": "", 
             "dep_string": "costOffGrid.PeakSunHoursPerYear;costOffGrid.PhotovoltaicComponentEfficiencyLoss;demand.ProjectedEducationFacilityDemandPerYear;demand.ProjectedHealthFacilityDemandPerYear;demand.ProjectedHouseholdDemandPerYear;demand.ProjectedPublicLightingFacilityDemandPerYear", 
             "dependencies": [
@@ -1606,10 +1633,11 @@
             "section": "costOffGrid", 
             "type": "OTHER", 
             "units": "kilowatts", 
-            "x": 0.065208517406541447, 
-            "y": 0.049709814122699703
+            "x": -0.12096442940197487, 
+            "y": -0.091524879936936698
         }, 
         {
+            "alias": "ho_size_u", 
             "default": 7.5, 
             "dep_string": "", 
             "dependencies": [], 
@@ -1618,10 +1646,11 @@
             "section": "demographics", 
             "type": "LEAF_VAR", 
             "units": "person count", 
-            "x": -0.28300238957124085, 
-            "y": 0.028470454478751316
+            "x": -0.36075789547690473, 
+            "y": -0.033151432398483074
         }, 
         {
+            "alias": "og_tot_i", 
             "default": 0, 
             "dep_string": "", 
             "dependencies": [], 
@@ -1631,10 +1660,11 @@
             "section": "", 
             "type": "AGGREGATE", 
             "units": "dollars", 
-            "x": -0.8521725772609936, 
-            "y": -0.53511231669943937
+            "x": 0.34726819826305744, 
+            "y": -0.92470163511545778
         }, 
         {
+            "alias": "pkdemf_r", 
             "default": 0.4, 
             "dep_string": "", 
             "dependencies": [], 
@@ -1643,10 +1673,11 @@
             "section": "demand", 
             "type": "LEAF_VAR", 
             "units": "", 
-            "x": -0.29124215255528174, 
-            "y": -0.19762146311118436
+            "x": -0.36765184200513967, 
+            "y": 0.037497886933716224
         }, 
         {
+            "alias": "gi_ini", 
             "default": "", 
             "dep_string": "costDistribution.LowVoltageLineInitialCost;costGrid.GridInstallationCost;costGrid.GridTransformerCost;costGrid.LowVoltageLineEquipmentCost", 
             "dependencies": [
@@ -1661,10 +1692,11 @@
             "section": "costGrid", 
             "type": "SINGLE_STMT_OTHER", 
             "units": "dollars", 
-            "x": -0.12677152377482148, 
-            "y": 0.04877309474843506
+            "x": 0.14357337895403777, 
+            "y": 0.007743933255678446
         }, 
         {
+            "alias": "og_nod_ddc", 
             "default": "", 
             "dep_string": "costOffGrid.DieselComponentInitialCost;costOffGrid.DieselComponentRecurringCostPerYear;demand.ProjectedNodalDemandPerYear;finance.DiscountedCashFlowFactor", 
             "dependencies": [
@@ -1679,10 +1711,11 @@
             "section": "costOffGrid", 
             "type": "OTHER", 
             "units": "dollars", 
-            "x": 0.14793977629396352, 
-            "y": 0.0047867750126035719
+            "x": 0.0048419055729160745, 
+            "y": -0.088671489889402572
         }, 
         {
+            "alias": "mg_g_rep", 
             "default": "", 
             "dep_string": "costMiniGrid.GenerationCost;costMiniGrid.GenerationLifetime", 
             "dependencies": [
@@ -1695,10 +1728,11 @@
             "section": "costMiniGrid", 
             "type": "SINGLE_STMT_OTHER", 
             "units": "dollars per year", 
-            "x": 0.044460485868976142, 
-            "y": -0.18786238272703012
+            "x": 0.2813570539564223, 
+            "y": 0.12254415876855378
         }, 
         {
+            "alias": "co_cc_t", 
             "default": "ZeroLogisticLinear", 
             "dep_string": "", 
             "dependencies": [], 
@@ -1707,10 +1741,11 @@
             "section": "demand", 
             "type": "CURVE_TYPE", 
             "units": "", 
-            "x": 0.058771743351286793, 
-            "y": -0.31812140264158256
+            "x": -0.4086944605354676, 
+            "y": -0.050675620977450611
         }, 
         {
+            "alias": "gr_tot_drc", 
             "default": "", 
             "dep_string": "GridSystemTotalExternalDiscountedRecurringCost;GridSystemTotalInternalDiscountedRecurringCost", 
             "dependencies": [
@@ -1723,10 +1758,11 @@
             "section": "", 
             "type": "OTHER", 
             "units": "dollars", 
-            "x": 0.3224246212213786, 
-            "y": 0.086455190577242838
+            "x": -0.11958990278188167, 
+            "y": 0.26157497768584248
         }, 
         {
+            "alias": "pkdemf", 
             "default": "", 
             "dep_string": "demand.RuralPeakDemandAsFractionOfNodalDemandOccurringDuringPeakHours;demand.UrbanPeakDemandAsFractionOfNodalDemandOccurringDuringPeakHours;demographics.IsRural", 
             "dependencies": [
@@ -1740,10 +1776,11 @@
             "section": "demand", 
             "type": "SINGLE_STMT_OTHER", 
             "units": "", 
-            "x": -0.22709506866193557, 
-            "y": -0.15272328742907137
+            "x": -0.29819478778343805, 
+            "y": 0.0084835545583083569
         }, 
         {
+            "alias": "he_cc_pts", 
             "default": "50 0.16; 500 1.6; 5000 5; 10000 20", 
             "dep_string": "", 
             "dependencies": [], 
@@ -1752,10 +1789,11 @@
             "section": "demand", 
             "type": "CURVE_POINTS", 
             "units": "population and facility count list", 
-            "x": -0.11911186309836462, 
-            "y": 0.24940534386912649
+            "x": -0.28283433682188236, 
+            "y": -0.25424341499169423
         }, 
         {
+            "alias": "og_pp_acp", 
             "default": "", 
             "dep_string": "costOffGrid.PhotovoltaicPanelActualSystemCapacityCounts;costOffGrid.PhotovoltaicPanelAvailableSystemCapacities", 
             "dependencies": [
@@ -1768,10 +1806,11 @@
             "section": "costOffGrid", 
             "type": "SINGLE_STMT_OTHER", 
             "units": "kilowatts", 
-            "x": 0.22842432310321059, 
-            "y": 0.25582313964171227
+            "x": 0.0055431130850712241, 
+            "y": -0.16312958131435784
         }, 
         {
+            "alias": "mg_le", 
             "default": "", 
             "dep_string": "costDistribution.LowVoltageLineEquipmentCostPerConnection;demand.TargetHouseholdCount", 
             "dependencies": [
@@ -1784,10 +1823,11 @@
             "section": "costMiniGrid", 
             "type": "SINGLE_STMT_SIMPLE", 
             "units": "dollars", 
-            "x": -0.060995497274633402, 
-            "y": -0.047516664372729105
+            "x": 0.10141602376906864, 
+            "y": 0.026825465759531934
         }, 
         {
+            "alias": "ed_cc_t", 
             "default": "ZeroLogisticLinear", 
             "dep_string": "", 
             "dependencies": [], 
@@ -1796,10 +1836,11 @@
             "section": "demand", 
             "type": "CURVE_TYPE", 
             "units": "", 
-            "x": -0.32594208343645092, 
-            "y": -0.065531188404892401
+            "x": -0.063983552902056984, 
+            "y": 0.29361751645827233
         }, 
         {
+            "alias": "ho_dc", 
             "default": "", 
             "dep_string": "demand.HouseholdDemandCurvePoints;demand.HouseholdDemandCurveType", 
             "dependencies": [
@@ -1812,10 +1853,11 @@
             "section": "demand", 
             "type": "CURVE_FUN", 
             "units": "", 
-            "x": -0.065749056310746373, 
-            "y": -0.16654339036768187
+            "x": -0.02969760034070482, 
+            "y": -0.22388992669261693
         }, 
         {
+            "alias": "ho_dc_pts", 
             "default": "500 1; 1000 1.56; 5000 6.16; 10000 11.5", 
             "dep_string": "", 
             "dependencies": [], 
@@ -1824,10 +1866,11 @@
             "section": "demand", 
             "type": "CURVE_POINTS", 
             "units": "population and multiplier list", 
-            "x": -0.091020563388834075, 
-            "y": -0.24408237569172128
+            "x": -0.0058019394168653381, 
+            "y": -0.30411149375081781
         }, 
         {
+            "alias": "mg_esdpy", 
             "default": "", 
             "dep_string": "costMiniGrid.DistributionLoss;costMiniGrid.MinimumEnergyStorageCapacity;costMiniGrid.PercentOfDailyKilowattHourLoadRequiringStorage;demand.ProjectedNodalDemandPerYear", 
             "dependencies": [
@@ -1842,10 +1885,11 @@
             "section": "costMiniGrid", 
             "type": "OTHER", 
             "units": "kilowatt-hours per year", 
-            "x": -0.075750994062333835, 
-            "y": -0.01178879182251035
+            "x": 0.15925937698236989, 
+            "y": 0.03841603689445354
         }, 
         {
+            "alias": "pr_dc_t", 
             "default": "ZeroLogisticLinear", 
             "dep_string": "", 
             "dependencies": [], 
@@ -1854,10 +1898,11 @@
             "section": "demand", 
             "type": "CURVE_TYPE", 
             "units": "", 
-            "x": 0.030445613165936358, 
-            "y": -0.33648822019403346
+            "x": 0.064120141130273978, 
+            "y": -0.27868749232965262
         }, 
         {
+            "alias": "mg_g_i", 
             "default": "", 
             "dep_string": "costMiniGrid.GenerationCost;costMiniGrid.GenerationInstallationCostAsFractionOfGenerationCost", 
             "dependencies": [
@@ -1870,10 +1915,11 @@
             "section": "costMiniGrid", 
             "type": "SINGLE_STMT_SIMPLE", 
             "units": "dollars", 
-            "x": 0.003667970232737855, 
-            "y": -0.21304120082732614
+            "x": 0.24583573805601236, 
+            "y": 0.17720563151224819
         }, 
         {
+            "alias": "di_ll_life", 
             "default": 10, 
             "dep_string": "", 
             "dependencies": [], 
@@ -1882,10 +1928,11 @@
             "section": "costDistribution", 
             "type": "LEAF_VAR", 
             "units": "years", 
-            "x": -0.14709892980465347, 
-            "y": -0.23565872604579441
+            "x": -0.0064411412225270116, 
+            "y": 0.17976404145837116
         }, 
         {
+            "alias": "pop", 
             "default": 0, 
             "dep_string": "", 
             "dependencies": [], 
@@ -1894,10 +1941,11 @@
             "section": "demographics", 
             "type": "LEAF_VAR", 
             "units": "person count", 
-            "x": -0.059503662549832824, 
-            "y": -0.23131998564440781
+            "x": -0.26463883769682056, 
+            "y": 0.13500922223698286
         }, 
         {
+            "alias": "so_dc", 
             "default": "", 
             "dep_string": "demand.SocialInfrastructureDemandCurvePoints;demand.SocialInfrastructureDemandCurveType", 
             "dependencies": [
@@ -1910,10 +1958,11 @@
             "section": "demand", 
             "type": "CURVE_FUN", 
             "units": "", 
-            "x": 0.069998484346319667, 
-            "y": -0.029238898098820087
+            "x": -0.16478554647544189, 
+            "y": -0.046427638921700071
         }, 
         {
+            "alias": "pr_dc", 
             "default": "", 
             "dep_string": "demand.ProductiveDemandCurvePoints;demand.ProductiveDemandCurveType", 
             "dependencies": [
@@ -1926,10 +1975,11 @@
             "section": "demand", 
             "type": "CURVE_FUN", 
             "units": "", 
-            "x": 0.031356005254062597, 
-            "y": -0.25695837232003355
+            "x": 0.0099861628890079539, 
+            "y": -0.21369436423713964
         }, 
         {
+            "alias": "gr_ml_cm", 
             "default": 20, 
             "dep_string": "", 
             "dependencies": [], 
@@ -1938,10 +1988,11 @@
             "section": "costGrid", 
             "type": "LEAF_VAR", 
             "units": "dollars per meter", 
-            "x": 0.069216821827321751, 
-            "y": 0.36341975626544504
+            "x": -0.03420289358973725, 
+            "y": 0.41213321298534955
         }, 
         {
+            "alias": "gr_ml_omm", 
             "default": "", 
             "dep_string": "costGrid.GridMediumVoltageLineCostPerMeter;costGrid.GridMediumVoltageLineOperationsAndMaintenanceCostPerYearAsFractionOfLineCost", 
             "dependencies": [
@@ -1954,10 +2005,11 @@
             "section": "costGrid", 
             "type": "SINGLE_STMT_SIMPLE", 
             "units": "dollars per meter per year", 
-            "x": 0.072647443676198104, 
-            "y": 0.39091904460066113
+            "x": -0.046479935494267217, 
+            "y": 0.44816115644287041
         }, 
         {
+            "alias": "mg_escpy", 
             "default": "", 
             "dep_string": "costMiniGrid.EnergyStorageCostPerKilowattHour;costMiniGrid.EnergyStorageDemandPerYear", 
             "dependencies": [
@@ -1970,10 +2022,11 @@
             "section": "costMiniGrid", 
             "type": "SINGLE_STMT_SIMPLE", 
             "units": "dollars per year", 
-            "x": 0.024258578499576279, 
-            "y": -0.069234982897866282
+            "x": 0.18641196719444145, 
+            "y": 0.129782707021349
         }, 
         {
+            "alias": "gr_tot_ext_ic", 
             "default": 0, 
             "dep_string": "", 
             "dependencies": [], 
@@ -1983,10 +2036,11 @@
             "section": "", 
             "type": "AGGREGATE", 
             "units": "dollars", 
-            "x": 0.70686393769494793, 
-            "y": -0.35688740552251036
+            "x": -0.57827467679663114, 
+            "y": -0.70621100357594524
         }, 
         {
+            "alias": "og_pb_hkw", 
             "default": 5, 
             "dep_string": "", 
             "dependencies": [], 
@@ -1995,10 +2049,11 @@
             "section": "costOffGrid", 
             "type": "LEAF_VAR", 
             "units": "kilowatt-hours per kilowatt", 
-            "x": 0.2460009787674988, 
-            "y": 0.38979233607908254
+            "x": 0.14460310918415284, 
+            "y": -0.19176082916644838
         }, 
         {
+            "alias": "gr_tot_enl", 
             "default": "", 
             "dep_string": "", 
             "dependencies": [], 
@@ -2008,10 +2063,11 @@
             "section": "", 
             "type": "SINGLE_STMT_OTHER", 
             "units": "meters", 
-            "x": -0.8313308737339471, 
-            "y": -0.72762571713526591
+            "x": 0.50104546865572375, 
+            "y": 0.84480471890476538
         }, 
         {
+            "alias": "mg_u_fctr", 
             "default": 0.416667, 
             "dep_string": "", 
             "dependencies": [], 
@@ -2020,10 +2076,11 @@
             "section": "costMiniGrid", 
             "type": "LEAF_VAR", 
             "units": "fraction", 
-            "x": -0.21446160028739991, 
-            "y": -0.045190050817800871
+            "x": 0.27570530808341748, 
+            "y": 0.0063076188785349385
         }, 
         {
+            "alias": "og_p_ini", 
             "default": "", 
             "dep_string": "costOffGrid.PhotovoltaicBalanceCost;costOffGrid.PhotovoltaicBatteryCost;costOffGrid.PhotovoltaicPanelCost", 
             "dependencies": [
@@ -2037,10 +2094,11 @@
             "section": "costOffGrid", 
             "type": "SINGLE_STMT_SIMPLE", 
             "units": "dollars", 
-            "x": 0.2751958366607028, 
-            "y": 0.24928022426264318
+            "x": 0.039422778564028114, 
+            "y": -0.12289540201072428
         }, 
         {
+            "alias": "p_dem_ed", 
             "default": "", 
             "dep_string": "demand.EducationFacilityUnitDemandPerEducationFacilityPerYear;demand.ProjectedEducationFacilityCount;demand.SocialInfrastructureDemandCurve;demographics.ProjectedPopulationCount;finance.ElectricityDemandMultiplier", 
             "dependencies": [
@@ -2056,10 +2114,11 @@
             "section": "demand", 
             "type": "CURVE_INTERPOLATE", 
             "units": "kilowatt-hours per year", 
-            "x": 0.0030370218880451248, 
-            "y": -0.023448510750858961
+            "x": -0.10337718433438405, 
+            "y": -0.0045615596413397189
         }, 
         {
+            "alias": "gr_ml_omf", 
             "default": 0.01, 
             "dep_string": "", 
             "dependencies": [], 
@@ -2068,10 +2127,11 @@
             "section": "costGrid", 
             "type": "LEAF_VAR", 
             "units": "", 
-            "x": 0.060364000578751423, 
-            "y": 0.45399334268470903
+            "x": -0.054277282665537128, 
+            "y": 0.51459735816883889
         }, 
         {
+            "alias": "gr_tr_acps", 
             "default": "", 
             "dep_string": "costGrid.GridTransformerAvailableSystemCapacities;costGrid.GridTransformerDesiredSystemCapacity", 
             "dependencies": [
@@ -2084,10 +2144,11 @@
             "section": "costGrid", 
             "type": "SINGLE_STMT_OTHER", 
             "units": "capacity count list", 
-            "x": -0.28870694637674704, 
-            "y": 0.12383311946508258
+            "x": 0.18201010130209153, 
+            "y": 0.085502442772393272
         }, 
         {
+            "alias": "mg_nod_lev", 
             "default": "", 
             "dep_string": "costMiniGrid.MiniGridSystemNodalDiscountedCost;demand.ProjectedNodalDiscountedDemand", 
             "dependencies": [
@@ -2100,10 +2161,11 @@
             "section": "costMiniGrid", 
             "type": "OTHER", 
             "units": "dollars per kilowatt-hour", 
-            "x": 0.047411004171348914, 
-            "y": 0.058249568374112062
+            "x": 0.068547698128398143, 
+            "y": 0.10957775506438112
         }, 
         {
+            "alias": "og_pb_ckwh", 
             "default": 400, 
             "dep_string": "", 
             "dependencies": [], 
@@ -2112,10 +2174,11 @@
             "section": "costOffGrid", 
             "type": "LEAF_VAR", 
             "units": "dollars per kilowatt-hour", 
-            "x": 0.26425831721663823, 
-            "y": 0.39135384309301219
+            "x": 0.14508381492624145, 
+            "y": -0.16612552369159878
         }, 
         {
+            "alias": "og_dg_dcp", 
             "default": "", 
             "dep_string": "demand.ProjectedPeakCommercialFacilityDemand;demand.ProjectedPeakProductiveDemand", 
             "dependencies": [
@@ -2128,10 +2191,11 @@
             "section": "costOffGrid", 
             "type": "SINGLE_STMT_OTHER", 
             "units": "kilowatts", 
-            "x": 0.052772370588301143, 
-            "y": -0.20216180109308082
+            "x": -0.20373044283760819, 
+            "y": -0.17032801413918922
         }, 
         {
+            "alias": "og_dg_rep", 
             "default": "", 
             "dep_string": "costOffGrid.DieselGeneratorCost;costOffGrid.DieselGeneratorLifetime", 
             "dependencies": [
@@ -2144,10 +2208,11 @@
             "section": "costOffGrid", 
             "type": "SINGLE_STMT_OTHER", 
             "units": "dollars per year", 
-            "x": 0.33668819806290934, 
-            "y": -0.031923640313982919
+            "x": -0.014297375578522552, 
+            "y": -0.317416673554066
         }, 
         {
+            "alias": "system", 
             "default": "", 
             "dep_string": "costMiniGrid.MiniGridSystemNodalDiscountedCost;costOffGrid.OffGridSystemNodalDiscountedCost;demand.ProjectedNodalDemandPerYear", 
             "dependencies": [
@@ -2161,10 +2226,11 @@
             "section": "", 
             "type": "OTHER", 
             "units": "", 
-            "x": 0.065633784470450943, 
-            "y": 0.031458150415835627
+            "x": 0.059000804951821355, 
+            "y": 0.017425111157561433
         }, 
         {
+            "alias": "p_he", 
             "default": "", 
             "dep_string": "demand.HealthFacilityCountCurve;demographics.ProjectedPopulationCount", 
             "dependencies": [
@@ -2177,10 +2243,11 @@
             "section": "demand", 
             "type": "CURVE_INTERPOLATE", 
             "units": "health facility count", 
-            "x": -0.056317874567181674, 
-            "y": 0.049619175306048771
+            "x": -0.16363092383182259, 
+            "y": -0.088010148142389624
         }, 
         {
+            "alias": "ge_nodm_drcpm", 
             "default": "", 
             "dep_string": "costGrid.GridExternalSystemRecurringCostPerMeterPerYear;finance.DiscountedCashFlowFactor", 
             "dependencies": [
@@ -2193,10 +2260,11 @@
             "section": "costGrid", 
             "type": "SINGLE_STMT_SIMPLE", 
             "units": "dollars per meter", 
-            "x": 0.10129175850547871, 
-            "y": 0.17653296268274918
+            "x": -0.0090851140322478052, 
+            "y": 0.22616633524882876
         }, 
         {
+            "alias": "og_tot_d", 
             "default": 0, 
             "dep_string": "", 
             "dependencies": [], 
@@ -2206,10 +2274,11 @@
             "section": "", 
             "type": "AGGREGATE", 
             "units": "dollars", 
-            "x": -0.73262201892453449, 
-            "y": 0.45031222017769579
+            "x": 0.83253201352335748, 
+            "y": -0.18674297449867897
         }, 
         {
+            "alias": "demf", 
             "default": "", 
             "dep_string": "finance.ElectricityDemandGrowthRatePerYear;finance.TimeHorizon", 
             "dependencies": [
@@ -2222,10 +2291,11 @@
             "section": "finance", 
             "type": "SINGLE_STMT_SIMPLE", 
             "units": "", 
-            "x": 0.059530981259216027, 
-            "y": -0.059828306717594044
+            "x": -0.13156771859487254, 
+            "y": -0.02532319983934574
         }, 
         {
+            "alias": "mg_pd_kwhrs", 
             "default": 1.0, 
             "dep_string": "", 
             "dependencies": [], 
@@ -2234,10 +2304,11 @@
             "section": "costMiniGrid", 
             "type": "LEAF_VAR", 
             "units": "fraction", 
-            "x": -0.13807615675767068, 
-            "y": 0.02712594222514992
+            "x": 0.23525628914490043, 
+            "y": 0.022200133109288027
         }, 
         {
+            "alias": "og_tot_lev", 
             "default": "", 
             "dep_string": "OffGridSystemTotalDiscountedCost;OffGridSystemTotalDiscountedDemand", 
             "dependencies": [
@@ -2250,10 +2321,11 @@
             "section": "", 
             "type": "OTHER", 
             "units": "dollars per kilowatt-hour", 
-            "x": -0.68786396760708246, 
-            "y": 0.42177757246978403
+            "x": 0.79242904999032893, 
+            "y": -0.17711482116227353
         }, 
         {
+            "alias": "dem_pkdemf", 
             "default": "", 
             "dep_string": "demand.PeakDemandAsFractionOfNodalDemandOccurringDuringPeakHours;demand.PeakElectricalHoursOfOperationPerYear", 
             "dependencies": [
@@ -2266,10 +2338,11 @@
             "section": "demand", 
             "type": "SINGLE_STMT_OTHER", 
             "units": "", 
-            "x": -0.12211825090009837, 
-            "y": -0.13839098474158815
+            "x": -0.187846717015, 
+            "y": -0.027556057454075387
         }, 
         {
+            "alias": "p_dem_co", 
             "default": "", 
             "dep_string": "demand.CommercialFacilityUnitDemandPerCommercialFacilityPerYear;demand.ProjectedCommercialFacilityCount;demand.SocialInfrastructureDemandCurve;demographics.ProjectedPopulationCount;finance.ElectricityDemandMultiplier", 
             "dependencies": [
@@ -2285,10 +2358,11 @@
             "section": "demand", 
             "type": "CURVE_INTERPOLATE", 
             "units": "kilowatt-hours per year", 
-            "x": 0.039006404143856921, 
-            "y": -0.0916655807356416
+            "x": -0.12658587546676386, 
+            "y": -0.065168955316557406
         }, 
         {
+            "alias": "pksu_hr", 
             "default": 1320, 
             "dep_string": "", 
             "dependencies": [], 
@@ -2297,10 +2371,11 @@
             "section": "costOffGrid", 
             "type": "LEAF_VAR", 
             "units": "hours per year", 
-            "x": 0.10563163706415328, 
-            "y": 0.11096103210349215
+            "x": -0.18997920633039761, 
+            "y": -0.13503678601822108
         }, 
         {
+            "alias": "he_cc_t", 
             "default": "ZeroLogisticLinear", 
             "dep_string": "", 
             "dependencies": [], 
@@ -2309,10 +2384,11 @@
             "section": "demand", 
             "type": "CURVE_TYPE", 
             "units": "", 
-            "x": -0.10101291042559758, 
-            "y": 0.25169969285705718
+            "x": -0.26573801900833777, 
+            "y": -0.26775162087465243
         }, 
         {
+            "alias": "so_dc_pts", 
             "default": "500 1; 1000 1.5; 5000 2.25; 10000 3.375", 
             "dep_string": "", 
             "dependencies": [], 
@@ -2321,10 +2397,11 @@
             "section": "demand", 
             "type": "CURVE_POINTS", 
             "units": "population and multiplier list", 
-            "x": 0.13719757247376904, 
-            "y": -0.039186105112963138
+            "x": -0.23663166276536232, 
+            "y": -0.077718215755001388
         }, 
         {
+            "alias": "og_dg_mnhr", 
             "default": 1460, 
             "dep_string": "", 
             "dependencies": [], 
@@ -2333,10 +2410,11 @@
             "section": "costOffGrid", 
             "type": "LEAF_VAR", 
             "units": "hours per year", 
-            "x": 0.18505792629658238, 
-            "y": -0.1857236457225612
+            "x": -0.16637376451663868, 
+            "y": -0.22702507485430923
         }, 
         {
+            "alias": "di_ll_rec", 
             "default": "", 
             "dep_string": "costDistribution.LowVoltageLineOperationsAndMaintenanceCostPerYear;costDistribution.LowVoltageLineReplacementCostPerYear", 
             "dependencies": [
@@ -2349,10 +2427,11 @@
             "section": "costDistribution", 
             "type": "SINGLE_STMT_OTHER", 
             "units": "dollars per year", 
-            "x": -0.097728928776925503, 
-            "y": -0.077966201045376049
+            "x": 0.12500840885953812, 
+            "y": 0.10046407322838427
         }, 
         {
+            "alias": "di_ll_omf", 
             "default": 0.01, 
             "dep_string": "", 
             "dependencies": [], 
@@ -2361,10 +2440,11 @@
             "section": "costDistribution", 
             "type": "LEAF_VAR", 
             "units": "", 
-            "x": -0.19569923855066923, 
-            "y": -0.23561730944866524
+            "x": 0.0043331858766675318, 
+            "y": 0.21032668475840977
         }, 
         {
+            "alias": "mg_escpk", 
             "default": 0.54, 
             "dep_string": "", 
             "dependencies": [], 
@@ -2373,10 +2453,11 @@
             "section": "costMiniGrid", 
             "type": "LEAF_VAR", 
             "units": "dollars per kilowatt-hour", 
-            "x": 0.078711537514281199, 
-            "y": -0.099688201426840581
+            "x": 0.23194774636011695, 
+            "y": 0.19658752901927948
         }, 
         {
+            "alias": "elasticity", 
             "default": 1.5, 
             "dep_string": "", 
             "dependencies": [], 
@@ -2385,10 +2466,11 @@
             "section": "finance", 
             "type": "LEAF_VAR", 
             "units": "", 
-            "x": 0.25721571039323021, 
-            "y": -0.1131668803613468
+            "x": -0.30507271936499097, 
+            "y": 0.067697238545229188
         }, 
         {
+            "alias": "og_dg_ini", 
             "default": "", 
             "dep_string": "costOffGrid.DieselGeneratorActualSystemCapacity;costOffGrid.DieselGeneratorCostPerDieselSystemKilowatt", 
             "dependencies": [
@@ -2401,10 +2483,11 @@
             "section": "costOffGrid", 
             "type": "SINGLE_STMT_SIMPLE", 
             "units": "dollars", 
-            "x": 0.288546283669532, 
-            "y": -0.073915519247270509
+            "x": -0.062383509403830584, 
+            "y": -0.29804110039825626
         }, 
         {
+            "alias": "time", 
             "default": 10, 
             "dep_string": "", 
             "dependencies": [], 
@@ -2413,10 +2496,11 @@
             "section": "finance", 
             "type": "LEAF_VAR", 
             "units": "years", 
-            "x": 0.044287006802712622, 
-            "y": -0.068815569589422781
+            "x": -0.10811997804555372, 
+            "y": 0.057807880038353847
         }, 
         {
+            "alias": "ge_nodm_d", 
             "default": "", 
             "dep_string": "costGrid.GridExternalSystemInitialCostPerMeter;costGrid.GridExternalSystemNodalDiscountedRecurringCostPerMeter", 
             "dependencies": [
@@ -2429,10 +2513,11 @@
             "section": "costGrid", 
             "type": "SINGLE_STMT_SIMPLE", 
             "units": "dollars per meter", 
-            "x": 0.069241591647113299, 
-            "y": 0.20165361129703283
+            "x": 0.026768807740232475, 
+            "y": 0.22712288595296329
         }, 
         {
+            "alias": "gr_tot_idrc", 
             "default": 0, 
             "dep_string": "finance.DiscountedCashFlowFactor", 
             "dependencies": [
@@ -2444,10 +2529,11 @@
             "section": "", 
             "type": "AGGREGATE", 
             "units": "dollars", 
-            "x": 0.22557450665905082, 
-            "y": 0.06064967870338616
+            "x": -0.056831963285370539, 
+            "y": 0.17503754326674409
         }, 
         {
+            "alias": "li_cc_pts", 
             "default": "50 0.1; 500 1; 5000 7; 10000 25", 
             "dep_string": "", 
             "dependencies": [], 
@@ -2456,10 +2542,11 @@
             "section": "demand", 
             "type": "CURVE_POINTS", 
             "units": "population and facility count list", 
-            "x": -0.29140372611819482, 
-            "y": -0.089760736424266421
+            "x": -0.031104221522797661, 
+            "y": 0.26220283713860731
         }, 
         {
+            "alias": "mg_g_ck", 
             "default": 150, 
             "dep_string": "", 
             "dependencies": [], 
@@ -2468,10 +2555,11 @@
             "section": "costMiniGrid", 
             "type": "LEAF_VAR", 
             "units": "dollars per kilowatt", 
-            "x": -0.029010485181204086, 
-            "y": -0.28592511276243332
+            "x": 0.33323777095260354, 
+            "y": 0.19664607355030886
         }, 
         {
+            "alias": "co_cc_pts", 
             "default": "50 0.12; 500 1.2; 5000 25; 10000 125", 
             "dep_string": "", 
             "dependencies": [], 
@@ -2480,10 +2568,11 @@
             "section": "demand", 
             "type": "CURVE_POINTS", 
             "units": "population and facility count list", 
-            "x": 0.076980114937475877, 
-            "y": -0.31495311375012813
+            "x": -0.40982969042490897, 
+            "y": -0.028601956328687551
         }, 
         {
+            "alias": "gr_tr_om", 
             "default": "", 
             "dep_string": "costGrid.GridTransformerCost;costGrid.GridTransformerOperationsAndMaintenanceCostPerYearAsFractionOfTransformerCost", 
             "dependencies": [
@@ -2496,10 +2585,11 @@
             "section": "costGrid", 
             "type": "SINGLE_STMT_SIMPLE", 
             "units": "dollars per year", 
-            "x": -0.17273371981510149, 
-            "y": 0.14397080300353116
+            "x": 0.26655318471848582, 
+            "y": -0.043073133764907852
         }, 
         {
+            "alias": "gi_rec", 
             "default": "", 
             "dep_string": "costDistribution.LowVoltageLineRecurringCostPerYear;costGrid.GridElectricityCostPerYear;costGrid.GridTransformerOperationsAndMaintenanceCostPerYear;costGrid.GridTransformerReplacementCostPerYear;costGrid.LowVoltageLineEquipmentOperationsAndMaintenanceCostPerYear", 
             "dependencies": [
@@ -2515,10 +2605,11 @@
             "section": "costGrid", 
             "type": "SINGLE_STMT_OTHER", 
             "units": "dollars per year", 
-            "x": -0.10739950832606415, 
-            "y": 0.063312048366469573
+            "x": 0.17743180578897008, 
+            "y": 0.0074058927919751763
         }, 
         {
+            "alias": "gr_tr_cps", 
             "default": "1000 900 800 700 600 500 400 300 200 100 90 80 70 60 50 40 30 20 15 5", 
             "dep_string": "", 
             "dependencies": [], 
@@ -2527,10 +2618,11 @@
             "section": "costGrid", 
             "type": "LEAF_VAR", 
             "units": "kilowatts list", 
-            "x": -0.33197525409031087, 
-            "y": 0.16768757369113937
+            "x": 0.24994348125349489, 
+            "y": 0.098312308513464577
         }, 
         {
+            "alias": "og_pp_ini", 
             "default": "", 
             "dep_string": "costOffGrid.PhotovoltaicPanelActualSystemCapacity;costOffGrid.PhotovoltaicPanelCostPerPhotovoltaicComponentKilowatt", 
             "dependencies": [
@@ -2543,10 +2635,11 @@
             "section": "costOffGrid", 
             "type": "SINGLE_STMT_SIMPLE", 
             "units": "dollars", 
-            "x": 0.30346385278389715, 
-            "y": 0.29573730900688727
+            "x": -0.0026711306869395242, 
+            "y": -0.093622162641680898
         }, 
         {
+            "alias": "gr_tot_d", 
             "default": 0, 
             "dep_string": "", 
             "dependencies": [], 
@@ -2556,10 +2649,11 @@
             "section": "", 
             "type": "AGGREGATE", 
             "units": "dollars", 
-            "x": -0.28781093383663081, 
-            "y": -0.89547871702400184
+            "x": -0.86192347010192849, 
+            "y": 0.30812046952041239
         }, 
         {
+            "alias": "ed_cc_pts", 
             "default": "50 0.1; 500 1; 5000 3; 10000 15", 
             "dep_string": "", 
             "dependencies": [], 
@@ -2568,10 +2662,11 @@
             "section": "demand", 
             "type": "CURVE_POINTS", 
             "units": "population and facility count list", 
-            "x": -0.32605400660036071, 
-            "y": -0.046540098044570578
+            "x": -0.068425137315171691, 
+            "y": 0.28292887934891131
         }, 
         {
+            "alias": "pkel_hr", 
             "default": 1460, 
             "dep_string": "", 
             "dependencies": [], 
@@ -2580,10 +2675,11 @@
             "section": "demand", 
             "type": "LEAF_VAR", 
             "units": "hours per year", 
-            "x": -0.18567597974655439, 
-            "y": -0.19184327311916358
+            "x": -0.2613093839971477, 
+            "y": -0.035825801872444787
         }, 
         {
+            "alias": "ct_hh_t", 
             "default": "", 
             "dep_string": "demand.TargetHouseholdPenetrationRate;demographics.ProjectedHouseholdCount", 
             "dependencies": [
@@ -2596,10 +2692,11 @@
             "section": "demand", 
             "type": "SINGLE_STMT_OTHER", 
             "units": "households", 
-            "x": -0.084272991185960738, 
-            "y": -0.073654433905494754
+            "x": -0.03682279225265353, 
+            "y": -0.0045957083416140751
         }, 
         {
+            "alias": "gi_nod_lev", 
             "default": "", 
             "dep_string": "costGrid.GridInternalSystemNodalDiscountedCost;demand.ProjectedNodalDiscountedDemand", 
             "dependencies": [
@@ -2612,10 +2709,11 @@
             "section": "costGrid", 
             "type": "OTHER", 
             "units": "dollars per kilowatt-hour", 
-            "x": 0.029372770437818854, 
-            "y": 0.10615232295501958
+            "x": 0.076242204904580044, 
+            "y": 0.074862701239610696
         }, 
         {
+            "alias": "li_dc_unit", 
             "default": 0, 
             "dep_string": "", 
             "dependencies": [], 
@@ -2624,10 +2722,11 @@
             "section": "demand", 
             "type": "LEAF_VAR", 
             "units": "kilowatt-hours per year", 
-            "x": 0.065484118487629819, 
-            "y": 0.0064501186971859118
+            "x": -0.15650001625260962, 
+            "y": 0.0086380519144181826
         }, 
         {
+            "alias": "pr_dc_unit", 
             "default": 0, 
             "dep_string": "", 
             "dependencies": [], 
@@ -2636,10 +2735,11 @@
             "section": "demand", 
             "type": "LEAF_VAR", 
             "units": "kilowatt-hours per year", 
-            "x": 0.025391920387844748, 
-            "y": -0.17734569698484789
+            "x": -0.055080771540040117, 
+            "y": -0.15951992311038934
         }, 
         {
+            "alias": "di_ll_cm", 
             "default": 10, 
             "dep_string": "", 
             "dependencies": [], 
@@ -2648,10 +2748,11 @@
             "section": "costDistribution", 
             "type": "LEAF_VAR", 
             "units": "dollars per meter", 
-            "x": -0.17185929866492272, 
-            "y": -0.13408873914565231
+            "x": 0.079674235559958659, 
+            "y": 0.16917341410734033
         }, 
         {
+            "alias": "p_co", 
             "default": "", 
             "dep_string": "demand.CommercialFacilityCountCurve;demographics.ProjectedPopulationCount", 
             "dependencies": [
@@ -2664,10 +2765,11 @@
             "section": "demand", 
             "type": "CURVE_INTERPOLATE", 
             "units": "commercial facility count", 
-            "x": -0.0095493723783737963, 
-            "y": -0.12615295577312596
+            "x": -0.20769827169626265, 
+            "y": -0.030550719369646897
         }, 
         {
+            "alias": "ge_inim", 
             "default": "", 
             "dep_string": "costGrid.GridMediumVoltageLineCostPerMeter", 
             "dependencies": [
@@ -2679,10 +2781,11 @@
             "section": "costGrid", 
             "type": "SINGLE_STMT_SIMPLE", 
             "units": "dollars per meter", 
-            "x": 0.066313009790333902, 
-            "y": 0.293524722764886
+            "x": 5.1084025449675225e-05, 
+            "y": 0.33331651912441412
         }, 
         {
+            "alias": "gr_tot_iic", 
             "default": 0, 
             "dep_string": "", 
             "dependencies": [], 
@@ -2692,10 +2795,11 @@
             "section": "", 
             "type": "AGGREGATE", 
             "units": "dollars", 
-            "x": 0.75451764444114156, 
-            "y": -0.34015256743018712
+            "x": -0.52885270833934617, 
+            "y": -0.64250861196406617
         }, 
         {
+            "alias": "og_tot_ddc", 
             "default": 0, 
             "dep_string": "", 
             "dependencies": [], 
@@ -2705,10 +2809,11 @@
             "section": "", 
             "type": "AGGREGATE", 
             "units": "dollars", 
-            "x": -0.64806566696250945, 
-            "y": -0.77379315029982054
+            "x": 0.86939518067867416, 
+            "y": 0.54897182208660089
         }, 
         {
+            "alias": "og_pp_rep", 
             "default": "", 
             "dep_string": "costOffGrid.PhotovoltaicPanelCost;costOffGrid.PhotovoltaicPanelLifetime", 
             "dependencies": [
@@ -2721,10 +2826,11 @@
             "section": "costOffGrid", 
             "type": "SINGLE_STMT_OTHER", 
             "units": "dollars per year", 
-            "x": 0.34761603529009183, 
-            "y": 0.31851426266093741
+            "x": 0.029275253903152474, 
+            "y": -0.059188129401878918
         }, 
         {
+            "alias": "di_ll_rep", 
             "default": "", 
             "dep_string": "costDistribution.LowVoltageLineInitialCost;costDistribution.LowVoltageLineLifetime", 
             "dependencies": [
@@ -2737,10 +2843,11 @@
             "section": "costDistribution", 
             "type": "SINGLE_STMT_OTHER", 
             "units": "dollars per year", 
-            "x": -0.12866460496229898, 
-            "y": -0.15451980352585487
+            "x": 0.062883074242463019, 
+            "y": 0.14805088795054858
         }, 
         {
+            "alias": "mg_tot_d", 
             "default": 0, 
             "dep_string": "", 
             "dependencies": [], 
@@ -2750,10 +2857,11 @@
             "section": "", 
             "type": "AGGREGATE", 
             "units": "dollars", 
-            "x": -0.87753693847541292, 
-            "y": -0.35498816690494983
+            "x": -0.049728822202077479, 
+            "y": 0.86373981580143089
         }, 
         {
+            "alias": "mvmax", 
             "default": "", 
             "dep_string": "costGrid.GridExternalSystemNodalDiscountedCostPerMeter;costGrid.GridInternalSystemNodalDiscountedCost;costGrid.GridInternalSystemNodalLevelizedCost;costMiniGrid.MiniGridSystemNodalDiscountedCost;costMiniGrid.MiniGridSystemNodalLevelizedCost;costOffGrid.OffGridSystemNodalDiscountedCost;costOffGrid.OffGridSystemNodalLevelizedCost", 
             "dependencies": [
@@ -2771,10 +2879,11 @@
             "section": "", 
             "type": "OTHER", 
             "units": "meters", 
-            "x": 0.056364537278451241, 
-            "y": 0.094920123231628004
+            "x": 0.050657797548389893, 
+            "y": 0.096977606472195055
         }, 
         {
+            "alias": "p_dem_pr", 
             "default": "", 
             "dep_string": "demand.ProductiveDemandCurve;demand.ProductiveUnitDemandPerHouseholdPerYear;demand.TargetHouseholdCount;demographics.ProjectedPopulationCount;finance.ElectricityDemandMultiplier", 
             "dependencies": [
@@ -2790,10 +2899,11 @@
             "section": "demand", 
             "type": "CURVE_INTERPOLATE", 
             "units": "kilowatt-hours per year", 
-            "x": 0.016422787233103104, 
-            "y": -0.12142950249950483
+            "x": -0.071119512707543964, 
+            "y": -0.093636879516085791
         }, 
         {
+            "alias": "gr_tr_life", 
             "default": 10, 
             "dep_string": "", 
             "dependencies": [], 
@@ -2802,10 +2912,11 @@
             "section": "costGrid", 
             "type": "LEAF_VAR", 
             "units": "years", 
-            "x": -0.1847374008367669, 
-            "y": 0.21884290316907209
+            "x": 0.29465861911442848, 
+            "y": -0.11921429703656189
         }, 
         {
+            "alias": "gr_loss", 
             "default": 0.15, 
             "dep_string": "", 
             "dependencies": [], 
@@ -2814,10 +2925,11 @@
             "section": "costGrid", 
             "type": "LEAF_VAR", 
             "units": "fraction", 
-            "x": -0.17821043329239686, 
-            "y": 0.093237826726423154
+            "x": 0.11544812340266325, 
+            "y": 0.10912954063088331
         }, 
         {
+            "alias": "mg_tot_drc", 
             "default": 0, 
             "dep_string": "", 
             "dependencies": [], 
@@ -2827,10 +2939,11 @@
             "section": "", 
             "type": "AGGREGATE", 
             "units": "dollars", 
-            "x": -0.12519339893591994, 
-            "y": 0.99999999999999989
+            "x": -0.050750744369897557, 
+            "y": -1.034692948909214
         }, 
         {
+            "alias": "gr_tr_acp", 
             "default": "", 
             "dep_string": "costGrid.GridTransformerActualSystemCapacityCounts;costGrid.GridTransformerAvailableSystemCapacities", 
             "dependencies": [
@@ -2843,10 +2956,11 @@
             "section": "costGrid", 
             "type": "SINGLE_STMT_OTHER", 
             "units": "kilowatts", 
-            "x": -0.28544076343554292, 
-            "y": 0.16263822509886725
+            "x": 0.24857949495421594, 
+            "y": 0.059130902174860174
         }, 
         {
+            "alias": "gr_tot_pnl", 
             "default": "", 
             "dep_string": "", 
             "dependencies": [], 
@@ -2856,10 +2970,11 @@
             "section": "", 
             "type": "SINGLE_STMT_OTHER", 
             "units": "meters", 
-            "x": 0.66971086931664625, 
-            "y": 0.76651067363351033
+            "x": 0.96100883608078214, 
+            "y": 0.066763055826514192
         }, 
         {
+            "alias": "li_cc", 
             "default": "", 
             "dep_string": "demand.PublicLightingFacilityCountCurvePoints;demand.PublicLightingFacilityCountCurveType", 
             "dependencies": [
@@ -2872,10 +2987,11 @@
             "section": "demand", 
             "type": "CURVE_FUN", 
             "units": "", 
-            "x": -0.21681331431921708, 
-            "y": -0.080632131387912295
+            "x": -0.064772897776502775, 
+            "y": 0.19100004603951284
         }, 
         {
+            "alias": "og_dg_ck", 
             "default": 150, 
             "dep_string": "", 
             "dependencies": [], 
@@ -2884,10 +3000,11 @@
             "section": "costOffGrid", 
             "type": "LEAF_VAR", 
             "units": "dollars per kilowatt", 
-            "x": 0.35625636595366938, 
-            "y": -0.10108991138852927
+            "x": -0.075451051111719417, 
+            "y": -0.37242660693595625
         }, 
         {
+            "alias": "mg_g_om", 
             "default": "", 
             "dep_string": "costMiniGrid.GenerationCost;costMiniGrid.GenerationOperationsAndMaintenanceCostPerYearAsFractionOfGenerationCost", 
             "dependencies": [
@@ -2900,10 +3017,11 @@
             "section": "costMiniGrid", 
             "type": "SINGLE_STMT_SIMPLE", 
             "units": "dollars per year", 
-            "x": 0.032432104973400551, 
-            "y": -0.18928777176265749
+            "x": 0.2803764772474992, 
+            "y": 0.1383065845952002
         }, 
         {
+            "alias": "p_ho", 
             "default": "", 
             "dep_string": "demographics.MeanHouseholdSize;demographics.ProjectedPopulationCount", 
             "dependencies": [
@@ -2916,10 +3034,11 @@
             "section": "demographics", 
             "type": "SINGLE_STMT_OTHER", 
             "units": "households", 
-            "x": -0.13761952417728335, 
-            "y": -0.042885502403425105
+            "x": -0.16962123776333854, 
+            "y": -0.0042453808652137461
         }, 
         {
+            "alias": "gr_tr_dcp", 
             "default": "", 
             "dep_string": "costGrid.DistributionLoss;demand.ProjectedPeakNodalDemand", 
             "dependencies": [
@@ -2932,10 +3051,11 @@
             "section": "costGrid", 
             "type": "SINGLE_STMT_OTHER", 
             "units": "kilowatts", 
-            "x": -0.21405152521974438, 
-            "y": 0.059937635366000212
+            "x": 0.06805486345444102, 
+            "y": 0.076640581690982215
         }, 
         {
+            "alias": "p_pop", 
             "default": "", 
             "dep_string": "demographics.ProjectedPopulationCounts", 
             "dependencies": [
@@ -2947,10 +3067,11 @@
             "section": "demographics", 
             "type": "SINGLE_STMT_OTHER", 
             "units": "person count", 
-            "x": -0.046120287502887311, 
-            "y": -0.058499282890771741
+            "x": -0.1417222750771775, 
+            "y": -0.010832996888463991
         }, 
         {
+            "alias": "og_ct", 
             "default": 0, 
             "dep_string": "", 
             "dependencies": [], 
@@ -2960,10 +3081,11 @@
             "section": "", 
             "type": "AGGREGATE", 
             "units": "count", 
-            "x": 0.93172514850023425, 
-            "y": 0.17577487993629431
+            "x": -0.0087110933789942072, 
+            "y": 0.95528093905371358
         }, 
         {
+            "alias": "he_dc_unit", 
             "default": 0, 
             "dep_string": "", 
             "dependencies": [], 
@@ -2972,10 +3094,11 @@
             "section": "demand", 
             "type": "LEAF_VAR", 
             "units": "kilowatt-hours per year", 
-            "x": 0.020111186997725624, 
-            "y": 0.07514942047717979
+            "x": -0.14020587835787587, 
+            "y": -0.10608511503761293
         }, 
         {
+            "alias": "og_dg_cps", 
             "default": "1000 750 500 400 200 150 100 70 32 19 12 10 8 6", 
             "dep_string": "", 
             "dependencies": [], 
@@ -2984,10 +3107,11 @@
             "section": "costOffGrid", 
             "type": "LEAF_VAR", 
             "units": "kilowatts list", 
-            "x": 0.21916787226144255, 
-            "y": -0.21553099010242807
+            "x": -0.18166091559600039, 
+            "y": -0.29615627046803406
         }, 
         {
+            "alias": "mg_tot_i", 
             "default": 0, 
             "dep_string": "", 
             "dependencies": [], 
@@ -2997,10 +3121,11 @@
             "section": "", 
             "type": "AGGREGATE", 
             "units": "dollars", 
-            "x": 0.76240007503704699, 
-            "y": 0.58182601943164647
+            "x": -0.41487547522626295, 
+            "y": -0.86185420196070661
         }, 
         {
+            "alias": "mg_le_om", 
             "default": "", 
             "dep_string": "costDistribution.LowVoltageLineEquipmentOperationsAndMaintenanceCostPerYearAsFractionOfEquipmentCost;costMiniGrid.LowVoltageLineEquipmentCost", 
             "dependencies": [
@@ -3013,10 +3138,11 @@
             "section": "costMiniGrid", 
             "type": "SINGLE_STMT_SIMPLE", 
             "units": "dollars per year", 
-            "x": -0.030154596875492448, 
-            "y": -0.02664529456892592
+            "x": 0.1859832318228902, 
+            "y": 0.032065276540604128
         }, 
         {
+            "alias": "mg_g_dcp", 
             "default": "", 
             "dep_string": "costMiniGrid.DistributionLoss;costMiniGrid.GenerationCapacityFactor;costMiniGrid.UtilizationFactor;demand.ProjectedNodalDemandPerYear", 
             "dependencies": [
@@ -3031,10 +3157,11 @@
             "section": "costMiniGrid", 
             "type": "OTHER", 
             "units": "kilowatts", 
-            "x": -0.13956426660727944, 
-            "y": -0.061365627891010979
+            "x": 0.19308621699906586, 
+            "y": 0.0085925923843903386
         }, 
         {
+            "alias": "g_ct", 
             "default": 0, 
             "dep_string": "", 
             "dependencies": [], 
@@ -3044,10 +3171,11 @@
             "section": "", 
             "type": "AGGREGATE", 
             "units": "count", 
-            "x": -0.29159473953149151, 
-            "y": 0.9096018854459974
+            "x": 0.95436542044926964, 
+            "y": 0.38726049944316843
         }, 
         {
+            "alias": "gr_el", 
             "default": "", 
             "dep_string": "costGrid.DistributionLoss;costGrid.GridElectricityCostPerKilowattHour;demand.ProjectedNodalDemandPerYear", 
             "dependencies": [
@@ -3061,10 +3189,11 @@
             "section": "costGrid", 
             "type": "SINGLE_STMT_OTHER", 
             "units": "dollars per year", 
-            "x": -0.10067217859809059, 
-            "y": 0.070665482796087337
+            "x": 0.11311264152232765, 
+            "y": 0.046913908954988641
         }, 
         {
+            "alias": "og_dg_acp", 
             "default": "", 
             "dep_string": "costOffGrid.DieselGeneratorActualSystemCapacityCounts;costOffGrid.DieselGeneratorAvailableSystemCapacities", 
             "dependencies": [
@@ -3077,10 +3206,11 @@
             "section": "costOffGrid", 
             "type": "SINGLE_STMT_OTHER", 
             "units": "kilowatts", 
-            "x": 0.21842370080690071, 
-            "y": -0.1510232953841871
+            "x": -0.12985302941070501, 
+            "y": -0.25155863111669291
         }, 
         {
+            "alias": "mg_tot_desc", 
             "default": 0, 
             "dep_string": "", 
             "dependencies": [], 
@@ -3090,10 +3220,11 @@
             "section": "", 
             "type": "AGGREGATE", 
             "units": "dollars", 
-            "x": -0.45552036872987939, 
-            "y": 0.83803592027026963
+            "x": -0.71260212098641096, 
+            "y": -0.71247397396884604
         }, 
         {
+            "alias": "p_ed", 
             "default": "", 
             "dep_string": "demand.EducationFacilityCountCurve;demographics.ProjectedPopulationCount", 
             "dependencies": [
@@ -3106,10 +3237,11 @@
             "section": "demand", 
             "type": "CURVE_INTERPOLATE", 
             "units": "education facility count", 
-            "x": -0.11283897331675975, 
-            "y": -0.040248086774007076
+            "x": -0.11296028504723661, 
+            "y": 0.078404922926589612
         }, 
         {
+            "alias": "gr_tot_lev", 
             "default": "", 
             "dep_string": "GridSystemTotalDiscountedCost;GridSystemTotalDiscountedDemand", 
             "dependencies": [
@@ -3122,10 +3254,11 @@
             "section": "", 
             "type": "OTHER", 
             "units": "dollars per kilowatt-hour", 
-            "x": -0.28854882381536473, 
-            "y": -0.85241225817132038
+            "x": -0.82885298756673775, 
+            "y": 0.29539333792071543
         }, 
         {
+            "alias": "gr_tr", 
             "default": "", 
             "dep_string": "costGrid.GridTransformerActualSystemCapacity;costGrid.GridTransformerCostPerGridSystemKilowatt", 
             "dependencies": [
@@ -3138,10 +3271,11 @@
             "section": "costGrid", 
             "type": "SINGLE_STMT_SIMPLE", 
             "units": "dollars", 
-            "x": -0.20648510423207395, 
-            "y": 0.13816443332251913
+            "x": 0.24626888044314324, 
+            "y": -0.013558657502695059
         }, 
         {
+            "alias": "og_dg_i", 
             "default": "", 
             "dep_string": "costOffGrid.DieselGeneratorCost;costOffGrid.DieselGeneratorInstallationCostAsFractionOfGeneratorCost", 
             "dependencies": [
@@ -3154,10 +3288,11 @@
             "section": "costOffGrid", 
             "type": "SINGLE_STMT_SIMPLE", 
             "units": "dollars", 
-            "x": 0.24189952098501552, 
-            "y": -0.07820226091012146
+            "x": -0.061112319213438931, 
+            "y": -0.31371116000533067
         }, 
         {
+            "alias": "pop_g_u", 
             "default": 0.036, 
             "dep_string": "", 
             "dependencies": [], 
@@ -3166,10 +3301,11 @@
             "section": "demographics", 
             "type": "LEAF_VAR", 
             "units": "fraction per year", 
-            "x": -0.043911960110701961, 
-            "y": -0.22962092846026355
+            "x": -0.27432387895998744, 
+            "y": 0.12151834108916923
         }, 
         {
+            "alias": "gr_tr_rep", 
             "default": "", 
             "dep_string": "costGrid.GridTransformerCost;costGrid.GridTransformerLifetime", 
             "dependencies": [
@@ -3182,10 +3318,11 @@
             "section": "costGrid", 
             "type": "SINGLE_STMT_OTHER", 
             "units": "dollars per year", 
-            "x": -0.15817982597988867, 
-            "y": 0.1518855415966493
+            "x": 0.24718157115297981, 
+            "y": -0.060730530648609608
         }, 
         {
+            "alias": "mg_rec_gcpy", 
             "default": "", 
             "dep_string": "costMiniGrid.EnergyStorageCostPerYear;costMiniGrid.GenerationOperationsAndMaintenanceCostPerYear;costMiniGrid.GenerationReplacementCostPerYear", 
             "dependencies": [
@@ -3199,10 +3336,11 @@
             "section": "costMiniGrid", 
             "type": "SINGLE_STMT_OTHER", 
             "units": "dollars per year", 
-            "x": 0.060253232189478007, 
-            "y": -0.13931201155110703
+            "x": 0.22717473374320052, 
+            "y": 0.14515498350503556
         }, 
         {
+            "alias": "ho_size", 
             "default": "", 
             "dep_string": "demographics.IsRural;demographics.RuralMeanHouseholdSize;demographics.UrbanMeanHouseholdSize", 
             "dependencies": [
@@ -3216,10 +3354,11 @@
             "section": "demographics", 
             "type": "SINGLE_STMT_OTHER", 
             "units": "person count", 
-            "x": -0.22481186473784973, 
-            "y": -0.018246607982638885
+            "x": -0.28759837501463209, 
+            "y": -0.011910703908270918
         }, 
         {
+            "alias": "gr_le", 
             "default": "", 
             "dep_string": "costDistribution.LowVoltageLineEquipmentCostPerConnection;costGrid.GridInternalConnectionCount", 
             "dependencies": [
@@ -3232,10 +3371,11 @@
             "section": "costGrid", 
             "type": "SINGLE_STMT_SIMPLE", 
             "units": "dollars", 
-            "x": -0.11216011710569591, 
-            "y": 0.074423447277603458
+            "x": 0.11631807312634773, 
+            "y": -0.034881322394632173
         }, 
         {
+            "alias": "ho_dc_t", 
             "default": "ZeroLogisticLinear", 
             "dep_string": "", 
             "dependencies": [], 
@@ -3244,10 +3384,11 @@
             "section": "demand", 
             "type": "CURVE_TYPE", 
             "units": "", 
-            "x": -0.10246634946061647, 
-            "y": -0.23206203969846792
+            "x": 0.0042667297567948086, 
+            "y": -0.29478444425262429
         }, 
         {
+            "alias": "og_pb_rep", 
             "default": "", 
             "dep_string": "costOffGrid.PhotovoltaicBatteryCost;costOffGrid.PhotovoltaicBatteryLifetime", 
             "dependencies": [
@@ -3260,10 +3401,11 @@
             "section": "costOffGrid", 
             "type": "SINGLE_STMT_OTHER", 
             "units": "dollars per year", 
-            "x": 0.30308500349097095, 
-            "y": 0.33848083252305305
+            "x": 0.12209206551891966, 
+            "y": -0.19781327434251156
         }, 
         {
+            "alias": "ho_size_r", 
             "default": 9.6, 
             "dep_string": "", 
             "dependencies": [], 
@@ -3272,10 +3414,11 @@
             "section": "demographics", 
             "type": "LEAF_VAR", 
             "units": "person count", 
-            "x": -0.29364630614703585, 
-            "y": 0.011659983531927421
+            "x": -0.36272951858107133, 
+            "y": -0.010674652334194243
         }, 
         {
+            "alias": "li_cc_t", 
             "default": "ZeroLogisticLinear", 
             "dep_string": "", 
             "dependencies": [], 
@@ -3284,10 +3427,11 @@
             "section": "demand", 
             "type": "CURVE_TYPE", 
             "units": "", 
-            "x": -0.28876554498298185, 
-            "y": -0.10856169536506147
+            "x": -0.049451191005150004, 
+            "y": 0.26242121048415984
         }, 
         {
+            "alias": "mg_nod_d", 
             "default": "", 
             "dep_string": "costMiniGrid.MiniGridSystemInitialCost;costMiniGrid.MiniGridSystemRecurringCostPerYear;demand.ProjectedNodalDemandPerYear;finance.DiscountedCashFlowFactor", 
             "dependencies": [
@@ -3302,10 +3446,11 @@
             "section": "costMiniGrid", 
             "type": "OTHER", 
             "units": "dollars", 
-            "x": 0.035998313912595149, 
-            "y": -0.0096046111576857055
+            "x": 0.094605937291293268, 
+            "y": 0.068651887733048436
         }, 
         {
+            "alias": "og_px_ini", 
             "default": "", 
             "dep_string": "costOffGrid.PhotovoltaicBalanceCostAsFractionOfPanelCost;costOffGrid.PhotovoltaicPanelCost", 
             "dependencies": [
@@ -3318,10 +3463,11 @@
             "section": "costOffGrid", 
             "type": "SINGLE_STMT_SIMPLE", 
             "units": "dollars", 
-            "x": 0.34316426577391096, 
-            "y": 0.29549763329895512
+            "x": -0.028858245621011108, 
+            "y": -0.068588227156413203
         }, 
         {
+            "alias": "p_dem_li", 
             "default": "", 
             "dep_string": "demand.ProjectedPublicLightingFacilityCount;demand.PublicLightingFacilityUnitDemandPerPublicLightingFacilityPerYear;demand.SocialInfrastructureDemandCurve;demographics.ProjectedPopulationCount;finance.ElectricityDemandMultiplier", 
             "dependencies": [
@@ -3337,10 +3483,11 @@
             "section": "demand", 
             "type": "CURVE_INTERPOLATE", 
             "units": "kilowatt-hours per year", 
-            "x": 0.01262003711946282, 
-            "y": -0.019364972218179684
+            "x": -0.099694649090116466, 
+            "y": -0.016082781414675049
         }, 
         {
+            "alias": "interest_g", 
             "default": 0.1, 
             "dep_string": "", 
             "dependencies": [], 
@@ -3349,10 +3496,11 @@
             "section": "finance", 
             "type": "LEAF_VAR", 
             "units": "fraction per year", 
-            "x": 0.17151885529544914, 
-            "y": 0.05316455652437177
+            "x": -0.0030359475382611464, 
+            "y": 0.13487566597310513
         }, 
         {
+            "alias": "gr_el_ckwh", 
             "default": 0.17, 
             "dep_string": "", 
             "dependencies": [], 
@@ -3361,10 +3509,11 @@
             "section": "costGrid", 
             "type": "LEAF_VAR", 
             "units": "dollars per kilowatt-hour", 
-            "x": -0.14031697251703201, 
-            "y": 0.12731880666095916
+            "x": 0.15366215727443788, 
+            "y": 0.10803726601931547
         }, 
         {
+            "alias": "og_tot_ddfc", 
             "default": 0, 
             "dep_string": "", 
             "dependencies": [], 
@@ -3374,10 +3523,11 @@
             "section": "", 
             "type": "AGGREGATE", 
             "units": "dollars", 
-            "x": 0.40033808874442944, 
-            "y": 0.94246109129497846
+            "x": 1.0, 
+            "y": -0.08954529950386611
         }, 
         {
+            "alias": "mg_rec", 
             "default": "", 
             "dep_string": "costDistribution.LowVoltageLineRecurringCostPerYear;costMiniGrid.EnergyStorageCostPerYear;costMiniGrid.GenerationOperationsAndMaintenanceCostPerYear;costMiniGrid.GenerationReplacementCostPerYear;costMiniGrid.LowVoltageLineEquipmentOperationsAndMaintenanceCostPerYear", 
             "dependencies": [
@@ -3393,10 +3543,11 @@
             "section": "costMiniGrid", 
             "type": "SINGLE_STMT_OTHER", 
             "units": "dollars per year", 
-            "x": 0.0012987233125064186, 
-            "y": -0.10131106585672464
+            "x": 0.1994600583664129, 
+            "y": 0.09866634008441369
         }, 
         {
+            "alias": "ho_dc_unit", 
             "default": 0, 
             "dep_string": "", 
             "dependencies": [], 
@@ -3405,10 +3556,11 @@
             "section": "demand", 
             "type": "LEAF_VAR", 
             "units": "kilowatt-hours per year", 
-            "x": -0.029059779702132756, 
-            "y": -0.0025991062951807959
+            "x": -0.092970293598421835, 
+            "y": -0.15170212506790287
         }, 
         {
+            "alias": "gr_i", 
             "default": "", 
             "dep_string": "costGrid.GridInstallationCostPerConnection;costGrid.GridInternalConnectionCount", 
             "dependencies": [
@@ -3421,10 +3573,11 @@
             "section": "costGrid", 
             "type": "SINGLE_STMT_SIMPLE", 
             "units": "dollars", 
-            "x": -0.17896552911591584, 
-            "y": 0.070833841161141733
+            "x": 0.11323505635722644, 
+            "y": -0.063375188235203328
         }, 
         {
+            "alias": "mg_g_acps", 
             "default": "", 
             "dep_string": "costMiniGrid.GenerationAvailableSystemCapacities;costMiniGrid.GenerationDesiredSystemCapacity", 
             "dependencies": [
@@ -3437,10 +3590,11 @@
             "section": "costMiniGrid", 
             "type": "SINGLE_STMT_OTHER", 
             "units": "capacity count list", 
-            "x": -0.16709956681839741, 
-            "y": -0.16703628952759103
+            "x": 0.30358949994909379, 
+            "y": 0.054685041572726772
         }, 
         {
+            "alias": "og_fl_lkwh", 
             "default": 0.5, 
             "dep_string": "", 
             "dependencies": [], 
@@ -3449,10 +3603,11 @@
             "section": "costOffGrid", 
             "type": "LEAF_VAR", 
             "units": "liters per kilowatt-hour", 
-            "x": 0.30514196300438567, 
-            "y": -0.13277083709999063
+            "x": -0.10779527413854245, 
+            "y": -0.26510288519189229
         }, 
         {
+            "alias": "p_dem", 
             "default": "", 
             "dep_string": "demand.ProjectedCommercialFacilityDemandPerYear;demand.ProjectedEducationFacilityDemandPerYear;demand.ProjectedHealthFacilityDemandPerYear;demand.ProjectedHouseholdDemandPerYear;demand.ProjectedProductiveDemandPerYear;demand.ProjectedPublicLightingFacilityDemandPerYear", 
             "dependencies": [
@@ -3469,10 +3624,11 @@
             "section": "demand", 
             "type": "SINGLE_STMT_OTHER", 
             "units": "kilowatt-hours per year", 
-            "x": 0.00042099832005220594, 
-            "y": -0.0031769622236841109
+            "x": 0.013732515893461585, 
+            "y": -0.0095089123129470567
         }, 
         {
+            "alias": "p_dem_he", 
             "default": "", 
             "dep_string": "demand.HealthFacilityUnitDemandPerHealthFacilityPerYear;demand.ProjectedHealthFacilityCount;demand.SocialInfrastructureDemandCurve;demographics.ProjectedPopulationCount;finance.ElectricityDemandMultiplier", 
             "dependencies": [
@@ -3488,10 +3644,11 @@
             "section": "demand", 
             "type": "CURVE_INTERPOLATE", 
             "units": "kilowatt-hours per year", 
-            "x": 0.015924551723722702, 
-            "y": 0.0080015784952837173
+            "x": -0.10392650667846408, 
+            "y": -0.052390594981783278
         }, 
         {
+            "alias": "og_ini", 
             "default": "", 
             "dep_string": "costOffGrid.DieselComponentInitialCost;costOffGrid.PhotovoltaicComponentInitialCost", 
             "dependencies": [
@@ -3504,10 +3661,11 @@
             "section": "costOffGrid", 
             "type": "SINGLE_STMT_SIMPLE", 
             "units": "dollars", 
-            "x": 0.22316685409676612, 
-            "y": 0.12256265615998417
+            "x": 0.015085566945541936, 
+            "y": -0.11870410476904904
         }, 
         {
+            "alias": "og_dg_om", 
             "default": "", 
             "dep_string": "costOffGrid.DieselGeneratorCost;costOffGrid.DieselGeneratorOperationsAndMaintenanceCostPerYearAsFractionOfGeneratorCost", 
             "dependencies": [
@@ -3520,10 +3678,11 @@
             "section": "costOffGrid", 
             "type": "SINGLE_STMT_SIMPLE", 
             "units": "dollars per year", 
-            "x": 0.33530769085808304, 
-            "y": -0.047682441532772075
+            "x": -0.027851666342858041, 
+            "y": -0.31921045547318305
         }, 
         {
+            "alias": "gr_tr_omf", 
             "default": 0.03, 
             "dep_string": "", 
             "dependencies": [], 
@@ -3532,10 +3691,11 @@
             "section": "costGrid", 
             "type": "LEAF_VAR", 
             "units": "", 
-            "x": -0.21293909056703914, 
-            "y": 0.20510251880180427
+            "x": 0.33367077824250146, 
+            "y": -0.080472520091498773
         }, 
         {
+            "alias": "mid", 
             "default": 25, 
             "dep_string": "", 
             "dependencies": [], 
@@ -3544,10 +3704,11 @@
             "section": "demographics", 
             "type": "LEAF_VAR", 
             "units": "meters", 
-            "x": -0.22041803766903667, 
-            "y": -0.16859822292986587
+            "x": -0.041976505518005837, 
+            "y": 0.14307611131940817
         }, 
         {
+            "alias": "u_pop_thre", 
             "default": 5000, 
             "dep_string": "", 
             "dependencies": [], 
@@ -3556,10 +3717,11 @@
             "section": "demographics", 
             "type": "LEAF_VAR", 
             "units": "person count", 
-            "x": -0.11060473415911087, 
-            "y": -0.13891444818487927
+            "x": -0.26378033682007346, 
+            "y": 0.070041782755444301
         }, 
         {
+            "alias": "gr_le_om", 
             "default": "", 
             "dep_string": "costDistribution.LowVoltageLineEquipmentOperationsAndMaintenanceCostPerYearAsFractionOfEquipmentCost;costGrid.LowVoltageLineEquipmentCost", 
             "dependencies": [
@@ -3572,10 +3734,11 @@
             "section": "costGrid", 
             "type": "SINGLE_STMT_SIMPLE", 
             "units": "dollars per year", 
-            "x": -0.086339147655652482, 
-            "y": 0.098836290062040685
+            "x": 0.18658839233273886, 
+            "y": -0.039131578791702142
         }, 
         {
+            "alias": "di_le_cc", 
             "default": 200, 
             "dep_string": "", 
             "dependencies": [], 
@@ -3584,10 +3747,11 @@
             "section": "costDistribution", 
             "type": "LEAF_VAR", 
             "units": "dollars per connection", 
-            "x": -0.090872767156111645, 
-            "y": 0.024061954734376508
+            "x": 0.14177345172674988, 
+            "y": -0.019980852772222321
         }, 
         {
+            "alias": "og_d_rec", 
             "default": "", 
             "dep_string": "costOffGrid.DieselFuelCostPerYear;costOffGrid.DieselGeneratorOperationsAndMaintenanceCostPerYear;costOffGrid.DieselGeneratorReplacementCostPerYear", 
             "dependencies": [
@@ -3601,10 +3765,11 @@
             "section": "costOffGrid", 
             "type": "SINGLE_STMT_OTHER", 
             "units": "dollars per year", 
-            "x": 0.25892530619576715, 
-            "y": -0.0029410976761006409
+            "x": -0.0077563544288604775, 
+            "y": -0.21439349889195453
         }, 
         {
+            "alias": "mg_mnesc", 
             "default": 24, 
             "dep_string": "", 
             "dependencies": [], 
@@ -3613,10 +3778,11 @@
             "section": "costMiniGrid", 
             "type": "LEAF_VAR", 
             "units": "kilowatt-hours per day", 
-            "x": -0.14667547289914215, 
-            "y": 0.011420986392759366
+            "x": 0.23853730525022476, 
+            "y": 0.041454505599935153
         }, 
         {
+            "alias": "og_pb_ini", 
             "default": "", 
             "dep_string": "costOffGrid.PhotovoltaicBatteryCostPerKilowattHour;costOffGrid.PhotovoltaicBatteryKilowattHoursPerPhotovoltaicComponentKilowatt;costOffGrid.PhotovoltaicPanelActualSystemCapacity", 
             "dependencies": [
@@ -3630,10 +3796,11 @@
             "section": "costOffGrid", 
             "type": "SINGLE_STMT_SIMPLE", 
             "units": "dollars", 
-            "x": 0.25668651140341275, 
-            "y": 0.32688423386895604
+            "x": 0.088785304088332281, 
+            "y": -0.16820123229419967
         }, 
         {
+            "alias": "og_d_ini", 
             "default": "", 
             "dep_string": "costOffGrid.DieselGeneratorCost;costOffGrid.DieselGeneratorInstallationCost", 
             "dependencies": [
@@ -3646,10 +3813,11 @@
             "section": "costOffGrid", 
             "type": "SINGLE_STMT_OTHER", 
             "units": "dollars", 
-            "x": 0.23351332783199838, 
-            "y": 0.0036725643739517985
+            "x": -0.024370322761206833, 
+            "y": -0.21022960317219497
         }, 
         {
+            "alias": "mg_nod_dgc", 
             "default": "", 
             "dep_string": "costMiniGrid.MiniGridSystemInitialGenerationCost;costMiniGrid.MiniGridSystemRecurringGenerationCostPerYear;finance.DiscountedCashFlowFactor", 
             "dependencies": [
@@ -3663,10 +3831,11 @@
             "section": "costMiniGrid", 
             "type": "SINGLE_STMT_SIMPLE", 
             "units": "dollars", 
-            "x": 0.095390606697755065, 
-            "y": -0.088855137704376128
+            "x": 0.13869527767441736, 
+            "y": 0.13907945424071011
         }, 
         {
+            "alias": "mg_tot_lev", 
             "default": "", 
             "dep_string": "MiniGridSystemTotalDiscountedCost;MiniGridSystemTotalDiscountedDemand", 
             "dependencies": [
@@ -3679,10 +3848,11 @@
             "section": "", 
             "type": "OTHER", 
             "units": "dollars per kilowatt-hour", 
-            "x": -0.91600437360947773, 
-            "y": -0.35302050710661853
+            "x": -0.021641742022124842, 
+            "y": 0.86227566292228019
         }, 
         {
+            "alias": "og_pp_ckw", 
             "default": 6000, 
             "dep_string": "", 
             "dependencies": [], 
@@ -3691,10 +3861,11 @@
             "section": "costOffGrid", 
             "type": "LEAF_VAR", 
             "units": "dollars per kilowatt", 
-            "x": 0.34307205970931409, 
-            "y": 0.34848520833408392
+            "x": -0.037758772610327694, 
+            "y": -0.037937240185584926
         }, 
         {
+            "alias": "di_ll_len", 
             "default": "", 
             "dep_string": "demand.TargetHouseholdCount;demographics.MeanInterhouseholdDistance", 
             "dependencies": [
@@ -3707,10 +3878,11 @@
             "section": "costDistribution", 
             "type": "OTHER", 
             "units": "meters", 
-            "x": -0.15865327544341049, 
-            "y": -0.12343677619442585
+            "x": 0.0070589506827683059, 
+            "y": 0.095071757728049058
         }, 
         {
+            "alias": "og_dg_life", 
             "default": 5, 
             "dep_string": "", 
             "dependencies": [], 
@@ -3719,10 +3891,11 @@
             "section": "costOffGrid", 
             "type": "LEAF_VAR", 
             "units": "years", 
-            "x": 0.40719459137453229, 
-            "y": -0.033661029386567898
+            "x": 0.00067931533262580645, 
+            "y": -0.39378663743811188
         }, 
         {
+            "alias": "mg_g_if", 
             "default": 0.25, 
             "dep_string": "", 
             "dependencies": [], 
@@ -3731,10 +3904,11 @@
             "section": "costMiniGrid", 
             "type": "LEAF_VAR", 
             "units": "fraction", 
-            "x": 0.0050910808701074232, 
-            "y": -0.29332244045759354
+            "x": 0.29589138176822583, 
+            "y": 0.23108121252922775
         }, 
         {
+            "alias": "di_le_omf", 
             "default": 0.01, 
             "dep_string": "", 
             "dependencies": [], 
@@ -3743,10 +3917,11 @@
             "section": "costDistribution", 
             "type": "LEAF_VAR", 
             "units": "", 
-            "x": -0.048037958435952835, 
-            "y": 0.052221874240565187
+            "x": 0.22515427835141744, 
+            "y": -0.021858943044582541
         }, 
         {
+            "alias": "og_fl_cl", 
             "default": 1.08, 
             "dep_string": "", 
             "dependencies": [], 
@@ -3755,10 +3930,11 @@
             "section": "costOffGrid", 
             "type": "LEAF_VAR", 
             "units": "dollars per liter", 
-            "x": 0.29469910644510111, 
-            "y": -0.15028536235530379
+            "x": -0.090347296490069978, 
+            "y": -0.26812557993123798
         }, 
         {
+            "alias": "og_pp_life", 
             "default": 30, 
             "dep_string": "", 
             "dependencies": [], 
@@ -3767,10 +3943,11 @@
             "section": "costOffGrid", 
             "type": "LEAF_VAR", 
             "units": "years", 
-            "x": 0.38975926131895727, 
-            "y": 0.37176360841407657
+            "x": 0.0045334504780046398, 
+            "y": 0.0094383118192383833
         }, 
         {
+            "alias": "rural", 
             "default": "", 
             "dep_string": "demographics.ProjectedPopulationCount;demographics.UrbanPopulationThreshold", 
             "dependencies": [
@@ -3783,10 +3960,11 @@
             "section": "demographics", 
             "type": "SINGLE_STMT_OTHER", 
             "units": "binary", 
-            "x": -0.16050149498560648, 
-            "y": -0.088287494373020109
+            "x": -0.24418083478750147, 
+            "y": 0.01338747370689764
         }, 
         {
+            "alias": "og_dem_d", 
             "default": 0, 
             "dep_string": "", 
             "dependencies": [], 
@@ -3796,10 +3974,11 @@
             "section": "", 
             "type": "AGGREGATE", 
             "units": "kilowatt-hours", 
-            "x": -0.63196865482309383, 
-            "y": 0.38626118642024732
+            "x": 0.72967338277376215, 
+            "y": -0.1612554760093666
         }, 
         {
+            "alias": "di_ll_ini", 
             "default": "", 
             "dep_string": "costDistribution.LowVoltageLineCostPerMeter;costDistribution.LowVoltageLineLength", 
             "dependencies": [
@@ -3812,10 +3991,11 @@
             "section": "costDistribution", 
             "type": "SINGLE_STMT_SIMPLE", 
             "units": "dollars", 
-            "x": -0.12082950770939717, 
-            "y": -0.081368743941524116
+            "x": 0.09520545287861816, 
+            "y": 0.10067731624657771
         }, 
         {
+            "alias": "pkdemf_u", 
             "default": 0.4, 
             "dep_string": "", 
             "dependencies": [], 
@@ -3824,10 +4004,11 @@
             "section": "demand", 
             "type": "LEAF_VAR", 
             "units": "", 
-            "x": -0.30069934467320458, 
-            "y": -0.18054768922025746
+            "x": -0.37224465941206747, 
+            "y": 0.01915999312646326
         }, 
         {
+            "alias": "gr_tr_ckw", 
             "default": 1000, 
             "dep_string": "", 
             "dependencies": [], 
@@ -3836,10 +4017,11 @@
             "section": "costGrid", 
             "type": "LEAF_VAR", 
             "units": "dollars per kilowatt", 
-            "x": -0.25607858904381936, 
-            "y": 0.19318797911433633
+            "x": 0.32060013279813177, 
+            "y": -0.038411459980688407
         }, 
         {
+            "alias": "og_dg_omf", 
             "default": 0.01, 
             "dep_string": "", 
             "dependencies": [], 
@@ -3848,10 +4030,11 @@
             "section": "costOffGrid", 
             "type": "LEAF_VAR", 
             "units": "", 
-            "x": 0.40518039879168016, 
-            "y": -0.064636009142101436
+            "x": -0.028187520607499864, 
+            "y": -0.3976413816864714
         }, 
         {
+            "alias": "gr_i_cc", 
             "default": 130, 
             "dep_string": "", 
             "dependencies": [], 
@@ -3860,10 +4043,11 @@
             "section": "costGrid", 
             "type": "LEAF_VAR", 
             "units": "dollars per connection", 
-            "x": -0.23687721322147107, 
-            "y": 0.11548042047181022
+            "x": 0.16500833218569699, 
+            "y": -0.12434143084440578
         }, 
         {
+            "alias": "mg_tot_dgc", 
             "default": 0, 
             "dep_string": "", 
             "dependencies": [], 
@@ -3873,10 +4057,11 @@
             "section": "", 
             "type": "AGGREGATE", 
             "units": "dollars", 
-            "x": 0.42483210302776736, 
-            "y": -0.85983133679799373
+            "x": -0.66034860560518838, 
+            "y": 0.71578872075423827
         }, 
         {
+            "alias": "og_pp_acps", 
             "default": "", 
             "dep_string": "costOffGrid.PhotovoltaicPanelAvailableSystemCapacities;costOffGrid.PhotovoltaicPanelDesiredSystemCapacity", 
             "dependencies": [
@@ -3889,10 +4074,11 @@
             "section": "costOffGrid", 
             "type": "SINGLE_STMT_OTHER", 
             "units": "capacity count list", 
-            "x": 0.15551329321745005, 
-            "y": 0.16709895961698668
+            "x": -0.066924129967580084, 
+            "y": -0.16026624680693774
         }, 
         {
+            "alias": "mg_g_cf", 
             "default": 1.0, 
             "dep_string": "", 
             "dependencies": [], 
@@ -3901,10 +4087,11 @@
             "section": "costMiniGrid", 
             "type": "LEAF_VAR", 
             "units": "fraction", 
-            "x": -0.21902213401441203, 
-            "y": -0.061292586588877755
+            "x": 0.27292454377971759, 
+            "y": -0.012670232176136725
         }, 
         {
+            "alias": "co_cc", 
             "default": "", 
             "dep_string": "demand.CommercialFacilityCountCurvePoints;demand.CommercialFacilityCountCurveType", 
             "dependencies": [
@@ -3917,10 +4104,11 @@
             "section": "demand", 
             "type": "CURVE_FUN", 
             "units": "", 
-            "x": 0.038981307051779275, 
-            "y": -0.24531374236309833
+            "x": -0.33416759710350591, 
+            "y": -0.037644287141997884
         }, 
         {
+            "alias": "p_dem_ho", 
             "default": "", 
             "dep_string": "demand.HouseholdDemandCurve;demand.HouseholdUnitDemandPerHouseholdPerYear;demand.TargetHouseholdCount;demographics.ProjectedPopulationCount;finance.ElectricityDemandMultiplier", 
             "dependencies": [
@@ -3936,10 +4124,11 @@
             "section": "demand", 
             "type": "CURVE_INTERPOLATE", 
             "units": "kilowatt-hours per year", 
-            "x": -0.0095404254433260338, 
-            "y": -0.0516500808193339
+            "x": -0.068385843397150869, 
+            "y": -0.084249141112749948
         }, 
         {
+            "alias": "di_ll_om", 
             "default": "", 
             "dep_string": "costDistribution.LowVoltageLineCostPerMeter;costDistribution.LowVoltageLineLength;costDistribution.LowVoltageLineOperationsAndMaintenanceCostPerYearAsFractionOfLineCost", 
             "dependencies": [
@@ -3953,10 +4142,11 @@
             "section": "costDistribution", 
             "type": "SINGLE_STMT_SIMPLE", 
             "units": "dollars per year", 
-            "x": -0.15637081708644968, 
-            "y": -0.16103781831382499
+            "x": 0.043013857821742989, 
+            "y": 0.15135322130278989
         }, 
         {
+            "alias": "gr_dem_d", 
             "default": 0, 
             "dep_string": "", 
             "dependencies": [], 
@@ -3966,10 +4156,11 @@
             "section": "", 
             "type": "AGGREGATE", 
             "units": "kilowatt-hours", 
-            "x": -0.31293700168286209, 
-            "y": -0.89345179544018472
+            "x": -0.7844812986664913, 
+            "y": 0.27890355952870544
         }, 
         {
+            "alias": "gi_nod_d", 
             "default": "", 
             "dep_string": "costGrid.GridInternalSystemInitialCost;costGrid.GridInternalSystemRecurringCostPerYear;demand.ProjectedNodalDemandPerYear;finance.DiscountedCashFlowFactor", 
             "dependencies": [
@@ -3984,10 +4175,11 @@
             "section": "costGrid", 
             "type": "OTHER", 
             "units": "dollars", 
-            "x": -0.010204307193658486, 
-            "y": 0.059441354939064543
+            "x": 0.085182624272507113, 
+            "y": 0.036187733642097951
         }, 
         {
+            "alias": "p_pops", 
             "default": "", 
             "dep_string": "demographics.PopulationCount;demographics.RuralPopulationGrowthRatePerYear;demographics.UrbanPopulationGrowthRatePerYear;demographics.UrbanPopulationThreshold;finance.TimeHorizon", 
             "dependencies": [
@@ -4003,10 +4195,11 @@
             "section": "demographics", 
             "type": "OTHER", 
             "units": "person count list", 
-            "x": -0.041352753138897434, 
-            "y": -0.15194419339249468
+            "x": -0.20922884044712456, 
+            "y": 0.083507867949024234
         }, 
         {
+            "alias": "co_dc_unit", 
             "default": 0, 
             "dep_string": "", 
             "dependencies": [], 
@@ -4015,10 +4208,11 @@
             "section": "demand", 
             "type": "LEAF_VAR", 
             "units": "kilowatt-hours per year", 
-            "x": 0.091888368079953195, 
-            "y": -0.13689190436182141
+            "x": -0.18755446306051018, 
+            "y": -0.10823503660560437
         }, 
         {
+            "alias": "og_px_rep", 
             "default": "", 
             "dep_string": "costOffGrid.PhotovoltaicBalanceCost;costOffGrid.PhotovoltaicBalanceLifetime", 
             "dependencies": [
@@ -4031,10 +4225,11 @@
             "section": "costOffGrid", 
             "type": "SINGLE_STMT_OTHER", 
             "units": "dollars per year", 
-            "x": 0.37844543277313619, 
-            "y": 0.2958757154560871
+            "x": -0.011101922682929912, 
+            "y": -0.11999612636130624
         }, 
         {
+            "alias": "so_dc_t", 
             "default": "ZeroLogisticLinear", 
             "dep_string": "", 
             "dependencies": [], 
@@ -4043,10 +4238,11 @@
             "section": "demand", 
             "type": "CURVE_TYPE", 
             "units": "", 
-            "x": 0.14219531407941002, 
-            "y": -0.017106900419265495
+            "x": -0.23852543667925183, 
+            "y": -0.059084994412537707
         }, 
         {
+            "alias": "p_dem_d", 
             "default": "", 
             "dep_string": "demand.ProjectedNodalDemandPerYear;finance.DiscountedCashFlowFactor", 
             "dependencies": [
@@ -4059,10 +4255,11 @@
             "section": "demand", 
             "type": "SINGLE_STMT_SIMPLE", 
             "units": "kilowatt-hours", 
-            "x": 0.058640165045454939, 
-            "y": 0.062771225566986749
+            "x": 0.039995812938702711, 
+            "y": 0.061767094561909326
         }, 
         {
+            "alias": "gr_so", 
             "default": "", 
             "dep_string": "demand.ProjectedCommercialFacilityCount;demand.ProjectedEducationFacilityCount;demand.ProjectedHealthFacilityCount;demand.ProjectedPublicLightingFacilityCount", 
             "dependencies": [
@@ -4077,10 +4274,11 @@
             "section": "costGrid", 
             "type": "SINGLE_STMT_SIMPLE", 
             "units": "facility count", 
-            "x": -0.068526505609996541, 
-            "y": -0.031700411467113034
+            "x": -0.11142486246549366, 
+            "y": -0.0063786723139983223
         }, 
         {
+            "alias": "og_dg_acps", 
             "default": "", 
             "dep_string": "costOffGrid.DieselGeneratorAvailableSystemCapacities;costOffGrid.DieselGeneratorDesiredSystemCapacity", 
             "dependencies": [
@@ -4093,10 +4291,11 @@
             "section": "costOffGrid", 
             "type": "SINGLE_STMT_OTHER", 
             "units": "capacity count list", 
-            "x": 0.15946157853617332, 
-            "y": -0.20748102007640853
+            "x": -0.19327273609242676, 
+            "y": -0.25129694405576836
         }, 
         {
+            "alias": "og_pp_cps", 
             "default": "1.5 1.0 0.4 0.15 0.075 0.05", 
             "dep_string": "", 
             "dependencies": [], 
@@ -4105,10 +4304,11 @@
             "section": "costOffGrid", 
             "type": "LEAF_VAR", 
             "units": "kilowatts list", 
-            "x": 0.19674418690958462, 
-            "y": 0.2246656242006545
+            "x": -0.03570548659343116, 
+            "y": -0.1977970120002801
         }, 
         {
+            "alias": "he_cc", 
             "default": "", 
             "dep_string": "demand.HealthFacilityCountCurvePoints;demand.HealthFacilityCountCurveType", 
             "dependencies": [
@@ -4121,10 +4321,11 @@
             "section": "demand", 
             "type": "CURVE_FUN", 
             "units": "", 
-            "x": -0.08907091216559998, 
-            "y": 0.17807979783748706
+            "x": -0.23081559351863706, 
+            "y": -0.19974682519185874
         }, 
         {
+            "alias": "mg_g_omf", 
             "default": 0.01, 
             "dep_string": "", 
             "dependencies": [], 
@@ -4133,10 +4334,11 @@
             "section": "costMiniGrid", 
             "type": "LEAF_VAR", 
             "units": "fraction", 
-            "x": 0.067942852950843985, 
-            "y": -0.26052136000048332
+            "x": 0.35192105315231514, 
+            "y": 0.15097827699162389
         }, 
         {
+            "alias": "og_rec", 
             "default": "", 
             "dep_string": "costOffGrid.DieselComponentRecurringCostPerYear;costOffGrid.PhotovoltaicComponentRecurringCostPerYear", 
             "dependencies": [
@@ -4149,10 +4351,11 @@
             "section": "costOffGrid", 
             "type": "SINGLE_STMT_SIMPLE", 
             "units": "dollars per year", 
-            "x": 0.24256036868642922, 
-            "y": 0.12078731217978259
+            "x": 0.02944564060571269, 
+            "y": -0.12460287471466304
         }, 
         {
+            "alias": "ed_cc", 
             "default": "", 
             "dep_string": "demand.EducationFacilityCountCurvePoints;demand.EducationFacilityCountCurveType", 
             "dependencies": [
@@ -4165,10 +4368,11 @@
             "section": "demand", 
             "type": "CURVE_FUN", 
             "units": "", 
-            "x": -0.24862435697635504, 
-            "y": -0.050561513057223242
+            "x": -0.088627382397429677, 
+            "y": 0.21043444821639448
         }, 
         {
+            "alias": "og_pb_life", 
             "default": 3, 
             "dep_string": "", 
             "dependencies": [], 
@@ -4177,10 +4381,11 @@
             "section": "costOffGrid", 
             "type": "LEAF_VAR", 
             "units": "years", 
-            "x": 0.32690214640135679, 
-            "y": 0.40337134817560805
+            "x": 0.17668356468901528, 
+            "y": -0.24354932017482706
         }, 
         {
+            "alias": "gr_ml_life", 
             "default": 30, 
             "dep_string": "", 
             "dependencies": [], 
@@ -4189,10 +4394,11 @@
             "section": "costGrid", 
             "type": "LEAF_VAR", 
             "units": "years", 
-            "x": 0.096055637753538675, 
-            "y": 0.45365754960106858
+            "x": -0.094345982664598149, 
+            "y": 0.50367156602767471
         }, 
         {
+            "alias": "dem_g", 
             "default": "", 
             "dep_string": "finance.EconomicGrowthRatePerYear;finance.ElasticityOfElectricityDemand", 
             "dependencies": [
@@ -4205,10 +4411,11 @@
             "section": "finance", 
             "type": "SINGLE_STMT_OTHER", 
             "units": "fraction per year", 
-            "x": 0.1821286467173811, 
-            "y": -0.098058238122564437
+            "x": -0.24130435621972479, 
+            "y": 0.028717990910313119
         }, 
         {
+            "alias": "mg_nod_desc", 
             "default": "", 
             "dep_string": "costMiniGrid.EnergyStorageCostPerYear;finance.DiscountedCashFlowFactor", 
             "dependencies": [
@@ -4221,10 +4428,11 @@
             "section": "costMiniGrid", 
             "type": "SINGLE_STMT_SIMPLE", 
             "units": "dollars", 
-            "x": 0.091956617038364163, 
-            "y": -0.029339198336565068
+            "x": 0.1020732581429952, 
+            "y": 0.12509327321597866
         }, 
         {
+            "alias": "mg_g_life", 
             "default": 5, 
             "dep_string": "", 
             "dependencies": [], 
@@ -4233,10 +4441,11 @@
             "section": "costMiniGrid", 
             "type": "LEAF_VAR", 
             "units": "years", 
-            "x": 0.092280716595624784, 
-            "y": -0.25278369939804107
+            "x": 0.35588410027671241, 
+            "y": 0.11651853389418727
         }, 
         {
+            "alias": "gr_tot_init", 
             "default": "", 
             "dep_string": "GridSystemTotalExternalInitialCost;GridSystemTotalInternalInitialCost", 
             "dependencies": [
@@ -4249,10 +4458,11 @@
             "section": "", 
             "type": "SINGLE_STMT_SIMPLE", 
             "units": "dollars", 
-            "x": 0.74202561663900168, 
-            "y": -0.36367671889988246
+            "x": -0.55065622272376813, 
+            "y": -0.67151404660737102
         }, 
         {
+            "alias": "og_dg_if", 
             "default": 0.25, 
             "dep_string": "", 
             "dependencies": [], 
@@ -4261,10 +4471,11 @@
             "section": "costOffGrid", 
             "type": "LEAF_VAR", 
             "units": "", 
-            "x": 0.19241849632745256, 
-            "y": -0.14476493098097556
+            "x": -0.090437762421032977, 
+            "y": -0.38665097205158566
         }, 
         {
+            "alias": "mg_ini", 
             "default": "", 
             "dep_string": "costDistribution.LowVoltageLineInitialCost;costMiniGrid.GenerationCost;costMiniGrid.GenerationInstallationCost;costMiniGrid.LowVoltageLineEquipmentCost", 
             "dependencies": [
@@ -4279,10 +4490,11 @@
             "section": "costMiniGrid", 
             "type": "SINGLE_STMT_OTHER", 
             "units": "dollars", 
-            "x": -0.027584215126939763, 
-            "y": -0.11398217111252118
+            "x": 0.17239555317701752, 
+            "y": 0.10986430282228124
         }, 
         {
+            "alias": "gr_ml_repm", 
             "default": "", 
             "dep_string": "costGrid.GridMediumVoltageLineCostPerMeter;costGrid.GridMediumVoltageLineLifetime", 
             "dependencies": [
@@ -4295,10 +4507,11 @@
             "section": "costGrid", 
             "type": "SINGLE_STMT_OTHER", 
             "units": "dollars per meter per year", 
-            "x": 0.093189263065736327, 
-            "y": 0.39036096185846736
+            "x": -0.068341572719974944, 
+            "y": 0.44147349984028572
         }, 
         {
+            "alias": "p_pkdem_co", 
             "default": "", 
             "dep_string": "demand.DemandToPeakDemandConversionFactor;demand.ProjectedCommercialFacilityDemandPerYear", 
             "dependencies": [
@@ -4311,10 +4524,11 @@
             "section": "demand", 
             "type": "SINGLE_STMT_SIMPLE", 
             "units": "kilowatts", 
-            "x": -0.018178548425467154, 
-            "y": -0.15660895478211884
+            "x": -0.19609828081619682, 
+            "y": -0.095960044232504205
         }, 
         {
+            "alias": "p_pkdem", 
             "default": "", 
             "dep_string": "demand.DemandToPeakDemandConversionFactor;demand.ProjectedNodalDemandPerYear", 
             "dependencies": [
@@ -4327,10 +4541,11 @@
             "section": "demand", 
             "type": "SINGLE_STMT_SIMPLE", 
             "units": "kilowatts", 
-            "x": -0.12215437139564372, 
-            "y": -0.021525449400787829
+            "x": -0.051258413218955294, 
+            "y": 0.023105982878698212
         }, 
         {
+            "alias": "og_dg_efhr", 
             "default": "", 
             "dep_string": "costOffGrid.DieselGeneratorActualSystemCapacity;costOffGrid.DieselGeneratorMinimumHoursOfOperationPerYear;demand.ProjectedCommercialFacilityDemandPerYear;demand.ProjectedProductiveDemandPerYear", 
             "dependencies": [
@@ -4345,10 +4560,11 @@
             "section": "costOffGrid", 
             "type": "OTHER", 
             "units": "hours per year", 
-            "x": 0.13644136596481979, 
-            "y": -0.13109587949441009
+            "x": -0.12146366224419733, 
+            "y": -0.16823210333881766
         }, 
         {
+            "alias": "og_tot_drc", 
             "default": 0, 
             "dep_string": "", 
             "dependencies": [], 
@@ -4358,10 +4574,11 @@
             "section": "", 
             "type": "AGGREGATE", 
             "units": "dollars", 
-            "x": 0.026465745356987525, 
-            "y": 0.97669387802464747
+            "x": 0.93661666391777654, 
+            "y": -0.39420043507265506
         }, 
         {
+            "alias": "gr_tot_ext_drc", 
             "default": 0, 
             "dep_string": "", 
             "dependencies": [], 
@@ -4371,10 +4588,11 @@
             "section": "", 
             "type": "AGGREGATE", 
             "units": "dollars", 
-            "x": 0.39060834538278771, 
-            "y": 0.10271545905530241
+            "x": -0.16125396019310814, 
+            "y": 0.32312804321891675
         }, 
         {
+            "alias": "mg_g_ini", 
             "default": "", 
             "dep_string": "costMiniGrid.GenerationActualSystemCapacity;costMiniGrid.GenerationCostPerSystemKilowatt", 
             "dependencies": [
@@ -4387,8 +4605,8 @@
             "section": "costMiniGrid", 
             "type": "SINGLE_STMT_SIMPLE", 
             "units": "dollars", 
-            "x": -0.017366224206638602, 
-            "y": -0.2071812372052981
+            "x": 0.26998950613574224, 
+            "y": 0.15236167392544989
         }
     ]
 }
