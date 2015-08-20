@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <script type="text/javascript" src="d3.js"></script>
+    <style type="text/css">
+        body {
+            background-color: black;
+            color: white;
+        }
+        p {
+            font-size: 24px;
+            font-weight: bold;
+            background-color: red;
+            color: white;
+        }
+        svg {
+            background-color: white;
+        }
+        svg circle.node {
+            # stroke: gray;
+            fill: rgba(0,0,255,0.5);
+            # stroke-width: 2;
+        }
+        svg circle.node-over {
+            stroke: gray;
+            fill: rgba(255,0,0,0.5);
+            stroke-width: 2;
+        }
+        svg line.edge {
+            stroke: black;
+            stroke-width: 2;
+        }
+        svg text.code {
+            fill: black;
+        }
+        svg text.node_name{
+            fill: black;
+            stroke: black;
+            stroke-width: 1;
+        }
+
+
+
+    </style>
+    <title>Graph View of Metric Model</title>
+<head>
+<body>
+    <h1>Graph View of Metric Model</h1>
+    <p>
+    Graph of the relations of computations in the metric model.
+    </p>
+    <!--
+    <svg width="1000" height="1000">
+        <circle class="node" cx="50" cy="50" r="25"/>
+        <circle class="node-over" cx="75" cy="50" r="25"/>
+        <line class="edge" x1="25" y1="25" x2="75" y2="75"/>
+        <text class="code" x="125" y="50">a + b</text>
+    </svg>
+    -->
+    <svg width="1000" height="1000">
+    </svg>
+    <script type="text/javascript">
+        var width = height = 1000;
+        var buff = 10;
+        render = function(data) {
+            num_nodes = data.length;
+            render_w = width - 2 * buff;
+            render_h = height - 2 * buff;
+            num_per_row = Math.ceil((render_w / render_h) * Math.sqrt(num_nodes));
+            num_per_col = Math.ceil((render_h / render_w) * Math.sqrt(num_nodes));
+            x_inc = render_w / num_per_row;
+            y_inc = render_h / num_per_col;
+            font_size = Math.ceil(Math.min(x_inc, y_inc) * (1/25));
+            x_fun = function(d, i) { return (i%num_per_row)*x_inc + x_inc/2; }
+            y_fun = function(d, i) { return Math.floor(i/num_per_row)*y_inc + y_inc/2; }
+            d3.select("svg").selectAll("circle").data(data)
+                .enter()
+                .append("text")
+                .attr({class: "node_name", 
+                       x: function(d, i) { return x_fun(d, i); }, 
+                       y: function(d, i) { return y_fun(d, i); },
+                       "font-size": font_size})
+                .text(function(d) { return d.alias; });
+                /*
+                .append("circle")
+                .attr({class: "node", 
+                       cx: function(d, i) { return x_fun(d, i); }, 
+                       cy: function(d, i) { return y_fun(d, i); }, 
+                       r: 3});
+                */
+        };
+        d3.csv("mv5_vars.csv", function(data) { 
+            render(data);
+        });
+    </script>
+</body>
+</html>
