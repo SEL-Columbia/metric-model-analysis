@@ -116,6 +116,11 @@ def analyze_variable(cls):
         var_info['units'] = cls.units
     if 'default' in cls_dict:
         var_info['default'] = cls.default
+    if 'aliases' in cls_dict and len(cls_dict.aliases) > 0:
+        # get the shortest alias from the list
+        alias_by_shortest = sorted(cls_dict.aliases, key=lambda s: len(s))
+        var_info['alias'] = alias_by_shortest[0]
+
     if 'aggregate' in cls_dict:
         fun_str = inspect.getsource(cls.aggregate)
         var_info['fun_src'] = fun_str
@@ -149,7 +154,10 @@ def member_dict(ast_cls):
 
     # may want to define things to do with other types here
     val_lookup = {ast.Num: lambda node: node.n, 
-                  ast.Str: lambda node: node.s}
+                  ast.Str: lambda node: node.s,
+                  ast.List: lambda node_list: 
+                                [get_val_for_node(item) 
+                                 for item in node_list.elts]}
 
     def get_val_for_node(node):
         if type(node) in val_lookup:
@@ -203,6 +211,10 @@ def analyze_ast_variable(ast_cls, module_name):
         var_info['units'] = cls_dict['units']
     if 'default' in cls_dict:
         var_info['default'] = cls_dict['default']
+    if 'aliases' in cls_dict and len(cls_dict['aliases']) > 0:
+        # get the shortest alias from the list
+        alias_by_shortest = sorted(cls_dict['aliases'], key=lambda s: len(s))
+        var_info['alias'] = alias_by_shortest[0]
 
     if 'aggregate' in cls_dict:
         fun_def = cls_dict['aggregate']
@@ -254,9 +266,9 @@ def output_csv(variable_dicts):
     """
     output the array of variables as a csv
     """
-    print("{},{},{},{},{},{}".format("section", "name", "type", "default", "units", "dependencies") )
+    print("{},{},{},{},{},{},{}".format("section", "name", "alias", "type", "default", "units", "dependencies") )
     for var in variable_dicts:
-        print("{section},{name},{type},{default},{units},{dep_string}".format(**var))
+        print("{section},{name},{alias},{type},{default},{units},{dep_string}".format(**var))
 
 
 parser = argparse.ArgumentParser(description="Analyze and report on metric model variables")
