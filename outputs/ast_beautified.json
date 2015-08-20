@@ -1,0 +1,1746 @@
+[
+    {
+        "default": "1320",
+        "dependencies": "",
+        "name": "costOffGrid.PeakSunHoursPerYear",
+        "section": "costOffGrid",
+        "type": "LEAF_VAR",
+        "units": "hours per year"
+    },
+    {
+        "default": "1.5 1.0 0.4 0.15 0.075 0.05",
+        "dependencies": "",
+        "name": "costOffGrid.PhotovoltaicPanelAvailableSystemCapacities",
+        "section": "costOffGrid",
+        "type": "LEAF_VAR",
+        "units": "kilowatts list"
+    },
+    {
+        "default": "6000",
+        "dependencies": "",
+        "name": "costOffGrid.PhotovoltaicPanelCostPerPhotovoltaicComponentKilowatt",
+        "section": "costOffGrid",
+        "type": "LEAF_VAR",
+        "units": "dollars per kilowatt"
+    },
+    {
+        "default": "0.5",
+        "dependencies": "",
+        "name": "costOffGrid.PhotovoltaicBalanceCostAsFractionOfPanelCost",
+        "section": "costOffGrid",
+        "type": "LEAF_VAR",
+        "units": ""
+    },
+    {
+        "default": "5",
+        "dependencies": "",
+        "name": "costOffGrid.PhotovoltaicBatteryKilowattHoursPerPhotovoltaicComponentKilowatt",
+        "section": "costOffGrid",
+        "type": "LEAF_VAR",
+        "units": "kilowatt-hours per kilowatt"
+    },
+    {
+        "default": "400",
+        "dependencies": "",
+        "name": "costOffGrid.PhotovoltaicBatteryCostPerKilowattHour",
+        "section": "costOffGrid",
+        "type": "LEAF_VAR",
+        "units": "dollars per kilowatt-hour"
+    },
+    {
+        "default": "30",
+        "dependencies": "",
+        "name": "costOffGrid.PhotovoltaicPanelLifetime",
+        "section": "costOffGrid",
+        "type": "LEAF_VAR",
+        "units": "years"
+    },
+    {
+        "default": "10",
+        "dependencies": "",
+        "name": "costOffGrid.PhotovoltaicBalanceLifetime",
+        "section": "costOffGrid",
+        "type": "LEAF_VAR",
+        "units": "years"
+    },
+    {
+        "default": "3",
+        "dependencies": "",
+        "name": "costOffGrid.PhotovoltaicBatteryLifetime",
+        "section": "costOffGrid",
+        "type": "LEAF_VAR",
+        "units": "years"
+    },
+    {
+        "default": "0.1",
+        "dependencies": "",
+        "name": "costOffGrid.PhotovoltaicComponentEfficiencyLoss",
+        "section": "costOffGrid",
+        "type": "LEAF_VAR",
+        "units": "fraction"
+    },
+    {
+        "default": "0.05",
+        "dependencies": "",
+        "name": "costOffGrid.PhotovoltaicComponentOperationsAndMaintenanceCostPerYearAsFractionOfComponentCost",
+        "section": "costOffGrid",
+        "type": "LEAF_VAR",
+        "units": ""
+    },
+    {
+        "default": "1000 750 500 400 200 150 100 70 32 19 12 10 8 6",
+        "dependencies": "",
+        "name": "costOffGrid.DieselGeneratorAvailableSystemCapacities",
+        "section": "costOffGrid",
+        "type": "LEAF_VAR",
+        "units": "kilowatts list"
+    },
+    {
+        "default": "150",
+        "dependencies": "",
+        "name": "costOffGrid.DieselGeneratorCostPerDieselSystemKilowatt",
+        "section": "costOffGrid",
+        "type": "LEAF_VAR",
+        "units": "dollars per kilowatt"
+    },
+    {
+        "default": "0.25",
+        "dependencies": "",
+        "name": "costOffGrid.DieselGeneratorInstallationCostAsFractionOfGeneratorCost",
+        "section": "costOffGrid",
+        "type": "LEAF_VAR",
+        "units": ""
+    },
+    {
+        "default": "5",
+        "dependencies": "",
+        "name": "costOffGrid.DieselGeneratorLifetime",
+        "section": "costOffGrid",
+        "type": "LEAF_VAR",
+        "units": "years"
+    },
+    {
+        "default": "1.08",
+        "dependencies": "",
+        "name": "costOffGrid.DieselFuelCostPerLiter",
+        "section": "costOffGrid",
+        "type": "LEAF_VAR",
+        "units": "dollars per liter"
+    },
+    {
+        "default": "0.5",
+        "dependencies": "",
+        "name": "costOffGrid.DieselFuelLitersConsumedPerKilowattHour",
+        "section": "costOffGrid",
+        "type": "LEAF_VAR",
+        "units": "liters per kilowatt-hour"
+    },
+    {
+        "default": "1460",
+        "dependencies": "",
+        "name": "costOffGrid.DieselGeneratorMinimumHoursOfOperationPerYear",
+        "section": "costOffGrid",
+        "type": "LEAF_VAR",
+        "units": "hours per year"
+    },
+    {
+        "default": "0.01",
+        "dependencies": "",
+        "name": "costOffGrid.DieselGeneratorOperationsAndMaintenanceCostPerYearAsFractionOfGeneratorCost",
+        "section": "costOffGrid",
+        "type": "LEAF_VAR",
+        "units": ""
+    },
+    {
+        "default": "",
+        "dependencies": "costOffGrid.PeakSunHoursPerYear;costOffGrid.PhotovoltaicComponentEfficiencyLoss;demand.ProjectedEducationFacilityDemandPerYear;demand.ProjectedHealthFacilityDemandPerYear;demand.ProjectedHouseholdDemandPerYear;demand.ProjectedPublicLightingFacilityDemandPerYear",
+        "name": "costOffGrid.PhotovoltaicPanelDesiredSystemCapacity",
+        "section": "costOffGrid",
+        "type": "OTHER",
+        "units": "kilowatts"
+    },
+    {
+        "default": "",
+        "dependencies": "costOffGrid.PhotovoltaicPanelAvailableSystemCapacities;costOffGrid.PhotovoltaicPanelDesiredSystemCapacity",
+        "name": "costOffGrid.PhotovoltaicPanelActualSystemCapacityCounts",
+        "section": "costOffGrid",
+        "type": "SINGLE_STMT_OTHER",
+        "units": "capacity count list"
+    },
+    {
+        "default": "",
+        "dependencies": "costOffGrid.PhotovoltaicPanelActualSystemCapacityCounts;costOffGrid.PhotovoltaicPanelAvailableSystemCapacities",
+        "name": "costOffGrid.PhotovoltaicPanelActualSystemCapacity",
+        "section": "costOffGrid",
+        "type": "SINGLE_STMT_OTHER",
+        "units": "kilowatts"
+    },
+    {
+        "default": "",
+        "dependencies": "costOffGrid.PhotovoltaicPanelActualSystemCapacity;costOffGrid.PhotovoltaicPanelCostPerPhotovoltaicComponentKilowatt",
+        "name": "costOffGrid.PhotovoltaicPanelCost",
+        "section": "costOffGrid",
+        "type": "SINGLE_STMT_SIMPLE",
+        "units": "dollars"
+    },
+    {
+        "default": "",
+        "dependencies": "costOffGrid.PhotovoltaicPanelCost;costOffGrid.PhotovoltaicPanelLifetime",
+        "name": "costOffGrid.PhotovoltaicPanelReplacementCostPerYear",
+        "section": "costOffGrid",
+        "type": "SINGLE_STMT_OTHER",
+        "units": "dollars per year"
+    },
+    {
+        "default": "",
+        "dependencies": "costOffGrid.PhotovoltaicBatteryCostPerKilowattHour;costOffGrid.PhotovoltaicBatteryKilowattHoursPerPhotovoltaicComponentKilowatt;costOffGrid.PhotovoltaicPanelActualSystemCapacity",
+        "name": "costOffGrid.PhotovoltaicBatteryCost",
+        "section": "costOffGrid",
+        "type": "SINGLE_STMT_SIMPLE",
+        "units": "dollars"
+    },
+    {
+        "default": "",
+        "dependencies": "costOffGrid.PhotovoltaicBatteryCost;costOffGrid.PhotovoltaicBatteryLifetime",
+        "name": "costOffGrid.PhotovoltaicBatteryReplacementCostPerYear",
+        "section": "costOffGrid",
+        "type": "SINGLE_STMT_OTHER",
+        "units": "dollars per year"
+    },
+    {
+        "default": "",
+        "dependencies": "costOffGrid.PhotovoltaicBalanceCostAsFractionOfPanelCost;costOffGrid.PhotovoltaicPanelCost",
+        "name": "costOffGrid.PhotovoltaicBalanceCost",
+        "section": "costOffGrid",
+        "type": "SINGLE_STMT_SIMPLE",
+        "units": "dollars"
+    },
+    {
+        "default": "",
+        "dependencies": "costOffGrid.PhotovoltaicBalanceCost;costOffGrid.PhotovoltaicBalanceLifetime",
+        "name": "costOffGrid.PhotovoltaicBalanceReplacementCostPerYear",
+        "section": "costOffGrid",
+        "type": "SINGLE_STMT_OTHER",
+        "units": "dollars per year"
+    },
+    {
+        "default": "",
+        "dependencies": "costOffGrid.PhotovoltaicBalanceCost;costOffGrid.PhotovoltaicBatteryCost;costOffGrid.PhotovoltaicPanelCost",
+        "name": "costOffGrid.PhotovoltaicComponentInitialCost",
+        "section": "costOffGrid",
+        "type": "SINGLE_STMT_SIMPLE",
+        "units": "dollars"
+    },
+    {
+        "default": "",
+        "dependencies": "costOffGrid.PhotovoltaicComponentInitialCost;costOffGrid.PhotovoltaicComponentOperationsAndMaintenanceCostPerYearAsFractionOfComponentCost",
+        "name": "costOffGrid.PhotovoltaicComponentOperationsAndMaintenanceCostPerYear",
+        "section": "costOffGrid",
+        "type": "SINGLE_STMT_SIMPLE",
+        "units": "dollars per year"
+    },
+    {
+        "default": "",
+        "dependencies": "costOffGrid.PhotovoltaicBalanceReplacementCostPerYear;costOffGrid.PhotovoltaicBatteryReplacementCostPerYear;costOffGrid.PhotovoltaicComponentOperationsAndMaintenanceCostPerYear;costOffGrid.PhotovoltaicPanelReplacementCostPerYear",
+        "name": "costOffGrid.PhotovoltaicComponentRecurringCostPerYear",
+        "section": "costOffGrid",
+        "type": "SINGLE_STMT_SIMPLE",
+        "units": "dollars per year"
+    },
+    {
+        "default": "",
+        "dependencies": "demand.ProjectedPeakCommercialFacilityDemand;demand.ProjectedPeakProductiveDemand",
+        "name": "costOffGrid.DieselGeneratorDesiredSystemCapacity",
+        "section": "costOffGrid",
+        "type": "SINGLE_STMT_OTHER",
+        "units": "kilowatts"
+    },
+    {
+        "default": "",
+        "dependencies": "costOffGrid.DieselGeneratorAvailableSystemCapacities;costOffGrid.DieselGeneratorDesiredSystemCapacity",
+        "name": "costOffGrid.DieselGeneratorActualSystemCapacityCounts",
+        "section": "costOffGrid",
+        "type": "SINGLE_STMT_OTHER",
+        "units": "capacity count list"
+    },
+    {
+        "default": "",
+        "dependencies": "costOffGrid.DieselGeneratorActualSystemCapacityCounts;costOffGrid.DieselGeneratorAvailableSystemCapacities",
+        "name": "costOffGrid.DieselGeneratorActualSystemCapacity",
+        "section": "costOffGrid",
+        "type": "SINGLE_STMT_OTHER",
+        "units": "kilowatts"
+    },
+    {
+        "default": "",
+        "dependencies": "costOffGrid.DieselGeneratorActualSystemCapacity;costOffGrid.DieselGeneratorCostPerDieselSystemKilowatt",
+        "name": "costOffGrid.DieselGeneratorCost",
+        "section": "costOffGrid",
+        "type": "SINGLE_STMT_SIMPLE",
+        "units": "dollars"
+    },
+    {
+        "default": "",
+        "dependencies": "costOffGrid.DieselGeneratorCost;costOffGrid.DieselGeneratorInstallationCostAsFractionOfGeneratorCost",
+        "name": "costOffGrid.DieselGeneratorInstallationCost",
+        "section": "costOffGrid",
+        "type": "SINGLE_STMT_SIMPLE",
+        "units": "dollars"
+    },
+    {
+        "default": "",
+        "dependencies": "costOffGrid.DieselGeneratorCost;costOffGrid.DieselGeneratorOperationsAndMaintenanceCostPerYearAsFractionOfGeneratorCost",
+        "name": "costOffGrid.DieselGeneratorOperationsAndMaintenanceCostPerYear",
+        "section": "costOffGrid",
+        "type": "SINGLE_STMT_SIMPLE",
+        "units": "dollars per year"
+    },
+    {
+        "default": "",
+        "dependencies": "costOffGrid.DieselGeneratorCost;costOffGrid.DieselGeneratorLifetime",
+        "name": "costOffGrid.DieselGeneratorReplacementCostPerYear",
+        "section": "costOffGrid",
+        "type": "SINGLE_STMT_OTHER",
+        "units": "dollars per year"
+    },
+    {
+        "default": "",
+        "dependencies": "costOffGrid.DieselGeneratorActualSystemCapacity;costOffGrid.DieselGeneratorMinimumHoursOfOperationPerYear;demand.ProjectedCommercialFacilityDemandPerYear;demand.ProjectedProductiveDemandPerYear",
+        "name": "costOffGrid.DieselGeneratorEffectiveHoursOfOperationPerYear",
+        "section": "costOffGrid",
+        "type": "OTHER",
+        "units": "hours per year"
+    },
+    {
+        "default": "",
+        "dependencies": "costOffGrid.DieselFuelCostPerLiter;costOffGrid.DieselFuelLitersConsumedPerKilowattHour;costOffGrid.DieselGeneratorActualSystemCapacity;costOffGrid.DieselGeneratorEffectiveHoursOfOperationPerYear",
+        "name": "costOffGrid.DieselFuelCostPerYear",
+        "section": "costOffGrid",
+        "type": "SINGLE_STMT_SIMPLE",
+        "units": "dollars per year"
+    },
+    {
+        "default": "",
+        "dependencies": "costOffGrid.DieselGeneratorCost;costOffGrid.DieselGeneratorInstallationCost",
+        "name": "costOffGrid.DieselComponentInitialCost",
+        "section": "costOffGrid",
+        "type": "SINGLE_STMT_OTHER",
+        "units": "dollars"
+    },
+    {
+        "default": "",
+        "dependencies": "costOffGrid.DieselFuelCostPerYear;costOffGrid.DieselGeneratorOperationsAndMaintenanceCostPerYear;costOffGrid.DieselGeneratorReplacementCostPerYear",
+        "name": "costOffGrid.DieselComponentRecurringCostPerYear",
+        "section": "costOffGrid",
+        "type": "SINGLE_STMT_OTHER",
+        "units": "dollars per year"
+    },
+    {
+        "default": "",
+        "dependencies": "costOffGrid.DieselComponentInitialCost;costOffGrid.PhotovoltaicComponentInitialCost",
+        "name": "costOffGrid.OffGridSystemInitialCost",
+        "section": "costOffGrid",
+        "type": "SINGLE_STMT_SIMPLE",
+        "units": "dollars"
+    },
+    {
+        "default": "",
+        "dependencies": "costOffGrid.DieselComponentRecurringCostPerYear;costOffGrid.PhotovoltaicComponentRecurringCostPerYear",
+        "name": "costOffGrid.OffGridSystemRecurringCostPerYear",
+        "section": "costOffGrid",
+        "type": "SINGLE_STMT_SIMPLE",
+        "units": "dollars per year"
+    },
+    {
+        "default": "",
+        "dependencies": "costOffGrid.OffGridSystemInitialCost;costOffGrid.OffGridSystemRecurringCostPerYear;demand.ProjectedNodalDemandPerYear;finance.DiscountedCashFlowFactor",
+        "name": "costOffGrid.OffGridSystemNodalDiscountedCost",
+        "section": "costOffGrid",
+        "type": "OTHER",
+        "units": "dollars"
+    },
+    {
+        "default": "",
+        "dependencies": "costOffGrid.DieselFuelCostPerYear;finance.DiscountedCashFlowFactor",
+        "name": "costOffGrid.OffGridSystemNodalDiscountedDieselFuelCost",
+        "section": "costOffGrid",
+        "type": "SINGLE_STMT_SIMPLE",
+        "units": ""
+    },
+    {
+        "default": "",
+        "dependencies": "costOffGrid.DieselComponentInitialCost;costOffGrid.DieselComponentRecurringCostPerYear;demand.ProjectedNodalDemandPerYear;finance.DiscountedCashFlowFactor",
+        "name": "costOffGrid.OffGridSystemNodalDiscountedDieselCost",
+        "section": "costOffGrid",
+        "type": "OTHER",
+        "units": "dollars"
+    },
+    {
+        "default": "",
+        "dependencies": "costOffGrid.OffGridSystemNodalDiscountedCost;demand.ProjectedNodalDiscountedDemand",
+        "name": "costOffGrid.OffGridSystemNodalLevelizedCost",
+        "section": "costOffGrid",
+        "type": "OTHER",
+        "units": "dollars per kilowatt-hour"
+    },
+    {
+        "default": "10",
+        "dependencies": "",
+        "name": "finance.TimeHorizon",
+        "section": "finance",
+        "type": "LEAF_VAR",
+        "units": "years"
+    },
+    {
+        "default": "0.1",
+        "dependencies": "",
+        "name": "finance.InterestRatePerYear",
+        "section": "finance",
+        "type": "LEAF_VAR",
+        "units": "fraction per year"
+    },
+    {
+        "default": "0.06",
+        "dependencies": "",
+        "name": "finance.EconomicGrowthRatePerYear",
+        "section": "finance",
+        "type": "LEAF_VAR",
+        "units": "fraction per year"
+    },
+    {
+        "default": "1.5",
+        "dependencies": "",
+        "name": "finance.ElasticityOfElectricityDemand",
+        "section": "finance",
+        "type": "LEAF_VAR",
+        "units": ""
+    },
+    {
+        "default": "",
+        "dependencies": "finance.EconomicGrowthRatePerYear;finance.ElasticityOfElectricityDemand",
+        "name": "finance.ElectricityDemandGrowthRatePerYear",
+        "section": "finance",
+        "type": "SINGLE_STMT_OTHER",
+        "units": "fraction per year"
+    },
+    {
+        "default": "",
+        "dependencies": "finance.ElectricityDemandGrowthRatePerYear;finance.TimeHorizon",
+        "name": "finance.ElectricityDemandMultiplier",
+        "section": "finance",
+        "type": "SINGLE_STMT_SIMPLE",
+        "units": ""
+    },
+    {
+        "default": "",
+        "dependencies": "finance.InterestRatePerYear;finance.TimeHorizon",
+        "name": "finance.DiscountedCashFlowFactor",
+        "section": "finance",
+        "type": "OTHER",
+        "units": ""
+    },
+    {
+        "default": "50 0.16; 500 1.6; 5000 5; 10000 20",
+        "dependencies": "",
+        "name": "demand.HealthFacilityCountCurvePoints",
+        "section": "demand",
+        "type": "CURVE_POINTS",
+        "units": "population and facility count list"
+    },
+    {
+        "default": "ZeroLogisticLinear",
+        "dependencies": "",
+        "name": "demand.HealthFacilityCountCurveType",
+        "section": "demand",
+        "type": "CURVE_TYPE",
+        "units": ""
+    },
+    {
+        "default": "50 0.1; 500 1; 5000 3; 10000 15",
+        "dependencies": "",
+        "name": "demand.EducationFacilityCountCurvePoints",
+        "section": "demand",
+        "type": "CURVE_POINTS",
+        "units": "population and facility count list"
+    },
+    {
+        "default": "ZeroLogisticLinear",
+        "dependencies": "",
+        "name": "demand.EducationFacilityCountCurveType",
+        "section": "demand",
+        "type": "CURVE_TYPE",
+        "units": ""
+    },
+    {
+        "default": "50 0.12; 500 1.2; 5000 25; 10000 125",
+        "dependencies": "",
+        "name": "demand.CommercialFacilityCountCurvePoints",
+        "section": "demand",
+        "type": "CURVE_POINTS",
+        "units": "population and facility count list"
+    },
+    {
+        "default": "ZeroLogisticLinear",
+        "dependencies": "",
+        "name": "demand.CommercialFacilityCountCurveType",
+        "section": "demand",
+        "type": "CURVE_TYPE",
+        "units": ""
+    },
+    {
+        "default": "50 0.1; 500 1; 5000 7; 10000 25",
+        "dependencies": "",
+        "name": "demand.PublicLightingFacilityCountCurvePoints",
+        "section": "demand",
+        "type": "CURVE_POINTS",
+        "units": "population and facility count list"
+    },
+    {
+        "default": "ZeroLogisticLinear",
+        "dependencies": "",
+        "name": "demand.PublicLightingFacilityCountCurveType",
+        "section": "demand",
+        "type": "CURVE_TYPE",
+        "units": ""
+    },
+    {
+        "default": "",
+        "dependencies": "demand.HealthFacilityCountCurvePoints;demand.HealthFacilityCountCurveType",
+        "name": "demand.HealthFacilityCountCurve",
+        "section": "demand",
+        "type": "CURVE_FUN",
+        "units": ""
+    },
+    {
+        "default": "",
+        "dependencies": "demand.HealthFacilityCountCurve;demographics.ProjectedPopulationCount",
+        "name": "demand.ProjectedHealthFacilityCount",
+        "section": "demand",
+        "type": "CURVE_INTERPOLATE",
+        "units": "health facility count"
+    },
+    {
+        "default": "",
+        "dependencies": "demand.EducationFacilityCountCurvePoints;demand.EducationFacilityCountCurveType",
+        "name": "demand.EducationFacilityCountCurve",
+        "section": "demand",
+        "type": "CURVE_FUN",
+        "units": ""
+    },
+    {
+        "default": "",
+        "dependencies": "demand.EducationFacilityCountCurve;demographics.ProjectedPopulationCount",
+        "name": "demand.ProjectedEducationFacilityCount",
+        "section": "demand",
+        "type": "CURVE_INTERPOLATE",
+        "units": "education facility count"
+    },
+    {
+        "default": "",
+        "dependencies": "demand.CommercialFacilityCountCurvePoints;demand.CommercialFacilityCountCurveType",
+        "name": "demand.CommercialFacilityCountCurve",
+        "section": "demand",
+        "type": "CURVE_FUN",
+        "units": ""
+    },
+    {
+        "default": "",
+        "dependencies": "demand.CommercialFacilityCountCurve;demographics.ProjectedPopulationCount",
+        "name": "demand.ProjectedCommercialFacilityCount",
+        "section": "demand",
+        "type": "CURVE_INTERPOLATE",
+        "units": "commercial facility count"
+    },
+    {
+        "default": "",
+        "dependencies": "demand.PublicLightingFacilityCountCurvePoints;demand.PublicLightingFacilityCountCurveType",
+        "name": "demand.PublicLightingFacilityCountCurve",
+        "section": "demand",
+        "type": "CURVE_FUN",
+        "units": ""
+    },
+    {
+        "default": "",
+        "dependencies": "demand.PublicLightingFacilityCountCurve;demographics.ProjectedPopulationCount",
+        "name": "demand.ProjectedPublicLightingFacilityCount",
+        "section": "demand",
+        "type": "CURVE_INTERPOLATE",
+        "units": "public lighting facility count"
+    },
+    {
+        "default": "1",
+        "dependencies": "",
+        "name": "demand.TargetHouseholdPenetrationRate",
+        "section": "demand",
+        "type": "LEAF_VAR",
+        "units": "fraction"
+    },
+    {
+        "default": "0",
+        "dependencies": "",
+        "name": "demand.HouseholdUnitDemandPerHouseholdPerYear",
+        "section": "demand",
+        "type": "LEAF_VAR",
+        "units": "kilowatt-hours per year"
+    },
+    {
+        "default": "500 1; 1000 1.56; 5000 6.16; 10000 11.5",
+        "dependencies": "",
+        "name": "demand.HouseholdDemandCurvePoints",
+        "section": "demand",
+        "type": "CURVE_POINTS",
+        "units": "population and multiplier list"
+    },
+    {
+        "default": "ZeroLogisticLinear",
+        "dependencies": "",
+        "name": "demand.HouseholdDemandCurveType",
+        "section": "demand",
+        "type": "CURVE_TYPE",
+        "units": ""
+    },
+    {
+        "default": "",
+        "dependencies": "demand.TargetHouseholdPenetrationRate;demographics.ProjectedHouseholdCount",
+        "name": "demand.TargetHouseholdCount",
+        "section": "demand",
+        "type": "SINGLE_STMT_OTHER",
+        "units": "households"
+    },
+    {
+        "default": "",
+        "dependencies": "demand.HouseholdDemandCurvePoints;demand.HouseholdDemandCurveType",
+        "name": "demand.HouseholdDemandCurve",
+        "section": "demand",
+        "type": "CURVE_FUN",
+        "units": ""
+    },
+    {
+        "default": "",
+        "dependencies": "demand.HouseholdDemandCurve;demand.HouseholdUnitDemandPerHouseholdPerYear;demand.TargetHouseholdCount;demographics.ProjectedPopulationCount;finance.ElectricityDemandMultiplier",
+        "name": "demand.ProjectedHouseholdDemandPerYear",
+        "section": "demand",
+        "type": "CURVE_INTERPOLATE",
+        "units": "kilowatt-hours per year"
+    },
+    {
+        "default": "0",
+        "dependencies": "",
+        "name": "demand.ProductiveUnitDemandPerHouseholdPerYear",
+        "section": "demand",
+        "type": "LEAF_VAR",
+        "units": "kilowatt-hours per year"
+    },
+    {
+        "default": "500 1; 1000 3.06; 5000 3.57; 10000 5.10",
+        "dependencies": "",
+        "name": "demand.ProductiveDemandCurvePoints",
+        "section": "demand",
+        "type": "CURVE_POINTS",
+        "units": "population and multiplier list"
+    },
+    {
+        "default": "ZeroLogisticLinear",
+        "dependencies": "",
+        "name": "demand.ProductiveDemandCurveType",
+        "section": "demand",
+        "type": "CURVE_TYPE",
+        "units": ""
+    },
+    {
+        "default": "",
+        "dependencies": "demand.ProductiveDemandCurvePoints;demand.ProductiveDemandCurveType",
+        "name": "demand.ProductiveDemandCurve",
+        "section": "demand",
+        "type": "CURVE_FUN",
+        "units": ""
+    },
+    {
+        "default": "",
+        "dependencies": "demand.ProductiveDemandCurve;demand.ProductiveUnitDemandPerHouseholdPerYear;demand.TargetHouseholdCount;demographics.ProjectedPopulationCount;finance.ElectricityDemandMultiplier",
+        "name": "demand.ProjectedProductiveDemandPerYear",
+        "section": "demand",
+        "type": "CURVE_INTERPOLATE",
+        "units": "kilowatt-hours per year"
+    },
+    {
+        "default": "0",
+        "dependencies": "",
+        "name": "demand.HealthFacilityUnitDemandPerHealthFacilityPerYear",
+        "section": "demand",
+        "type": "LEAF_VAR",
+        "units": "kilowatt-hours per year"
+    },
+    {
+        "default": "0",
+        "dependencies": "",
+        "name": "demand.EducationFacilityUnitDemandPerEducationFacilityPerYear",
+        "section": "demand",
+        "type": "LEAF_VAR",
+        "units": "kilowatt-hours per year"
+    },
+    {
+        "default": "0",
+        "dependencies": "",
+        "name": "demand.CommercialFacilityUnitDemandPerCommercialFacilityPerYear",
+        "section": "demand",
+        "type": "LEAF_VAR",
+        "units": "kilowatt-hours per year"
+    },
+    {
+        "default": "0",
+        "dependencies": "",
+        "name": "demand.PublicLightingFacilityUnitDemandPerPublicLightingFacilityPerYear",
+        "section": "demand",
+        "type": "LEAF_VAR",
+        "units": "kilowatt-hours per year"
+    },
+    {
+        "default": "500 1; 1000 1.5; 5000 2.25; 10000 3.375",
+        "dependencies": "",
+        "name": "demand.SocialInfrastructureDemandCurvePoints",
+        "section": "demand",
+        "type": "CURVE_POINTS",
+        "units": "population and multiplier list"
+    },
+    {
+        "default": "ZeroLogisticLinear",
+        "dependencies": "",
+        "name": "demand.SocialInfrastructureDemandCurveType",
+        "section": "demand",
+        "type": "CURVE_TYPE",
+        "units": ""
+    },
+    {
+        "default": "",
+        "dependencies": "demand.SocialInfrastructureDemandCurvePoints;demand.SocialInfrastructureDemandCurveType",
+        "name": "demand.SocialInfrastructureDemandCurve",
+        "section": "demand",
+        "type": "CURVE_FUN",
+        "units": ""
+    },
+    {
+        "default": "",
+        "dependencies": "demand.HealthFacilityUnitDemandPerHealthFacilityPerYear;demand.ProjectedHealthFacilityCount;demand.SocialInfrastructureDemandCurve;demographics.ProjectedPopulationCount;finance.ElectricityDemandMultiplier",
+        "name": "demand.ProjectedHealthFacilityDemandPerYear",
+        "section": "demand",
+        "type": "CURVE_INTERPOLATE",
+        "units": "kilowatt-hours per year"
+    },
+    {
+        "default": "",
+        "dependencies": "demand.EducationFacilityUnitDemandPerEducationFacilityPerYear;demand.ProjectedEducationFacilityCount;demand.SocialInfrastructureDemandCurve;demographics.ProjectedPopulationCount;finance.ElectricityDemandMultiplier",
+        "name": "demand.ProjectedEducationFacilityDemandPerYear",
+        "section": "demand",
+        "type": "CURVE_INTERPOLATE",
+        "units": "kilowatt-hours per year"
+    },
+    {
+        "default": "",
+        "dependencies": "demand.CommercialFacilityUnitDemandPerCommercialFacilityPerYear;demand.ProjectedCommercialFacilityCount;demand.SocialInfrastructureDemandCurve;demographics.ProjectedPopulationCount;finance.ElectricityDemandMultiplier",
+        "name": "demand.ProjectedCommercialFacilityDemandPerYear",
+        "section": "demand",
+        "type": "CURVE_INTERPOLATE",
+        "units": "kilowatt-hours per year"
+    },
+    {
+        "default": "",
+        "dependencies": "demand.ProjectedPublicLightingFacilityCount;demand.PublicLightingFacilityUnitDemandPerPublicLightingFacilityPerYear;demand.SocialInfrastructureDemandCurve;demographics.ProjectedPopulationCount;finance.ElectricityDemandMultiplier",
+        "name": "demand.ProjectedPublicLightingFacilityDemandPerYear",
+        "section": "demand",
+        "type": "CURVE_INTERPOLATE",
+        "units": "kilowatt-hours per year"
+    },
+    {
+        "default": "",
+        "dependencies": "demand.ProjectedCommercialFacilityDemandPerYear;demand.ProjectedEducationFacilityDemandPerYear;demand.ProjectedHealthFacilityDemandPerYear;demand.ProjectedHouseholdDemandPerYear;demand.ProjectedProductiveDemandPerYear;demand.ProjectedPublicLightingFacilityDemandPerYear",
+        "name": "demand.ProjectedNodalDemandPerYear",
+        "section": "demand",
+        "type": "SINGLE_STMT_OTHER",
+        "units": "kilowatt-hours per year"
+    },
+    {
+        "default": "",
+        "dependencies": "demand.ProjectedNodalDemandPerYear;finance.DiscountedCashFlowFactor",
+        "name": "demand.ProjectedNodalDiscountedDemand",
+        "section": "demand",
+        "type": "SINGLE_STMT_SIMPLE",
+        "units": "kilowatt-hours"
+    },
+    {
+        "default": "0.4",
+        "dependencies": "",
+        "name": "demand.RuralPeakDemandAsFractionOfNodalDemandOccurringDuringPeakHours",
+        "section": "demand",
+        "type": "LEAF_VAR",
+        "units": ""
+    },
+    {
+        "default": "0.4",
+        "dependencies": "",
+        "name": "demand.UrbanPeakDemandAsFractionOfNodalDemandOccurringDuringPeakHours",
+        "section": "demand",
+        "type": "LEAF_VAR",
+        "units": ""
+    },
+    {
+        "default": "1460",
+        "dependencies": "",
+        "name": "demand.PeakElectricalHoursOfOperationPerYear",
+        "section": "demand",
+        "type": "LEAF_VAR",
+        "units": "hours per year"
+    },
+    {
+        "default": "",
+        "dependencies": "demand.RuralPeakDemandAsFractionOfNodalDemandOccurringDuringPeakHours;demand.UrbanPeakDemandAsFractionOfNodalDemandOccurringDuringPeakHours;demographics.IsRural",
+        "name": "demand.PeakDemandAsFractionOfNodalDemandOccurringDuringPeakHours",
+        "section": "demand",
+        "type": "SINGLE_STMT_OTHER",
+        "units": ""
+    },
+    {
+        "default": "",
+        "dependencies": "demand.PeakDemandAsFractionOfNodalDemandOccurringDuringPeakHours;demand.PeakElectricalHoursOfOperationPerYear",
+        "name": "demand.DemandToPeakDemandConversionFactor",
+        "section": "demand",
+        "type": "SINGLE_STMT_OTHER",
+        "units": ""
+    },
+    {
+        "default": "",
+        "dependencies": "demand.DemandToPeakDemandConversionFactor;demand.ProjectedProductiveDemandPerYear",
+        "name": "demand.ProjectedPeakProductiveDemand",
+        "section": "demand",
+        "type": "SINGLE_STMT_SIMPLE",
+        "units": "kilowatts"
+    },
+    {
+        "default": "",
+        "dependencies": "demand.DemandToPeakDemandConversionFactor;demand.ProjectedCommercialFacilityDemandPerYear",
+        "name": "demand.ProjectedPeakCommercialFacilityDemand",
+        "section": "demand",
+        "type": "SINGLE_STMT_SIMPLE",
+        "units": "kilowatts"
+    },
+    {
+        "default": "",
+        "dependencies": "demand.DemandToPeakDemandConversionFactor;demand.ProjectedNodalDemandPerYear",
+        "name": "demand.ProjectedPeakNodalDemand",
+        "section": "demand",
+        "type": "SINGLE_STMT_SIMPLE",
+        "units": "kilowatts"
+    },
+    {
+        "default": "0.15",
+        "dependencies": "",
+        "name": "costGrid.DistributionLoss",
+        "section": "costGrid",
+        "type": "LEAF_VAR",
+        "units": "fraction"
+    },
+    {
+        "default": "0.17",
+        "dependencies": "",
+        "name": "costGrid.GridElectricityCostPerKilowattHour",
+        "section": "costGrid",
+        "type": "LEAF_VAR",
+        "units": "dollars per kilowatt-hour"
+    },
+    {
+        "default": "1000 900 800 700 600 500 400 300 200 100 90 80 70 60 50 40 30 20 15 5",
+        "dependencies": "",
+        "name": "costGrid.GridTransformerAvailableSystemCapacities",
+        "section": "costGrid",
+        "type": "LEAF_VAR",
+        "units": "kilowatts list"
+    },
+    {
+        "default": "1000",
+        "dependencies": "",
+        "name": "costGrid.GridTransformerCostPerGridSystemKilowatt",
+        "section": "costGrid",
+        "type": "LEAF_VAR",
+        "units": "dollars per kilowatt"
+    },
+    {
+        "default": "10",
+        "dependencies": "",
+        "name": "costGrid.GridTransformerLifetime",
+        "section": "costGrid",
+        "type": "LEAF_VAR",
+        "units": "years"
+    },
+    {
+        "default": "0.03",
+        "dependencies": "",
+        "name": "costGrid.GridTransformerOperationsAndMaintenanceCostPerYearAsFractionOfTransformerCost",
+        "section": "costGrid",
+        "type": "LEAF_VAR",
+        "units": ""
+    },
+    {
+        "default": "130",
+        "dependencies": "",
+        "name": "costGrid.GridInstallationCostPerConnection",
+        "section": "costGrid",
+        "type": "LEAF_VAR",
+        "units": "dollars per connection"
+    },
+    {
+        "default": "20",
+        "dependencies": "",
+        "name": "costGrid.GridMediumVoltageLineCostPerMeter",
+        "section": "costGrid",
+        "type": "LEAF_VAR",
+        "units": "dollars per meter"
+    },
+    {
+        "default": "30",
+        "dependencies": "",
+        "name": "costGrid.GridMediumVoltageLineLifetime",
+        "section": "costGrid",
+        "type": "LEAF_VAR",
+        "units": "years"
+    },
+    {
+        "default": "0.01",
+        "dependencies": "",
+        "name": "costGrid.GridMediumVoltageLineOperationsAndMaintenanceCostPerYearAsFractionOfLineCost",
+        "section": "costGrid",
+        "type": "LEAF_VAR",
+        "units": ""
+    },
+    {
+        "default": "",
+        "dependencies": "demand.ProjectedCommercialFacilityCount;demand.ProjectedEducationFacilityCount;demand.ProjectedHealthFacilityCount;demand.ProjectedPublicLightingFacilityCount",
+        "name": "costGrid.GridSocialInfrastructureCount",
+        "section": "costGrid",
+        "type": "SINGLE_STMT_SIMPLE",
+        "units": "facility count"
+    },
+    {
+        "default": "",
+        "dependencies": "costGrid.GridSocialInfrastructureCount;demand.TargetHouseholdCount",
+        "name": "costGrid.GridInternalConnectionCount",
+        "section": "costGrid",
+        "type": "SINGLE_STMT_SIMPLE",
+        "units": "connection count"
+    },
+    {
+        "default": "",
+        "dependencies": "costGrid.DistributionLoss;demand.ProjectedPeakNodalDemand",
+        "name": "costGrid.GridTransformerDesiredSystemCapacity",
+        "section": "costGrid",
+        "type": "SINGLE_STMT_OTHER",
+        "units": "kilowatts"
+    },
+    {
+        "default": "",
+        "dependencies": "costGrid.GridTransformerAvailableSystemCapacities;costGrid.GridTransformerDesiredSystemCapacity",
+        "name": "costGrid.GridTransformerActualSystemCapacityCounts",
+        "section": "costGrid",
+        "type": "SINGLE_STMT_OTHER",
+        "units": "capacity count list"
+    },
+    {
+        "default": "",
+        "dependencies": "costGrid.GridTransformerActualSystemCapacityCounts;costGrid.GridTransformerAvailableSystemCapacities",
+        "name": "costGrid.GridTransformerActualSystemCapacity",
+        "section": "costGrid",
+        "type": "SINGLE_STMT_OTHER",
+        "units": "kilowatts"
+    },
+    {
+        "default": "",
+        "dependencies": "costGrid.GridInstallationCostPerConnection;costGrid.GridInternalConnectionCount",
+        "name": "costGrid.GridInstallationCost",
+        "section": "costGrid",
+        "type": "SINGLE_STMT_SIMPLE",
+        "units": "dollars"
+    },
+    {
+        "default": "",
+        "dependencies": "costDistribution.LowVoltageLineEquipmentCostPerConnection;costGrid.GridInternalConnectionCount",
+        "name": "costGrid.LowVoltageLineEquipmentCost",
+        "section": "costGrid",
+        "type": "SINGLE_STMT_SIMPLE",
+        "units": "dollars"
+    },
+    {
+        "default": "",
+        "dependencies": "costDistribution.LowVoltageLineEquipmentOperationsAndMaintenanceCostPerYearAsFractionOfEquipmentCost;costGrid.LowVoltageLineEquipmentCost",
+        "name": "costGrid.LowVoltageLineEquipmentOperationsAndMaintenanceCostPerYear",
+        "section": "costGrid",
+        "type": "SINGLE_STMT_SIMPLE",
+        "units": "dollars per year"
+    },
+    {
+        "default": "",
+        "dependencies": "costGrid.GridTransformerActualSystemCapacity;costGrid.GridTransformerCostPerGridSystemKilowatt",
+        "name": "costGrid.GridTransformerCost",
+        "section": "costGrid",
+        "type": "SINGLE_STMT_SIMPLE",
+        "units": "dollars"
+    },
+    {
+        "default": "",
+        "dependencies": "costGrid.GridTransformerCost;costGrid.GridTransformerOperationsAndMaintenanceCostPerYearAsFractionOfTransformerCost",
+        "name": "costGrid.GridTransformerOperationsAndMaintenanceCostPerYear",
+        "section": "costGrid",
+        "type": "SINGLE_STMT_SIMPLE",
+        "units": "dollars per year"
+    },
+    {
+        "default": "",
+        "dependencies": "costGrid.GridTransformerCost;costGrid.GridTransformerLifetime",
+        "name": "costGrid.GridTransformerReplacementCostPerYear",
+        "section": "costGrid",
+        "type": "SINGLE_STMT_OTHER",
+        "units": "dollars per year"
+    },
+    {
+        "default": "",
+        "dependencies": "costGrid.DistributionLoss;costGrid.GridElectricityCostPerKilowattHour;demand.ProjectedNodalDemandPerYear",
+        "name": "costGrid.GridElectricityCostPerYear",
+        "section": "costGrid",
+        "type": "SINGLE_STMT_OTHER",
+        "units": "dollars per year"
+    },
+    {
+        "default": "",
+        "dependencies": "costDistribution.LowVoltageLineInitialCost;costGrid.GridInstallationCost;costGrid.GridTransformerCost;costGrid.LowVoltageLineEquipmentCost",
+        "name": "costGrid.GridInternalSystemInitialCost",
+        "section": "costGrid",
+        "type": "SINGLE_STMT_OTHER",
+        "units": "dollars"
+    },
+    {
+        "default": "",
+        "dependencies": "costDistribution.LowVoltageLineRecurringCostPerYear;costGrid.GridElectricityCostPerYear;costGrid.GridTransformerOperationsAndMaintenanceCostPerYear;costGrid.GridTransformerReplacementCostPerYear;costGrid.LowVoltageLineEquipmentOperationsAndMaintenanceCostPerYear",
+        "name": "costGrid.GridInternalSystemRecurringCostPerYear",
+        "section": "costGrid",
+        "type": "SINGLE_STMT_OTHER",
+        "units": "dollars per year"
+    },
+    {
+        "default": "",
+        "dependencies": "costGrid.GridInternalSystemInitialCost;costGrid.GridInternalSystemRecurringCostPerYear;demand.ProjectedNodalDemandPerYear;finance.DiscountedCashFlowFactor",
+        "name": "costGrid.GridInternalSystemNodalDiscountedCost",
+        "section": "costGrid",
+        "type": "OTHER",
+        "units": "dollars"
+    },
+    {
+        "default": "",
+        "dependencies": "costGrid.GridInternalSystemNodalDiscountedCost;demand.ProjectedNodalDiscountedDemand",
+        "name": "costGrid.GridInternalSystemNodalLevelizedCost",
+        "section": "costGrid",
+        "type": "OTHER",
+        "units": "dollars per kilowatt-hour"
+    },
+    {
+        "default": "",
+        "dependencies": "costGrid.GridMediumVoltageLineCostPerMeter;costGrid.GridMediumVoltageLineOperationsAndMaintenanceCostPerYearAsFractionOfLineCost",
+        "name": "costGrid.GridMediumVoltageLineOperationsAndMaintenanceCostPerMeterPerYear",
+        "section": "costGrid",
+        "type": "SINGLE_STMT_SIMPLE",
+        "units": "dollars per meter per year"
+    },
+    {
+        "default": "",
+        "dependencies": "costGrid.GridMediumVoltageLineCostPerMeter;costGrid.GridMediumVoltageLineLifetime",
+        "name": "costGrid.GridMediumVoltageLineReplacementCostPerMeterPerYear",
+        "section": "costGrid",
+        "type": "SINGLE_STMT_OTHER",
+        "units": "dollars per meter per year"
+    },
+    {
+        "default": "",
+        "dependencies": "costGrid.GridMediumVoltageLineCostPerMeter",
+        "name": "costGrid.GridExternalSystemInitialCostPerMeter",
+        "section": "costGrid",
+        "type": "SINGLE_STMT_SIMPLE",
+        "units": "dollars per meter"
+    },
+    {
+        "default": "",
+        "dependencies": "costGrid.GridMediumVoltageLineOperationsAndMaintenanceCostPerMeterPerYear;costGrid.GridMediumVoltageLineReplacementCostPerMeterPerYear",
+        "name": "costGrid.GridExternalSystemRecurringCostPerMeterPerYear",
+        "section": "costGrid",
+        "type": "SINGLE_STMT_SIMPLE",
+        "units": "dollars per meter per year"
+    },
+    {
+        "default": "",
+        "dependencies": "costGrid.GridExternalSystemRecurringCostPerMeterPerYear;finance.DiscountedCashFlowFactor",
+        "name": "costGrid.GridExternalSystemNodalDiscountedRecurringCostPerMeter",
+        "section": "costGrid",
+        "type": "SINGLE_STMT_SIMPLE",
+        "units": "dollars per meter"
+    },
+    {
+        "default": "",
+        "dependencies": "costGrid.GridExternalSystemInitialCostPerMeter;costGrid.GridExternalSystemNodalDiscountedRecurringCostPerMeter",
+        "name": "costGrid.GridExternalSystemNodalDiscountedCostPerMeter",
+        "section": "costGrid",
+        "type": "SINGLE_STMT_SIMPLE",
+        "units": "dollars per meter"
+    },
+    {
+        "default": "10",
+        "dependencies": "",
+        "name": "costDistribution.LowVoltageLineCostPerMeter",
+        "section": "costDistribution",
+        "type": "LEAF_VAR",
+        "units": "dollars per meter"
+    },
+    {
+        "default": "10",
+        "dependencies": "",
+        "name": "costDistribution.LowVoltageLineLifetime",
+        "section": "costDistribution",
+        "type": "LEAF_VAR",
+        "units": "years"
+    },
+    {
+        "default": "0.01",
+        "dependencies": "",
+        "name": "costDistribution.LowVoltageLineOperationsAndMaintenanceCostPerYearAsFractionOfLineCost",
+        "section": "costDistribution",
+        "type": "LEAF_VAR",
+        "units": ""
+    },
+    {
+        "default": "200",
+        "dependencies": "",
+        "name": "costDistribution.LowVoltageLineEquipmentCostPerConnection",
+        "section": "costDistribution",
+        "type": "LEAF_VAR",
+        "units": "dollars per connection"
+    },
+    {
+        "default": "0.01",
+        "dependencies": "",
+        "name": "costDistribution.LowVoltageLineEquipmentOperationsAndMaintenanceCostPerYearAsFractionOfEquipmentCost",
+        "section": "costDistribution",
+        "type": "LEAF_VAR",
+        "units": ""
+    },
+    {
+        "default": "",
+        "dependencies": "demand.TargetHouseholdCount;demographics.MeanInterhouseholdDistance",
+        "name": "costDistribution.LowVoltageLineLength",
+        "section": "costDistribution",
+        "type": "OTHER",
+        "units": "meters"
+    },
+    {
+        "default": "",
+        "dependencies": "costDistribution.LowVoltageLineCostPerMeter;costDistribution.LowVoltageLineLength",
+        "name": "costDistribution.LowVoltageLineInitialCost",
+        "section": "costDistribution",
+        "type": "SINGLE_STMT_SIMPLE",
+        "units": "dollars"
+    },
+    {
+        "default": "",
+        "dependencies": "costDistribution.LowVoltageLineCostPerMeter;costDistribution.LowVoltageLineLength;costDistribution.LowVoltageLineOperationsAndMaintenanceCostPerYearAsFractionOfLineCost",
+        "name": "costDistribution.LowVoltageLineOperationsAndMaintenanceCostPerYear",
+        "section": "costDistribution",
+        "type": "SINGLE_STMT_SIMPLE",
+        "units": "dollars per year"
+    },
+    {
+        "default": "",
+        "dependencies": "costDistribution.LowVoltageLineInitialCost;costDistribution.LowVoltageLineLifetime",
+        "name": "costDistribution.LowVoltageLineReplacementCostPerYear",
+        "section": "costDistribution",
+        "type": "SINGLE_STMT_OTHER",
+        "units": "dollars per year"
+    },
+    {
+        "default": "",
+        "dependencies": "costDistribution.LowVoltageLineOperationsAndMaintenanceCostPerYear;costDistribution.LowVoltageLineReplacementCostPerYear",
+        "name": "costDistribution.LowVoltageLineRecurringCostPerYear",
+        "section": "costDistribution",
+        "type": "SINGLE_STMT_OTHER",
+        "units": "dollars per year"
+    },
+    {
+        "default": "",
+        "dependencies": "costGrid.GridExternalSystemNodalDiscountedCostPerMeter;costGrid.GridInternalSystemNodalDiscountedCost;costGrid.GridInternalSystemNodalLevelizedCost;costMiniGrid.MiniGridSystemNodalDiscountedCost;costMiniGrid.MiniGridSystemNodalLevelizedCost;costOffGrid.OffGridSystemNodalDiscountedCost;costOffGrid.OffGridSystemNodalLevelizedCost",
+        "name": "Metric",
+        "section": "",
+        "type": "OTHER",
+        "units": "meters"
+    },
+    {
+        "default": "",
+        "dependencies": "costMiniGrid.MiniGridSystemNodalDiscountedCost;costOffGrid.OffGridSystemNodalDiscountedCost;demand.ProjectedNodalDemandPerYear",
+        "name": "System",
+        "section": "",
+        "type": "OTHER",
+        "units": ""
+    },
+    {
+        "default": "0",
+        "dependencies": "",
+        "name": "OffGridSystemTotal",
+        "section": "",
+        "type": "AGGREGATE",
+        "units": "count"
+    },
+    {
+        "default": "0",
+        "dependencies": "",
+        "name": "OffGridSystemTotalDiscountedDemand",
+        "section": "",
+        "type": "AGGREGATE",
+        "units": "kilowatt-hours"
+    },
+    {
+        "default": "0",
+        "dependencies": "",
+        "name": "OffGridSystemTotalDiscountedDieselCost",
+        "section": "",
+        "type": "AGGREGATE",
+        "units": "dollars"
+    },
+    {
+        "default": "0",
+        "dependencies": "",
+        "name": "OffGridSystemTotalDiscountedDieselFuelCost",
+        "section": "",
+        "type": "AGGREGATE",
+        "units": "dollars"
+    },
+    {
+        "default": "0",
+        "dependencies": "",
+        "name": "OffGridSystemTotalDiscountedCost",
+        "section": "",
+        "type": "AGGREGATE",
+        "units": "dollars"
+    },
+    {
+        "default": "",
+        "dependencies": "OffGridSystemTotalDiscountedCost;OffGridSystemTotalDiscountedDemand",
+        "name": "OffGridSystemTotalLevelizedCost",
+        "section": "",
+        "type": "OTHER",
+        "units": "dollars per kilowatt-hour"
+    },
+    {
+        "default": "0",
+        "dependencies": "",
+        "name": "OffGridSystemTotalInitialCost",
+        "section": "",
+        "type": "AGGREGATE",
+        "units": "dollars"
+    },
+    {
+        "default": "0",
+        "dependencies": "",
+        "name": "OffGridSystemTotalDiscountedRecurringCost",
+        "section": "",
+        "type": "AGGREGATE",
+        "units": "dollars"
+    },
+    {
+        "default": "0",
+        "dependencies": "",
+        "name": "MiniGridSystemTotal",
+        "section": "",
+        "type": "AGGREGATE",
+        "units": "count"
+    },
+    {
+        "default": "0",
+        "dependencies": "",
+        "name": "MiniGridSystemTotalDiscountedEnergyStorageCost",
+        "section": "",
+        "type": "AGGREGATE",
+        "units": "dollars"
+    },
+    {
+        "default": "0",
+        "dependencies": "",
+        "name": "MiniGridSystemTotalDiscountedGenerationCost",
+        "section": "",
+        "type": "AGGREGATE",
+        "units": "dollars"
+    },
+    {
+        "default": "0",
+        "dependencies": "",
+        "name": "MiniGridSystemTotalDiscountedCost",
+        "section": "",
+        "type": "AGGREGATE",
+        "units": "dollars"
+    },
+    {
+        "default": "0",
+        "dependencies": "",
+        "name": "MiniGridSystemTotalDiscountedDemand",
+        "section": "",
+        "type": "AGGREGATE",
+        "units": "kilowatt-hours"
+    },
+    {
+        "default": "0",
+        "dependencies": "",
+        "name": "MiniGridSystemTotalInitialCost",
+        "section": "",
+        "type": "AGGREGATE",
+        "units": "dollars"
+    },
+    {
+        "default": "0",
+        "dependencies": "",
+        "name": "MiniGridSystemTotalDiscountedRecurringCost",
+        "section": "",
+        "type": "AGGREGATE",
+        "units": "dollars"
+    },
+    {
+        "default": "",
+        "dependencies": "MiniGridSystemTotalDiscountedCost;MiniGridSystemTotalDiscountedDemand",
+        "name": "MiniGridSystemTotalLevelizedCost",
+        "section": "",
+        "type": "OTHER",
+        "units": "dollars per kilowatt-hour"
+    },
+    {
+        "default": "0",
+        "dependencies": "",
+        "name": "GridSystemTotal",
+        "section": "",
+        "type": "AGGREGATE",
+        "units": "count"
+    },
+    {
+        "default": "0",
+        "dependencies": "",
+        "name": "GridSystemTotalDiscountedDemand",
+        "section": "",
+        "type": "AGGREGATE",
+        "units": "kilowatt-hours"
+    },
+    {
+        "default": "0",
+        "dependencies": "",
+        "name": "GridSystemTotalExternalInitialCost",
+        "section": "",
+        "type": "AGGREGATE",
+        "units": "dollars"
+    },
+    {
+        "default": "0",
+        "dependencies": "",
+        "name": "GridSystemTotalExternalDiscountedRecurringCost",
+        "section": "",
+        "type": "AGGREGATE",
+        "units": "dollars"
+    },
+    {
+        "default": "0",
+        "dependencies": "",
+        "name": "GridSystemTotalDiscountedCost",
+        "section": "",
+        "type": "AGGREGATE",
+        "units": "dollars"
+    },
+    {
+        "default": "",
+        "dependencies": "GridSystemTotalDiscountedCost;GridSystemTotalDiscountedDemand",
+        "name": "GridSystemTotalLevelizedCost",
+        "section": "",
+        "type": "OTHER",
+        "units": "dollars per kilowatt-hour"
+    },
+    {
+        "default": "0",
+        "dependencies": "",
+        "name": "GridSystemTotalInternalInitialCost",
+        "section": "",
+        "type": "AGGREGATE",
+        "units": "dollars"
+    },
+    {
+        "default": "0",
+        "dependencies": "finance.DiscountedCashFlowFactor",
+        "name": "GridSystemTotalInternalDiscountedRecurringCost",
+        "section": "",
+        "type": "AGGREGATE",
+        "units": "dollars"
+    },
+    {
+        "default": "",
+        "dependencies": "GridSystemTotalExternalInitialCost;GridSystemTotalInternalInitialCost",
+        "name": "GridSystemTotalInitialCost",
+        "section": "",
+        "type": "SINGLE_STMT_SIMPLE",
+        "units": "dollars"
+    },
+    {
+        "default": "",
+        "dependencies": "GridSystemTotalExternalDiscountedRecurringCost;GridSystemTotalInternalDiscountedRecurringCost",
+        "name": "GridSystemTotalDiscountedRecurringCost",
+        "section": "",
+        "type": "OTHER",
+        "units": "dollars"
+    },
+    {
+        "default": "",
+        "dependencies": "",
+        "name": "GridSystemTotalExistingNetworkLength",
+        "section": "",
+        "type": "SINGLE_STMT_OTHER",
+        "units": "meters"
+    },
+    {
+        "default": "",
+        "dependencies": "",
+        "name": "GridSystemTotalProposedNetworkLength",
+        "section": "",
+        "type": "SINGLE_STMT_OTHER",
+        "units": "meters"
+    },
+    {
+        "default": "0",
+        "dependencies": "",
+        "name": "demographics.PopulationCount",
+        "section": "demographics",
+        "type": "LEAF_VAR",
+        "units": "person count"
+    },
+    {
+        "default": "0.015",
+        "dependencies": "",
+        "name": "demographics.RuralPopulationGrowthRatePerYear",
+        "section": "demographics",
+        "type": "LEAF_VAR",
+        "units": "fraction per year"
+    },
+    {
+        "default": "0.036",
+        "dependencies": "",
+        "name": "demographics.UrbanPopulationGrowthRatePerYear",
+        "section": "demographics",
+        "type": "LEAF_VAR",
+        "units": "fraction per year"
+    },
+    {
+        "default": "9.6",
+        "dependencies": "",
+        "name": "demographics.RuralMeanHouseholdSize",
+        "section": "demographics",
+        "type": "LEAF_VAR",
+        "units": "person count"
+    },
+    {
+        "default": "7.5",
+        "dependencies": "",
+        "name": "demographics.UrbanMeanHouseholdSize",
+        "section": "demographics",
+        "type": "LEAF_VAR",
+        "units": "person count"
+    },
+    {
+        "default": "5000",
+        "dependencies": "",
+        "name": "demographics.UrbanPopulationThreshold",
+        "section": "demographics",
+        "type": "LEAF_VAR",
+        "units": "person count"
+    },
+    {
+        "default": "25",
+        "dependencies": "",
+        "name": "demographics.MeanInterhouseholdDistance",
+        "section": "demographics",
+        "type": "LEAF_VAR",
+        "units": "meters"
+    },
+    {
+        "default": "",
+        "dependencies": "demographics.PopulationCount;demographics.RuralPopulationGrowthRatePerYear;demographics.UrbanPopulationGrowthRatePerYear;demographics.UrbanPopulationThreshold;finance.TimeHorizon",
+        "name": "demographics.ProjectedPopulationCounts",
+        "section": "demographics",
+        "type": "OTHER",
+        "units": "person count list"
+    },
+    {
+        "default": "",
+        "dependencies": "demographics.ProjectedPopulationCounts",
+        "name": "demographics.ProjectedPopulationCount",
+        "section": "demographics",
+        "type": "SINGLE_STMT_OTHER",
+        "units": "person count"
+    },
+    {
+        "default": "",
+        "dependencies": "demographics.ProjectedPopulationCount;demographics.UrbanPopulationThreshold",
+        "name": "demographics.IsRural",
+        "section": "demographics",
+        "type": "SINGLE_STMT_OTHER",
+        "units": "binary"
+    },
+    {
+        "default": "",
+        "dependencies": "demographics.IsRural;demographics.RuralMeanHouseholdSize;demographics.UrbanMeanHouseholdSize",
+        "name": "demographics.MeanHouseholdSize",
+        "section": "demographics",
+        "type": "SINGLE_STMT_OTHER",
+        "units": "person count"
+    },
+    {
+        "default": "",
+        "dependencies": "demographics.MeanHouseholdSize;demographics.ProjectedPopulationCount",
+        "name": "demographics.ProjectedHouseholdCount",
+        "section": "demographics",
+        "type": "SINGLE_STMT_OTHER",
+        "units": "households"
+    },
+    {
+        "default": "0.1",
+        "dependencies": "",
+        "name": "costMiniGrid.DistributionLoss",
+        "section": "costMiniGrid",
+        "type": "LEAF_VAR",
+        "units": "fraction"
+    },
+    {
+        "default": "1000 750 500 400 200 150 100 70 32 19 12 6",
+        "dependencies": "",
+        "name": "costMiniGrid.GenerationAvailableSystemCapacities",
+        "section": "costMiniGrid",
+        "type": "LEAF_VAR",
+        "units": "kilowatts list"
+    },
+    {
+        "default": "150",
+        "dependencies": "",
+        "name": "costMiniGrid.GenerationCostPerSystemKilowatt",
+        "section": "costMiniGrid",
+        "type": "LEAF_VAR",
+        "units": "dollars per kilowatt"
+    },
+    {
+        "default": "0.25",
+        "dependencies": "",
+        "name": "costMiniGrid.GenerationInstallationCostAsFractionOfGenerationCost",
+        "section": "costMiniGrid",
+        "type": "LEAF_VAR",
+        "units": "fraction"
+    },
+    {
+        "default": "5",
+        "dependencies": "",
+        "name": "costMiniGrid.GenerationLifetime",
+        "section": "costMiniGrid",
+        "type": "LEAF_VAR",
+        "units": "years"
+    },
+    {
+        "default": "0.54",
+        "dependencies": "",
+        "name": "costMiniGrid.EnergyStorageCostPerKilowattHour",
+        "section": "costMiniGrid",
+        "type": "LEAF_VAR",
+        "units": "dollars per kilowatt-hour"
+    },
+    {
+        "default": "1.0",
+        "dependencies": "",
+        "name": "costMiniGrid.PercentOfDailyKilowattHourLoadRequiringStorage",
+        "section": "costMiniGrid",
+        "type": "LEAF_VAR",
+        "units": "fraction"
+    },
+    {
+        "default": "24",
+        "dependencies": "",
+        "name": "costMiniGrid.MinimumEnergyStorageCapacity",
+        "section": "costMiniGrid",
+        "type": "LEAF_VAR",
+        "units": "kilowatt-hours per day"
+    },
+    {
+        "default": "1.0",
+        "dependencies": "",
+        "name": "costMiniGrid.GenerationCapacityFactor",
+        "section": "costMiniGrid",
+        "type": "LEAF_VAR",
+        "units": "fraction"
+    },
+    {
+        "default": "0.416667",
+        "dependencies": "",
+        "name": "costMiniGrid.UtilizationFactor",
+        "section": "costMiniGrid",
+        "type": "LEAF_VAR",
+        "units": "fraction"
+    },
+    {
+        "default": "0.01",
+        "dependencies": "",
+        "name": "costMiniGrid.GenerationOperationsAndMaintenanceCostPerYearAsFractionOfGenerationCost",
+        "section": "costMiniGrid",
+        "type": "LEAF_VAR",
+        "units": "fraction"
+    },
+    {
+        "default": "",
+        "dependencies": "costMiniGrid.DistributionLoss;costMiniGrid.GenerationCapacityFactor;costMiniGrid.UtilizationFactor;demand.ProjectedNodalDemandPerYear",
+        "name": "costMiniGrid.GenerationDesiredSystemCapacity",
+        "section": "costMiniGrid",
+        "type": "OTHER",
+        "units": "kilowatts"
+    },
+    {
+        "default": "",
+        "dependencies": "costMiniGrid.GenerationAvailableSystemCapacities;costMiniGrid.GenerationDesiredSystemCapacity",
+        "name": "costMiniGrid.GenerationActualSystemCapacityCounts",
+        "section": "costMiniGrid",
+        "type": "SINGLE_STMT_OTHER",
+        "units": "capacity count list"
+    },
+    {
+        "default": "",
+        "dependencies": "costMiniGrid.GenerationActualSystemCapacityCounts;costMiniGrid.GenerationAvailableSystemCapacities",
+        "name": "costMiniGrid.GenerationActualSystemCapacity",
+        "section": "costMiniGrid",
+        "type": "SINGLE_STMT_OTHER",
+        "units": "kilowatts"
+    },
+    {
+        "default": "",
+        "dependencies": "costDistribution.LowVoltageLineEquipmentCostPerConnection;demand.TargetHouseholdCount",
+        "name": "costMiniGrid.LowVoltageLineEquipmentCost",
+        "section": "costMiniGrid",
+        "type": "SINGLE_STMT_SIMPLE",
+        "units": "dollars"
+    },
+    {
+        "default": "",
+        "dependencies": "costDistribution.LowVoltageLineEquipmentOperationsAndMaintenanceCostPerYearAsFractionOfEquipmentCost;costMiniGrid.LowVoltageLineEquipmentCost",
+        "name": "costMiniGrid.LowVoltageLineEquipmentOperationsAndMaintenanceCostPerYear",
+        "section": "costMiniGrid",
+        "type": "SINGLE_STMT_SIMPLE",
+        "units": "dollars per year"
+    },
+    {
+        "default": "",
+        "dependencies": "costMiniGrid.GenerationActualSystemCapacity;costMiniGrid.GenerationCostPerSystemKilowatt",
+        "name": "costMiniGrid.GenerationCost",
+        "section": "costMiniGrid",
+        "type": "SINGLE_STMT_SIMPLE",
+        "units": "dollars"
+    },
+    {
+        "default": "",
+        "dependencies": "costMiniGrid.GenerationCost;costMiniGrid.GenerationInstallationCostAsFractionOfGenerationCost",
+        "name": "costMiniGrid.GenerationInstallationCost",
+        "section": "costMiniGrid",
+        "type": "SINGLE_STMT_SIMPLE",
+        "units": "dollars"
+    },
+    {
+        "default": "",
+        "dependencies": "costMiniGrid.GenerationCost;costMiniGrid.GenerationOperationsAndMaintenanceCostPerYearAsFractionOfGenerationCost",
+        "name": "costMiniGrid.GenerationOperationsAndMaintenanceCostPerYear",
+        "section": "costMiniGrid",
+        "type": "SINGLE_STMT_SIMPLE",
+        "units": "dollars per year"
+    },
+    {
+        "default": "",
+        "dependencies": "costMiniGrid.GenerationCost;costMiniGrid.GenerationLifetime",
+        "name": "costMiniGrid.GenerationReplacementCostPerYear",
+        "section": "costMiniGrid",
+        "type": "SINGLE_STMT_OTHER",
+        "units": "dollars per year"
+    },
+    {
+        "default": "",
+        "dependencies": "costMiniGrid.DistributionLoss;costMiniGrid.MinimumEnergyStorageCapacity;costMiniGrid.PercentOfDailyKilowattHourLoadRequiringStorage;demand.ProjectedNodalDemandPerYear",
+        "name": "costMiniGrid.EnergyStorageDemandPerYear",
+        "section": "costMiniGrid",
+        "type": "OTHER",
+        "units": "kilowatt-hours per year"
+    },
+    {
+        "default": "",
+        "dependencies": "costMiniGrid.EnergyStorageCostPerKilowattHour;costMiniGrid.EnergyStorageDemandPerYear",
+        "name": "costMiniGrid.EnergyStorageCostPerYear",
+        "section": "costMiniGrid",
+        "type": "SINGLE_STMT_SIMPLE",
+        "units": "dollars per year"
+    },
+    {
+        "default": "",
+        "dependencies": "costMiniGrid.EnergyStorageCostPerYear;finance.DiscountedCashFlowFactor",
+        "name": "costMiniGrid.MiniGridSystemNodalDiscountedEnergyStorageCost",
+        "section": "costMiniGrid",
+        "type": "SINGLE_STMT_SIMPLE",
+        "units": "dollars"
+    },
+    {
+        "default": "",
+        "dependencies": "costMiniGrid.GenerationCost;costMiniGrid.GenerationInstallationCost",
+        "name": "costMiniGrid.MiniGridSystemInitialGenerationCost",
+        "section": "costMiniGrid",
+        "type": "SINGLE_STMT_OTHER",
+        "units": "dollars"
+    },
+    {
+        "default": "",
+        "dependencies": "costMiniGrid.EnergyStorageCostPerYear;costMiniGrid.GenerationOperationsAndMaintenanceCostPerYear;costMiniGrid.GenerationReplacementCostPerYear",
+        "name": "costMiniGrid.MiniGridSystemRecurringGenerationCostPerYear",
+        "section": "costMiniGrid",
+        "type": "SINGLE_STMT_OTHER",
+        "units": "dollars per year"
+    },
+    {
+        "default": "",
+        "dependencies": "costMiniGrid.MiniGridSystemInitialGenerationCost;costMiniGrid.MiniGridSystemRecurringGenerationCostPerYear;finance.DiscountedCashFlowFactor",
+        "name": "costMiniGrid.MiniGridSystemNodalDiscountedGenerationCost",
+        "section": "costMiniGrid",
+        "type": "SINGLE_STMT_SIMPLE",
+        "units": "dollars"
+    },
+    {
+        "default": "",
+        "dependencies": "costDistribution.LowVoltageLineInitialCost;costMiniGrid.GenerationCost;costMiniGrid.GenerationInstallationCost;costMiniGrid.LowVoltageLineEquipmentCost",
+        "name": "costMiniGrid.MiniGridSystemInitialCost",
+        "section": "costMiniGrid",
+        "type": "SINGLE_STMT_OTHER",
+        "units": "dollars"
+    },
+    {
+        "default": "",
+        "dependencies": "costDistribution.LowVoltageLineRecurringCostPerYear;costMiniGrid.EnergyStorageCostPerYear;costMiniGrid.GenerationOperationsAndMaintenanceCostPerYear;costMiniGrid.GenerationReplacementCostPerYear;costMiniGrid.LowVoltageLineEquipmentOperationsAndMaintenanceCostPerYear",
+        "name": "costMiniGrid.MiniGridSystemRecurringCostPerYear",
+        "section": "costMiniGrid",
+        "type": "SINGLE_STMT_OTHER",
+        "units": "dollars per year"
+    },
+    {
+        "default": "",
+        "dependencies": "costMiniGrid.MiniGridSystemInitialCost;costMiniGrid.MiniGridSystemRecurringCostPerYear;demand.ProjectedNodalDemandPerYear;finance.DiscountedCashFlowFactor",
+        "name": "costMiniGrid.MiniGridSystemNodalDiscountedCost",
+        "section": "costMiniGrid",
+        "type": "OTHER",
+        "units": "dollars"
+    },
+    {
+        "default": "",
+        "dependencies": "costMiniGrid.MiniGridSystemNodalDiscountedCost;demand.ProjectedNodalDiscountedDemand",
+        "name": "costMiniGrid.MiniGridSystemNodalLevelizedCost",
+        "section": "costMiniGrid",
+        "type": "OTHER",
+        "units": "dollars per kilowatt-hour"
+    }
+]

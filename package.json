@@ -1,0 +1,19 @@
+{
+  "name": "metric-model-analysis",
+  "version": "1.0.0",
+  "description": "Utilities for parsing and analyzing metric model definitions",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sel-columbia/metric-model-analysis.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sel-columbia/metric-model-analysis/issues"
+  },
+  "homepage": "https://github.com/sel-columbia/metric-model-analysis#readme"
+}
