@@ -8,15 +8,22 @@
             background-color: black;
             color: white;
         }
+        svg {
+            background-color: white;
+            border: 2px solid red;
+        } 
         p {
             font-size: 24px;
             font-weight: bold;
             background-color: red;
             color: white;
         }
-        svg {
-            background-color: white;
+        svg rect.border {
+            stroke: gray;
+            fill: rgba(0,0,255,0.2);
+            stroke-width: 2;
         }
+ 
         svg circle.node {
             # stroke: gray;
             fill: rgba(0,0,255,0.5);
@@ -50,6 +57,7 @@
     <p>
     Graph of the relations of computations in the metric model.
     </p>
+    <div class="box"></div>
     <!--
     <svg width="1000" height="1000">
         <circle class="node" cx="50" cy="50" r="25"/>
@@ -57,28 +65,54 @@
         <line class="edge" x1="25" y1="25" x2="75" y2="75"/>
         <text class="code" x="125" y="50">a + b</text>
     </svg>
+    <svg width="1000" height="1000"></svg>
     -->
-    <svg width="1000" height="1000">
-    </svg>
     <script type="text/javascript">
-        var width = height = 1000;
-        var buff = 10;
-        render = function(data) {
+        // add margin by mbostock convention (bl.ocks.org/mbostock/3019563)
+        var svg_width = svg_height = 1000;
+        var margin = {top: 20, right: 20, bottom: 20, left: 20};
+        var width = svg_width - margin.left - margin.right;
+        var height = svg_height - margin.top - margin.bottom;
+        var xScale = d3.scale.linear()
+                        .domain([-width / 2, width / 2])
+                        .range([0, width]);
+
+        var yScale = d3.scale.linear()
+                        .domain([-height / 2, height / 2])
+                        .range([height, 0]);
+
+
+        function zoomed() {
+            d3.select("body svg g").attr("transform", "translate(" + d3.event.translate + ")scale(" + d3.event.scale + ")");
+        }
+
+        var zoom = d3.behavior.zoom()
+                    .x(xScale)
+                    .y(yScale)
+                    .scaleExtent([1, 10])
+                    .on("zoom", zoomed);
+
+        var svg = d3.select("body").append("svg").attr({width: svg_width, height: svg_height})
+                    .append("g")
+                    .attr("transform", "translate(" + margin.left + "," + margin.top + ")")
+                    .call(zoom);
+
+        svg.append("rect").classed("border", true).attr({x: 0, y: 0, width: width, height: height});
+
+        function render(data) {
             num_nodes = data.length;
-            render_w = width - 2 * buff;
-            render_h = height - 2 * buff;
-            num_per_row = Math.ceil((render_w / render_h) * Math.sqrt(num_nodes));
-            num_per_col = Math.ceil((render_h / render_w) * Math.sqrt(num_nodes));
-            x_inc = render_w / num_per_row;
-            y_inc = render_h / num_per_col;
+            num_per_row = Math.ceil((width / height) * Math.sqrt(num_nodes));
+            num_per_col = Math.ceil((height / width) * Math.sqrt(num_nodes));
+            x_inc = width / num_per_row;
+            y_inc = height / num_per_col;
             font_size = Math.ceil(Math.min(x_inc, y_inc) * (1/25));
             x_fun = function(d, i) { return (i%num_per_row)*x_inc + x_inc/2; }
             y_fun = function(d, i) { return Math.floor(i/num_per_row)*y_inc + y_inc/2; }
-            d3.select("svg").selectAll("circle").data(data)
+            svg.selectAll("circle").data(data)
                 .enter()
                 .append("text")
-                .attr({class: "node_name", 
-                       x: function(d, i) { return x_fun(d, i); }, 
+                .classed("node_name", true)
+                .attr({x: function(d, i) { return x_fun(d, i); }, 
                        y: function(d, i) { return y_fun(d, i); },
                        "font-size": font_size})
                 .text(function(d) { return d.alias; });
