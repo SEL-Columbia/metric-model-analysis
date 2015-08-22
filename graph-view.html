@@ -42,12 +42,11 @@
             fill: black;
         }
         svg text.node_name{
+            font: 4px sans-serif;
             fill: black;
-            stroke: black;
-            stroke-width: 1;
+            // stroke: black;
+            // stroke-width: 1;
         }
-
-
 
     </style>
     <title>Graph View of Metric Model</title>
@@ -82,20 +81,21 @@
                         .range([height, 0]);
 
 
-        function zoomed() {
-            d3.select("body svg g").attr("transform", "translate(" + d3.event.translate + ")scale(" + d3.event.scale + ")");
-        }
-
         var zoom = d3.behavior.zoom()
                     .x(xScale)
                     .y(yScale)
-                    .scaleExtent([1, 10])
+                    .scaleExtent([0.5, 10])
                     .on("zoom", zoomed);
 
         var svg = d3.select("body").append("svg").attr({width: svg_width, height: svg_height})
                     .append("g")
                     .attr("transform", "translate(" + margin.left + "," + margin.top + ")")
                     .call(zoom);
+        var g = svg.append("g");
+
+        function zoomed() {
+            d3.select("body svg g g").attr("transform", "translate(" + d3.event.translate + ")scale(" + d3.event.scale + ")");
+        }
 
         svg.append("rect").classed("border", true).attr({x: 0, y: 0, width: width, height: height});
 
@@ -108,13 +108,12 @@
             font_size = Math.ceil(Math.min(x_inc, y_inc) * (1/25));
             x_fun = function(d, i) { return (i%num_per_row)*x_inc + x_inc/2; }
             y_fun = function(d, i) { return Math.floor(i/num_per_row)*y_inc + y_inc/2; }
-            svg.selectAll("circle").data(data)
+            g.selectAll("circle").data(data)
                 .enter()
                 .append("text")
                 .classed("node_name", true)
                 .attr({x: function(d, i) { return x_fun(d, i); }, 
-                       y: function(d, i) { return y_fun(d, i); },
-                       "font-size": font_size})
+                       y: function(d, i) { return y_fun(d, i); }})
                 .text(function(d) { return d.alias; });
                 /*
                 .append("circle")
