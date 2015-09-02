@@ -332,7 +332,7 @@ else:
 # write variable dicts appropriately
 if args.to_graph:
     # todo import as networkx graph and write json
-    g = nx.Graph()
+    g = nx.DiGraph()
     for var in vars:
         g.add_node(var['name'], **var)
 
@@ -340,7 +340,17 @@ if args.to_graph:
         for dep in var['dependencies']:
             g.add_edge(var['name'], dep)
 
-    pos=nx.fruchterman_reingold_layout(g)   
+    # pos=nx.fruchterman_reingold_layout(g)   
+    # copy graph without attributes as these seem to
+    # mess with pydot
+    g2 = nx.DiGraph()
+    for node in g.nodes():
+        g2.add_node(node)
+    
+    for from_node, to_node in g.edges():
+        g2.add_edge(from_node, to_node)
+
+    pos=nx.graphviz_layout(g2, prog='dot')
     for node in g.nodes():
         g.node[node]['x'] = pos[node][0]
         g.node[node]['y'] = pos[node][1]
