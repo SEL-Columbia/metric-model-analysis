@@ -1,0 +1,4612 @@
+{
+    "directed": true, 
+    "graph": {}, 
+    "links": [
+        {
+            "source": 0, 
+            "target": 166
+        }, 
+        {
+            "source": 0, 
+            "target": 83
+        }, 
+        {
+            "source": 1, 
+            "target": 215
+        }, 
+        {
+            "source": 1, 
+            "target": 152
+        }, 
+        {
+            "source": 1, 
+            "target": 176
+        }, 
+        {
+            "source": 1, 
+            "target": 128
+        }, 
+        {
+            "source": 2, 
+            "target": 198
+        }, 
+        {
+            "source": 2, 
+            "target": 14
+        }, 
+        {
+            "source": 6, 
+            "target": 56
+        }, 
+        {
+            "source": 6, 
+            "target": 20
+        }, 
+        {
+            "source": 7, 
+            "target": 0
+        }, 
+        {
+            "source": 7, 
+            "target": 1
+        }, 
+        {
+            "source": 9, 
+            "target": 97
+        }, 
+        {
+            "source": 9, 
+            "target": 79
+        }, 
+        {
+            "source": 10, 
+            "target": 110
+        }, 
+        {
+            "source": 10, 
+            "target": 71
+        }, 
+        {
+            "source": 11, 
+            "target": 158
+        }, 
+        {
+            "source": 11, 
+            "target": 112
+        }, 
+        {
+            "source": 12, 
+            "target": 6
+        }, 
+        {
+            "source": 12, 
+            "target": 106
+        }, 
+        {
+            "source": 12, 
+            "target": 196
+        }, 
+        {
+            "source": 12, 
+            "target": 119
+        }, 
+        {
+            "source": 13, 
+            "target": 117
+        }, 
+        {
+            "source": 13, 
+            "target": 121
+        }, 
+        {
+            "source": 14, 
+            "target": 154
+        }, 
+        {
+            "source": 14, 
+            "target": 0
+        }, 
+        {
+            "source": 14, 
+            "target": 157
+        }, 
+        {
+            "source": 14, 
+            "target": 205
+        }, 
+        {
+            "source": 17, 
+            "target": 23
+        }, 
+        {
+            "source": 17, 
+            "target": 151
+        }, 
+        {
+            "source": 18, 
+            "target": 104
+        }, 
+        {
+            "source": 18, 
+            "target": 50
+        }, 
+        {
+            "source": 19, 
+            "target": 31
+        }, 
+        {
+            "source": 19, 
+            "target": 173
+        }, 
+        {
+            "source": 19, 
+            "target": 51
+        }, 
+        {
+            "source": 25, 
+            "target": 73
+        }, 
+        {
+            "source": 25, 
+            "target": 190
+        }, 
+        {
+            "source": 25, 
+            "target": 43
+        }, 
+        {
+            "source": 25, 
+            "target": 57
+        }, 
+        {
+            "source": 25, 
+            "target": 141
+        }, 
+        {
+            "source": 25, 
+            "target": 144
+        }, 
+        {
+            "source": 29, 
+            "target": 150
+        }, 
+        {
+            "source": 29, 
+            "target": 179
+        }, 
+        {
+            "source": 29, 
+            "target": 122
+        }, 
+        {
+            "source": 29, 
+            "target": 132
+        }, 
+        {
+            "source": 30, 
+            "target": 154
+        }, 
+        {
+            "source": 30, 
+            "target": 182
+        }, 
+        {
+            "source": 30, 
+            "target": 0
+        }, 
+        {
+            "source": 30, 
+            "target": 168
+        }, 
+        {
+            "source": 31, 
+            "target": 163
+        }, 
+        {
+            "source": 31, 
+            "target": 120
+        }, 
+        {
+            "source": 33, 
+            "target": 85
+        }, 
+        {
+            "source": 33, 
+            "target": 217
+        }, 
+        {
+            "source": 34, 
+            "target": 28
+        }, 
+        {
+            "source": 34, 
+            "target": 164
+        }, 
+        {
+            "source": 34, 
+            "target": 180
+        }, 
+        {
+            "source": 36, 
+            "target": 202
+        }, 
+        {
+            "source": 36, 
+            "target": 45
+        }, 
+        {
+            "source": 37, 
+            "target": 54
+        }, 
+        {
+            "source": 37, 
+            "target": 97
+        }, 
+        {
+            "source": 39, 
+            "target": 40
+        }, 
+        {
+            "source": 39, 
+            "target": 138
+        }, 
+        {
+            "source": 41, 
+            "target": 163
+        }, 
+        {
+            "source": 41, 
+            "target": 64
+        }, 
+        {
+            "source": 45, 
+            "target": 202
+        }, 
+        {
+            "source": 45, 
+            "target": 25
+        }, 
+        {
+            "source": 47, 
+            "target": 0
+        }, 
+        {
+            "source": 47, 
+            "target": 51
+        }, 
+        {
+            "source": 50, 
+            "target": 49
+        }, 
+        {
+            "source": 50, 
+            "target": 58
+        }, 
+        {
+            "source": 51, 
+            "target": 167
+        }, 
+        {
+            "source": 51, 
+            "target": 124
+        }, 
+        {
+            "source": 56, 
+            "target": 146
+        }, 
+        {
+            "source": 56, 
+            "target": 143
+        }, 
+        {
+            "source": 56, 
+            "target": 93
+        }, 
+        {
+            "source": 57, 
+            "target": 185
+        }, 
+        {
+            "source": 57, 
+            "target": 130
+        }, 
+        {
+            "source": 57, 
+            "target": 156
+        }, 
+        {
+            "source": 57, 
+            "target": 4
+        }, 
+        {
+            "source": 57, 
+            "target": 121
+        }, 
+        {
+            "source": 59, 
+            "target": 164
+        }, 
+        {
+            "source": 59, 
+            "target": 26
+        }, 
+        {
+            "source": 59, 
+            "target": 140
+        }, 
+        {
+            "source": 60, 
+            "target": 142
+        }, 
+        {
+            "source": 60, 
+            "target": 198
+        }, 
+        {
+            "source": 62, 
+            "target": 75
+        }, 
+        {
+            "source": 62, 
+            "target": 38
+        }, 
+        {
+            "source": 63, 
+            "target": 82
+        }, 
+        {
+            "source": 63, 
+            "target": 116
+        }, 
+        {
+            "source": 64, 
+            "target": 174
+        }, 
+        {
+            "source": 64, 
+            "target": 163
+        }, 
+        {
+            "source": 65, 
+            "target": 203
+        }, 
+        {
+            "source": 65, 
+            "target": 121
+        }, 
+        {
+            "source": 68, 
+            "target": 24
+        }, 
+        {
+            "source": 68, 
+            "target": 37
+        }, 
+        {
+            "source": 69, 
+            "target": 114
+        }, 
+        {
+            "source": 69, 
+            "target": 42
+        }, 
+        {
+            "source": 70, 
+            "target": 67
+        }, 
+        {
+            "source": 70, 
+            "target": 178
+        }, 
+        {
+            "source": 71, 
+            "target": 34
+        }, 
+        {
+            "source": 71, 
+            "target": 96
+        }, 
+        {
+            "source": 72, 
+            "target": 102
+        }, 
+        {
+            "source": 72, 
+            "target": 195
+        }, 
+        {
+            "source": 72, 
+            "target": 185
+        }, 
+        {
+            "source": 72, 
+            "target": 156
+        }, 
+        {
+            "source": 72, 
+            "target": 121
+        }, 
+        {
+            "source": 78, 
+            "target": 98
+        }, 
+        {
+            "source": 78, 
+            "target": 191
+        }, 
+        {
+            "source": 79, 
+            "target": 102
+        }, 
+        {
+            "source": 79, 
+            "target": 65
+        }, 
+        {
+            "source": 79, 
+            "target": 130
+        }, 
+        {
+            "source": 79, 
+            "target": 13
+        }, 
+        {
+            "source": 80, 
+            "target": 163
+        }, 
+        {
+            "source": 80, 
+            "target": 179
+        }, 
+        {
+            "source": 80, 
+            "target": 37
+        }, 
+        {
+            "source": 80, 
+            "target": 64
+        }, 
+        {
+            "source": 82, 
+            "target": 216
+        }, 
+        {
+            "source": 82, 
+            "target": 128
+        }, 
+        {
+            "source": 84, 
+            "target": 103
+        }, 
+        {
+            "source": 84, 
+            "target": 165
+        }, 
+        {
+            "source": 85, 
+            "target": 0
+        }, 
+        {
+            "source": 87, 
+            "target": 139
+        }, 
+        {
+            "source": 87, 
+            "target": 136
+        }, 
+        {
+            "source": 90, 
+            "target": 159
+        }, 
+        {
+            "source": 90, 
+            "target": 132
+        }, 
+        {
+            "source": 91, 
+            "target": 135
+        }, 
+        {
+            "source": 91, 
+            "target": 78
+        }, 
+        {
+            "source": 91, 
+            "target": 90
+        }, 
+        {
+            "source": 91, 
+            "target": 127
+        }, 
+        {
+            "source": 91, 
+            "target": 162
+        }, 
+        {
+            "source": 92, 
+            "target": 81
+        }, 
+        {
+            "source": 92, 
+            "target": 22
+        }, 
+        {
+            "source": 93, 
+            "target": 207
+        }, 
+        {
+            "source": 93, 
+            "target": 36
+        }, 
+        {
+            "source": 97, 
+            "target": 171
+        }, 
+        {
+            "source": 97, 
+            "target": 5
+        }, 
+        {
+            "source": 98, 
+            "target": 179
+        }, 
+        {
+            "source": 98, 
+            "target": 44
+        }, 
+        {
+            "source": 102, 
+            "target": 189
+        }, 
+        {
+            "source": 102, 
+            "target": 121
+        }, 
+        {
+            "source": 103, 
+            "target": 49
+        }, 
+        {
+            "source": 104, 
+            "target": 49
+        }, 
+        {
+            "source": 104, 
+            "target": 187
+        }, 
+        {
+            "source": 106, 
+            "target": 177
+        }, 
+        {
+            "source": 106, 
+            "target": 93
+        }, 
+        {
+            "source": 107, 
+            "target": 193
+        }, 
+        {
+            "source": 107, 
+            "target": 198
+        }, 
+        {
+            "source": 109, 
+            "target": 2
+        }, 
+        {
+            "source": 109, 
+            "target": 60
+        }, 
+        {
+            "source": 109, 
+            "target": 84
+        }, 
+        {
+            "source": 109, 
+            "target": 107
+        }, 
+        {
+            "source": 109, 
+            "target": 193
+        }, 
+        {
+            "source": 109, 
+            "target": 142
+        }, 
+        {
+            "source": 109, 
+            "target": 14
+        }, 
+        {
+            "source": 110, 
+            "target": 121
+        }, 
+        {
+            "source": 110, 
+            "target": 156
+        }, 
+        {
+            "source": 110, 
+            "target": 100
+        }, 
+        {
+            "source": 110, 
+            "target": 69
+        }, 
+        {
+            "source": 110, 
+            "target": 97
+        }, 
+        {
+            "source": 117, 
+            "target": 155
+        }, 
+        {
+            "source": 117, 
+            "target": 86
+        }, 
+        {
+            "source": 119, 
+            "target": 146
+        }, 
+        {
+            "source": 119, 
+            "target": 206
+        }, 
+        {
+            "source": 121, 
+            "target": 194
+        }, 
+        {
+            "source": 122, 
+            "target": 54
+        }, 
+        {
+            "source": 122, 
+            "target": 9
+        }, 
+        {
+            "source": 124, 
+            "target": 154
+        }, 
+        {
+            "source": 124, 
+            "target": 66
+        }, 
+        {
+            "source": 124, 
+            "target": 48
+        }, 
+        {
+            "source": 124, 
+            "target": 15
+        }, 
+        {
+            "source": 127, 
+            "target": 208
+        }, 
+        {
+            "source": 127, 
+            "target": 154
+        }, 
+        {
+            "source": 127, 
+            "target": 112
+        }, 
+        {
+            "source": 128, 
+            "target": 201
+        }, 
+        {
+            "source": 128, 
+            "target": 209
+        }, 
+        {
+            "source": 130, 
+            "target": 62
+        }, 
+        {
+            "source": 130, 
+            "target": 121
+        }, 
+        {
+            "source": 131, 
+            "target": 94
+        }, 
+        {
+            "source": 131, 
+            "target": 192
+        }, 
+        {
+            "source": 132, 
+            "target": 87
+        }, 
+        {
+            "source": 132, 
+            "target": 181
+        }, 
+        {
+            "source": 133, 
+            "target": 211
+        }, 
+        {
+            "source": 133, 
+            "target": 82
+        }, 
+        {
+            "source": 135, 
+            "target": 111
+        }, 
+        {
+            "source": 135, 
+            "target": 132
+        }, 
+        {
+            "source": 136, 
+            "target": 11
+        }, 
+        {
+            "source": 136, 
+            "target": 139
+        }, 
+        {
+            "source": 141, 
+            "target": 65
+        }, 
+        {
+            "source": 141, 
+            "target": 123
+        }, 
+        {
+            "source": 141, 
+            "target": 185
+        }, 
+        {
+            "source": 141, 
+            "target": 156
+        }, 
+        {
+            "source": 141, 
+            "target": 121
+        }, 
+        {
+            "source": 142, 
+            "target": 154
+        }, 
+        {
+            "source": 142, 
+            "target": 0
+        }, 
+        {
+            "source": 142, 
+            "target": 148
+        }, 
+        {
+            "source": 142, 
+            "target": 80
+        }, 
+        {
+            "source": 143, 
+            "target": 199
+        }, 
+        {
+            "source": 143, 
+            "target": 93
+        }, 
+        {
+            "source": 144, 
+            "target": 185
+        }, 
+        {
+            "source": 144, 
+            "target": 156
+        }, 
+        {
+            "source": 144, 
+            "target": 13
+        }, 
+        {
+            "source": 144, 
+            "target": 99
+        }, 
+        {
+            "source": 144, 
+            "target": 121
+        }, 
+        {
+            "source": 145, 
+            "target": 213
+        }, 
+        {
+            "source": 145, 
+            "target": 10
+        }, 
+        {
+            "source": 146, 
+            "target": 36
+        }, 
+        {
+            "source": 146, 
+            "target": 108
+        }, 
+        {
+            "source": 146, 
+            "target": 61
+        }, 
+        {
+            "source": 148, 
+            "target": 31
+        }, 
+        {
+            "source": 148, 
+            "target": 68
+        }, 
+        {
+            "source": 148, 
+            "target": 78
+        }, 
+        {
+            "source": 148, 
+            "target": 173
+        }, 
+        {
+            "source": 148, 
+            "target": 51
+        }, 
+        {
+            "source": 150, 
+            "target": 184
+        }, 
+        {
+            "source": 150, 
+            "target": 9
+        }, 
+        {
+            "source": 151, 
+            "target": 23
+        }, 
+        {
+            "source": 151, 
+            "target": 175
+        }, 
+        {
+            "source": 153, 
+            "target": 154
+        }, 
+        {
+            "source": 153, 
+            "target": 142
+        }, 
+        {
+            "source": 153, 
+            "target": 14
+        }, 
+        {
+            "source": 154, 
+            "target": 57
+        }, 
+        {
+            "source": 154, 
+            "target": 110
+        }, 
+        {
+            "source": 154, 
+            "target": 190
+        }, 
+        {
+            "source": 154, 
+            "target": 141
+        }, 
+        {
+            "source": 154, 
+            "target": 72
+        }, 
+        {
+            "source": 154, 
+            "target": 144
+        }, 
+        {
+            "source": 156, 
+            "target": 83
+        }, 
+        {
+            "source": 156, 
+            "target": 92
+        }, 
+        {
+            "source": 157, 
+            "target": 56
+        }, 
+        {
+            "source": 157, 
+            "target": 168
+        }, 
+        {
+            "source": 158, 
+            "target": 154
+        }, 
+        {
+            "source": 158, 
+            "target": 71
+        }, 
+        {
+            "source": 162, 
+            "target": 24
+        }, 
+        {
+            "source": 162, 
+            "target": 122
+        }, 
+        {
+            "source": 163, 
+            "target": 17
+        }, 
+        {
+            "source": 163, 
+            "target": 88
+        }, 
+        {
+            "source": 164, 
+            "target": 161
+        }, 
+        {
+            "source": 164, 
+            "target": 121
+        }, 
+        {
+            "source": 165, 
+            "target": 0
+        }, 
+        {
+            "source": 165, 
+            "target": 18
+        }, 
+        {
+            "source": 168, 
+            "target": 133
+        }, 
+        {
+            "source": 168, 
+            "target": 82
+        }, 
+        {
+            "source": 169, 
+            "target": 19
+        }, 
+        {
+            "source": 169, 
+            "target": 0
+        }, 
+        {
+            "source": 169, 
+            "target": 41
+        }, 
+        {
+            "source": 170, 
+            "target": 3
+        }, 
+        {
+            "source": 170, 
+            "target": 53
+        }, 
+        {
+            "source": 171, 
+            "target": 121
+        }, 
+        {
+            "source": 171, 
+            "target": 59
+        }, 
+        {
+            "source": 172, 
+            "target": 160
+        }, 
+        {
+            "source": 172, 
+            "target": 97
+        }, 
+        {
+            "source": 173, 
+            "target": 163
+        }, 
+        {
+            "source": 173, 
+            "target": 204
+        }, 
+        {
+            "source": 175, 
+            "target": 154
+        }, 
+        {
+            "source": 175, 
+            "target": 188
+        }, 
+        {
+            "source": 175, 
+            "target": 15
+        }, 
+        {
+            "source": 175, 
+            "target": 55
+        }, 
+        {
+            "source": 179, 
+            "target": 172
+        }, 
+        {
+            "source": 179, 
+            "target": 101
+        }, 
+        {
+            "source": 182, 
+            "target": 214
+        }, 
+        {
+            "source": 182, 
+            "target": 63
+        }, 
+        {
+            "source": 182, 
+            "target": 1
+        }, 
+        {
+            "source": 185, 
+            "target": 76
+        }, 
+        {
+            "source": 185, 
+            "target": 197
+        }, 
+        {
+            "source": 189, 
+            "target": 89
+        }, 
+        {
+            "source": 189, 
+            "target": 32
+        }, 
+        {
+            "source": 190, 
+            "target": 39
+        }, 
+        {
+            "source": 190, 
+            "target": 156
+        }, 
+        {
+            "source": 190, 
+            "target": 97
+        }, 
+        {
+            "source": 190, 
+            "target": 149
+        }, 
+        {
+            "source": 190, 
+            "target": 121
+        }, 
+        {
+            "source": 191, 
+            "target": 172
+        }, 
+        {
+            "source": 191, 
+            "target": 200
+        }, 
+        {
+            "source": 191, 
+            "target": 101
+        }, 
+        {
+            "source": 193, 
+            "target": 29
+        }, 
+        {
+            "source": 193, 
+            "target": 91
+        }, 
+        {
+            "source": 193, 
+            "target": 0
+        }, 
+        {
+            "source": 193, 
+            "target": 154
+        }, 
+        {
+            "source": 194, 
+            "target": 83
+        }, 
+        {
+            "source": 194, 
+            "target": 46
+        }, 
+        {
+            "source": 194, 
+            "target": 161
+        }, 
+        {
+            "source": 194, 
+            "target": 21
+        }, 
+        {
+            "source": 194, 
+            "target": 134
+        }, 
+        {
+            "source": 196, 
+            "target": 143
+        }, 
+        {
+            "source": 196, 
+            "target": 8
+        }, 
+        {
+            "source": 198, 
+            "target": 154
+        }, 
+        {
+            "source": 198, 
+            "target": 0
+        }, 
+        {
+            "source": 201, 
+            "target": 145
+        }, 
+        {
+            "source": 201, 
+            "target": 209
+        }, 
+        {
+            "source": 203, 
+            "target": 35
+        }, 
+        {
+            "source": 203, 
+            "target": 95
+        }, 
+        {
+            "source": 205, 
+            "target": 12
+        }, 
+        {
+            "source": 205, 
+            "target": 182
+        }, 
+        {
+            "source": 210, 
+            "target": 52
+        }, 
+        {
+            "source": 210, 
+            "target": 212
+        }, 
+        {
+            "source": 213, 
+            "target": 72
+        }, 
+        {
+            "source": 213, 
+            "target": 71
+        }, 
+        {
+            "source": 214, 
+            "target": 183
+        }, 
+        {
+            "source": 214, 
+            "target": 82
+        }, 
+        {
+            "source": 215, 
+            "target": 72
+        }, 
+        {
+            "source": 215, 
+            "target": 77
+        }, 
+        {
+            "source": 215, 
+            "target": 110
+        }, 
+        {
+            "source": 215, 
+            "target": 128
+        }
+    ], 
+    "multigraph": false, 
+    "nodes": [
+        {
+            "alias": "dcff", 
+            "default": "", 
+            "dep_string": "finance.InterestRatePerYear;finance.TimeHorizon", 
+            "dependencies": [
+                "finance.InterestRatePerYear", 
+                "finance.TimeHorizon"
+            ], 
+            "fun_src": "\n\ndef compute(self):\n    interestExponents = [(- x) for x in xrange(1, (self.get(TimeHorizon) + 1))]\n    return sum((numpy.array((1 + self.get(InterestRatePerYear))) ** interestExponents))\n", 
+            "id": "finance.DiscountedCashFlowFactor", 
+            "name": "finance.DiscountedCashFlowFactor", 
+            "section": "finance", 
+            "type": "OTHER", 
+            "units": "", 
+            "x": 5415.0, 
+            "y": 1098.0
+        }, 
+        {
+            "alias": "og_fl", 
+            "default": "", 
+            "dep_string": "costOffGrid.DieselFuelCostPerLiter;costOffGrid.DieselFuelLitersConsumedPerKilowattHour;costOffGrid.DieselGeneratorActualSystemCapacity;costOffGrid.DieselGeneratorEffectiveHoursOfOperationPerYear", 
+            "dependencies": [
+                "costOffGrid.DieselFuelCostPerLiter", 
+                "costOffGrid.DieselFuelLitersConsumedPerKilowattHour", 
+                "costOffGrid.DieselGeneratorActualSystemCapacity", 
+                "costOffGrid.DieselGeneratorEffectiveHoursOfOperationPerYear"
+            ], 
+            "fun_src": "\n\ndef compute(self):\n    return (((self.get(DieselFuelCostPerLiter) * self.get(DieselFuelLitersConsumedPerKilowattHour)) * self.get(DieselGeneratorActualSystemCapacity)) * self.get(DieselGeneratorEffectiveHoursOfOperationPerYear))\n", 
+            "id": "costOffGrid.DieselFuelCostPerYear", 
+            "name": "costOffGrid.DieselFuelCostPerYear", 
+            "section": "costOffGrid", 
+            "type": "SINGLE_STMT_SIMPLE", 
+            "units": "dollars per year", 
+            "x": 11681.0, 
+            "y": 1026.0
+        }, 
+        {
+            "alias": "og_nod_lev", 
+            "default": "", 
+            "dep_string": "costOffGrid.OffGridSystemNodalDiscountedCost;demand.ProjectedNodalDiscountedDemand", 
+            "dependencies": [
+                "costOffGrid.OffGridSystemNodalDiscountedCost", 
+                "demand.ProjectedNodalDiscountedDemand"
+            ], 
+            "fun_src": "\n\ndef compute(self):\n    if (self.get(demand.ProjectedNodalDiscountedDemand) == 0):\n        return 0\n    return (self.get(OffGridSystemNodalDiscountedCost) / float(self.get(demand.ProjectedNodalDiscountedDemand)))\n", 
+            "id": "costOffGrid.OffGridSystemNodalLevelizedCost", 
+            "name": "costOffGrid.OffGridSystemNodalLevelizedCost", 
+            "section": "costOffGrid", 
+            "type": "OTHER", 
+            "units": "dollars per kilowatt-hour", 
+            "x": 6885.0, 
+            "y": 1314.0
+        }, 
+        {
+            "alias": "mg_dem_d", 
+            "default": 0, 
+            "dep_string": "", 
+            "dependencies": [], 
+            "fun_src": "\n\ndef aggregate(self, childVS):\n    if (childVS.get(System)[0] == 'm'):\n        self.value += childVS.get(demand.ProjectedNodalDiscountedDemand)\n", 
+            "id": "MiniGridSystemTotalDiscountedDemand", 
+            "name": "MiniGridSystemTotalDiscountedDemand", 
+            "section": "", 
+            "type": "AGGREGATE", 
+            "units": "kilowatt-hours", 
+            "x": 11732.0, 
+            "y": 1314.0
+        }, 
+        {
+            "alias": "ed_dc_unit", 
+            "default": 0, 
+            "dep_string": "", 
+            "dependencies": [], 
+            "id": "demand.EducationFacilityUnitDemandPerEducationFacilityPerYear", 
+            "name": "demand.EducationFacilityUnitDemandPerEducationFacilityPerYear", 
+            "section": "demand", 
+            "type": "LEAF_VAR", 
+            "units": "kilowatt-hours per year", 
+            "x": 8419.0, 
+            "y": 450.0
+        }, 
+        {
+            "alias": "tgt_ho_prt", 
+            "default": 1, 
+            "dep_string": "", 
+            "dependencies": [], 
+            "id": "demand.TargetHouseholdPenetrationRate", 
+            "name": "demand.TargetHouseholdPenetrationRate", 
+            "section": "demand", 
+            "type": "LEAF_VAR", 
+            "units": "fraction", 
+            "x": 3580.0, 
+            "y": 378.0
+        }, 
+        {
+            "alias": "og_p_om", 
+            "default": "", 
+            "dep_string": "costOffGrid.PhotovoltaicComponentInitialCost;costOffGrid.PhotovoltaicComponentOperationsAndMaintenanceCostPerYearAsFractionOfComponentCost", 
+            "dependencies": [
+                "costOffGrid.PhotovoltaicComponentInitialCost", 
+                "costOffGrid.PhotovoltaicComponentOperationsAndMaintenanceCostPerYearAsFractionOfComponentCost"
+            ], 
+            "fun_src": "\n\ndef compute(self):\n    return (self.get(PhotovoltaicComponentOperationsAndMaintenanceCostPerYearAsFractionOfComponentCost) * self.get(PhotovoltaicComponentInitialCost))\n", 
+            "id": "costOffGrid.PhotovoltaicComponentOperationsAndMaintenanceCostPerYear", 
+            "name": "costOffGrid.PhotovoltaicComponentOperationsAndMaintenanceCostPerYear", 
+            "section": "costOffGrid", 
+            "type": "SINGLE_STMT_SIMPLE", 
+            "units": "dollars per year", 
+            "x": 9771.0, 
+            "y": 1026.0
+        }, 
+        {
+            "alias": "og_nod_ddfc", 
+            "default": "", 
+            "dep_string": "costOffGrid.DieselFuelCostPerYear;finance.DiscountedCashFlowFactor", 
+            "dependencies": [
+                "costOffGrid.DieselFuelCostPerYear", 
+                "finance.DiscountedCashFlowFactor"
+            ], 
+            "fun_src": "\n\ndef compute(self):\n    return (self.get(DieselFuelCostPerYear) * self.get(finance.DiscountedCashFlowFactor))\n", 
+            "id": "costOffGrid.OffGridSystemNodalDiscountedDieselFuelCost", 
+            "name": "costOffGrid.OffGridSystemNodalDiscountedDieselFuelCost", 
+            "section": "costOffGrid", 
+            "type": "SINGLE_STMT_SIMPLE", 
+            "units": "", 
+            "x": 7344.0, 
+            "y": 1170.0
+        }, 
+        {
+            "alias": "og_px_life", 
+            "default": 10, 
+            "dep_string": "", 
+            "dependencies": [], 
+            "id": "costOffGrid.PhotovoltaicBalanceLifetime", 
+            "name": "costOffGrid.PhotovoltaicBalanceLifetime", 
+            "section": "costOffGrid", 
+            "type": "LEAF_VAR", 
+            "units": "years", 
+            "x": 8384.0, 
+            "y": 954.0
+        }, 
+        {
+            "alias": "gr_ic", 
+            "default": "", 
+            "dep_string": "costGrid.GridSocialInfrastructureCount;demand.TargetHouseholdCount", 
+            "dependencies": [
+                "costGrid.GridSocialInfrastructureCount", 
+                "demand.TargetHouseholdCount"
+            ], 
+            "fun_src": "\n\ndef compute(self):\n    return (self.get(demand.TargetHouseholdCount) + self.get(GridSocialInfrastructureCount))\n", 
+            "id": "costGrid.GridInternalConnectionCount", 
+            "name": "costGrid.GridInternalConnectionCount", 
+            "section": "costGrid", 
+            "type": "SINGLE_STMT_SIMPLE", 
+            "units": "connection count", 
+            "x": 5086.0, 
+            "y": 594.0
+        }, 
+        {
+            "alias": "p_pkdem_pr", 
+            "default": "", 
+            "dep_string": "demand.DemandToPeakDemandConversionFactor;demand.ProjectedProductiveDemandPerYear", 
+            "dependencies": [
+                "demand.DemandToPeakDemandConversionFactor", 
+                "demand.ProjectedProductiveDemandPerYear"
+            ], 
+            "fun_src": "\n\ndef compute(self):\n    return (self.get(ProjectedProductiveDemandPerYear) * self.get(DemandToPeakDemandConversionFactor))\n", 
+            "id": "demand.ProjectedPeakProductiveDemand", 
+            "name": "demand.ProjectedPeakProductiveDemand", 
+            "section": "demand", 
+            "type": "SINGLE_STMT_SIMPLE", 
+            "units": "kilowatts", 
+            "x": 11150.0, 
+            "y": 594.0
+        }, 
+        {
+            "alias": "gr_tr_dcp", 
+            "default": "", 
+            "dep_string": "costGrid.DistributionLoss;demand.ProjectedPeakNodalDemand", 
+            "dependencies": [
+                "costGrid.DistributionLoss", 
+                "demand.ProjectedPeakNodalDemand"
+            ], 
+            "fun_src": "\n\ndef compute(self):\n    return (self.get(demand.ProjectedPeakNodalDemand) / float((1 - self.get(DistributionLoss))))\n", 
+            "id": "costGrid.GridTransformerDesiredSystemCapacity", 
+            "name": "costGrid.GridTransformerDesiredSystemCapacity", 
+            "section": "costGrid", 
+            "type": "SINGLE_STMT_OTHER", 
+            "units": "kilowatts", 
+            "x": 6921.0, 
+            "y": 738.0
+        }, 
+        {
+            "alias": "og_p_rec", 
+            "default": "", 
+            "dep_string": "costOffGrid.PhotovoltaicBalanceReplacementCostPerYear;costOffGrid.PhotovoltaicBatteryReplacementCostPerYear;costOffGrid.PhotovoltaicComponentOperationsAndMaintenanceCostPerYear;costOffGrid.PhotovoltaicPanelReplacementCostPerYear", 
+            "dependencies": [
+                "costOffGrid.PhotovoltaicBalanceReplacementCostPerYear", 
+                "costOffGrid.PhotovoltaicBatteryReplacementCostPerYear", 
+                "costOffGrid.PhotovoltaicComponentOperationsAndMaintenanceCostPerYear", 
+                "costOffGrid.PhotovoltaicPanelReplacementCostPerYear"
+            ], 
+            "fun_src": "\n\ndef compute(self):\n    return (((self.get(PhotovoltaicPanelReplacementCostPerYear) + self.get(PhotovoltaicBatteryReplacementCostPerYear)) + self.get(PhotovoltaicBalanceReplacementCostPerYear)) + self.get(PhotovoltaicComponentOperationsAndMaintenanceCostPerYear))\n", 
+            "id": "costOffGrid.PhotovoltaicComponentRecurringCostPerYear", 
+            "name": "costOffGrid.PhotovoltaicComponentRecurringCostPerYear", 
+            "section": "costOffGrid", 
+            "type": "SINGLE_STMT_SIMPLE", 
+            "units": "dollars per year", 
+            "x": 8830.0, 
+            "y": 1098.0
+        }, 
+        {
+            "alias": "p_li", 
+            "default": "", 
+            "dep_string": "demand.PublicLightingFacilityCountCurve;demographics.ProjectedPopulationCount", 
+            "dependencies": [
+                "demand.PublicLightingFacilityCountCurve", 
+                "demographics.ProjectedPopulationCount"
+            ], 
+            "fun_src": "\n\ndef compute(self):\n    return self.get(PublicLightingFacilityCountCurve).interpolate(self.get(demographics.ProjectedPopulationCount))\n", 
+            "id": "demand.ProjectedPublicLightingFacilityCount", 
+            "name": "demand.ProjectedPublicLightingFacilityCount", 
+            "section": "demand", 
+            "type": "CURVE_INTERPOLATE", 
+            "units": "public lighting facility count", 
+            "x": 5742.0, 
+            "y": 450.0
+        }, 
+        {
+            "alias": "og_nod_d", 
+            "default": "", 
+            "dep_string": "costOffGrid.OffGridSystemInitialCost;costOffGrid.OffGridSystemRecurringCostPerYear;demand.ProjectedNodalDemandPerYear;finance.DiscountedCashFlowFactor", 
+            "dependencies": [
+                "costOffGrid.OffGridSystemInitialCost", 
+                "costOffGrid.OffGridSystemRecurringCostPerYear", 
+                "demand.ProjectedNodalDemandPerYear", 
+                "finance.DiscountedCashFlowFactor"
+            ], 
+            "fun_src": "\n\ndef compute(self):\n    if (self.get(demand.ProjectedNodalDemandPerYear) == 0):\n        return 0\n    return (self.get(OffGridSystemInitialCost) + (self.get(OffGridSystemRecurringCostPerYear) * self.get(finance.DiscountedCashFlowFactor)))\n", 
+            "id": "costOffGrid.OffGridSystemNodalDiscountedCost", 
+            "name": "costOffGrid.OffGridSystemNodalDiscountedCost", 
+            "section": "costOffGrid", 
+            "type": "OTHER", 
+            "units": "dollars", 
+            "x": 7295.0, 
+            "y": 1242.0
+        }, 
+        {
+            "alias": "mg_loss", 
+            "default": 0.1, 
+            "dep_string": "", 
+            "dependencies": [], 
+            "id": "costMiniGrid.DistributionLoss", 
+            "name": "costMiniGrid.DistributionLoss", 
+            "section": "costMiniGrid", 
+            "type": "LEAF_VAR", 
+            "units": "fraction", 
+            "x": 3044.0, 
+            "y": 666.0
+        }, 
+        {
+            "alias": "mg_ct", 
+            "default": 0, 
+            "dep_string": "", 
+            "dependencies": [], 
+            "fun_src": "\n\ndef aggregate(self, childVS):\n    if (childVS.get(System)[0] == 'm'):\n        self.value += 1\n", 
+            "id": "MiniGridSystemTotal", 
+            "name": "MiniGridSystemTotal", 
+            "section": "", 
+            "type": "AGGREGATE", 
+            "units": "count", 
+            "x": 12068.0, 
+            "y": 1386.0
+        }, 
+        {
+            "alias": "mg_g_acp", 
+            "default": "", 
+            "dep_string": "costMiniGrid.GenerationActualSystemCapacityCounts;costMiniGrid.GenerationAvailableSystemCapacities", 
+            "dependencies": [
+                "costMiniGrid.GenerationActualSystemCapacityCounts", 
+                "costMiniGrid.GenerationAvailableSystemCapacities"
+            ], 
+            "fun_src": "\n\ndef compute(self):\n    return numpy.dot(self.get(GenerationAvailableSystemCapacities), self.get(GenerationActualSystemCapacityCounts))\n", 
+            "id": "costMiniGrid.GenerationActualSystemCapacity", 
+            "name": "costMiniGrid.GenerationActualSystemCapacity", 
+            "section": "costMiniGrid", 
+            "type": "SINGLE_STMT_OTHER", 
+            "units": "kilowatts", 
+            "x": 1999.0, 
+            "y": 882.0
+        }, 
+        {
+            "alias": "ge_recm", 
+            "default": "", 
+            "dep_string": "costGrid.GridMediumVoltageLineOperationsAndMaintenanceCostPerMeterPerYear;costGrid.GridMediumVoltageLineReplacementCostPerMeterPerYear", 
+            "dependencies": [
+                "costGrid.GridMediumVoltageLineOperationsAndMaintenanceCostPerMeterPerYear", 
+                "costGrid.GridMediumVoltageLineReplacementCostPerMeterPerYear"
+            ], 
+            "fun_src": "\n\ndef compute(self):\n    return (self.get(GridMediumVoltageLineOperationsAndMaintenanceCostPerMeterPerYear) + self.get(GridMediumVoltageLineReplacementCostPerMeterPerYear))\n", 
+            "id": "costGrid.GridExternalSystemRecurringCostPerMeterPerYear", 
+            "name": "costGrid.GridExternalSystemRecurringCostPerMeterPerYear", 
+            "section": "costGrid", 
+            "type": "SINGLE_STMT_SIMPLE", 
+            "units": "dollars per meter per year", 
+            "x": 14563.0, 
+            "y": 1170.0
+        }, 
+        {
+            "alias": "mg_rec_gcpy", 
+            "default": "", 
+            "dep_string": "costMiniGrid.EnergyStorageCostPerYear;costMiniGrid.GenerationOperationsAndMaintenanceCostPerYear;costMiniGrid.GenerationReplacementCostPerYear", 
+            "dependencies": [
+                "costMiniGrid.EnergyStorageCostPerYear", 
+                "costMiniGrid.GenerationOperationsAndMaintenanceCostPerYear", 
+                "costMiniGrid.GenerationReplacementCostPerYear"
+            ], 
+            "fun_src": "\n\ndef compute(self):\n    return sum([self.get(GenerationOperationsAndMaintenanceCostPerYear), self.get(GenerationReplacementCostPerYear), self.get(EnergyStorageCostPerYear)])\n", 
+            "id": "costMiniGrid.MiniGridSystemRecurringGenerationCostPerYear", 
+            "name": "costMiniGrid.MiniGridSystemRecurringGenerationCostPerYear", 
+            "section": "costMiniGrid", 
+            "type": "SINGLE_STMT_OTHER", 
+            "units": "dollars per year", 
+            "x": 2540.0, 
+            "y": 1098.0
+        }, 
+        {
+            "alias": "og_p_omf", 
+            "default": 0.05, 
+            "dep_string": "", 
+            "dependencies": [], 
+            "id": "costOffGrid.PhotovoltaicComponentOperationsAndMaintenanceCostPerYearAsFractionOfComponentCost", 
+            "name": "costOffGrid.PhotovoltaicComponentOperationsAndMaintenanceCostPerYearAsFractionOfComponentCost", 
+            "section": "costOffGrid", 
+            "type": "LEAF_VAR", 
+            "units": "", 
+            "x": 9545.0, 
+            "y": 954.0
+        }, 
+        {
+            "alias": "pop_g_r", 
+            "default": 0.015, 
+            "dep_string": "", 
+            "dependencies": [], 
+            "id": "demographics.RuralPopulationGrowthRatePerYear", 
+            "name": "demographics.RuralPopulationGrowthRatePerYear", 
+            "section": "demographics", 
+            "type": "LEAF_VAR", 
+            "units": "fraction per year", 
+            "x": 3876.0, 
+            "y": 18.0
+        }, 
+        {
+            "alias": "economic_g", 
+            "default": 0.06, 
+            "dep_string": "", 
+            "dependencies": [], 
+            "id": "finance.EconomicGrowthRatePerYear", 
+            "name": "finance.EconomicGrowthRatePerYear", 
+            "section": "finance", 
+            "type": "LEAF_VAR", 
+            "units": "fraction per year", 
+            "x": 9011.0, 
+            "y": 306.0
+        }, 
+        {
+            "alias": "mg_g_cps", 
+            "default": "1000 750 500 400 200 150 100 70 32 19 12 6", 
+            "dep_string": "", 
+            "dependencies": [], 
+            "id": "costMiniGrid.GenerationAvailableSystemCapacities", 
+            "name": "costMiniGrid.GenerationAvailableSystemCapacities", 
+            "section": "costMiniGrid", 
+            "type": "LEAF_VAR", 
+            "units": "kilowatts list", 
+            "x": 2450.0, 
+            "y": 738.0
+        }, 
+        {
+            "alias": "di_le_omf", 
+            "default": 0.01, 
+            "dep_string": "", 
+            "dependencies": [], 
+            "id": "costDistribution.LowVoltageLineEquipmentOperationsAndMaintenanceCostPerYearAsFractionOfEquipmentCost", 
+            "name": "costDistribution.LowVoltageLineEquipmentOperationsAndMaintenanceCostPerYearAsFractionOfEquipmentCost", 
+            "section": "costDistribution", 
+            "type": "LEAF_VAR", 
+            "units": "", 
+            "x": 4543.0, 
+            "y": 954.0
+        }, 
+        {
+            "alias": "og_pp_dcp", 
+            "default": "", 
+            "dep_string": "costOffGrid.PeakSunHoursPerYear;costOffGrid.PhotovoltaicComponentEfficiencyLoss;demand.ProjectedEducationFacilityDemandPerYear;demand.ProjectedHealthFacilityDemandPerYear;demand.ProjectedHouseholdDemandPerYear;demand.ProjectedPublicLightingFacilityDemandPerYear", 
+            "dependencies": [
+                "costOffGrid.PeakSunHoursPerYear", 
+                "costOffGrid.PhotovoltaicComponentEfficiencyLoss", 
+                "demand.ProjectedEducationFacilityDemandPerYear", 
+                "demand.ProjectedHealthFacilityDemandPerYear", 
+                "demand.ProjectedHouseholdDemandPerYear", 
+                "demand.ProjectedPublicLightingFacilityDemandPerYear"
+            ], 
+            "fun_src": "\n\ndef compute(self):\n    effectiveDemandPerYear = (sum([self.get(demand.ProjectedHouseholdDemandPerYear), self.get(demand.ProjectedHealthFacilityDemandPerYear), self.get(demand.ProjectedEducationFacilityDemandPerYear), self.get(demand.ProjectedPublicLightingFacilityDemandPerYear)]) / float((1 - self.get(PhotovoltaicComponentEfficiencyLoss))))\n    return (effectiveDemandPerYear / float(self.get(PeakSunHoursPerYear)))\n", 
+            "id": "costOffGrid.PhotovoltaicPanelDesiredSystemCapacity", 
+            "name": "costOffGrid.PhotovoltaicPanelDesiredSystemCapacity", 
+            "section": "costOffGrid", 
+            "type": "OTHER", 
+            "units": "kilowatts", 
+            "x": 9928.0, 
+            "y": 594.0
+        }, 
+        {
+            "alias": "ho_size_u", 
+            "default": 7.5, 
+            "dep_string": "", 
+            "dependencies": [], 
+            "id": "demographics.UrbanMeanHouseholdSize", 
+            "name": "demographics.UrbanMeanHouseholdSize", 
+            "section": "demographics", 
+            "type": "LEAF_VAR", 
+            "units": "person count", 
+            "x": 3996.0, 
+            "y": 234.0
+        }, 
+        {
+            "alias": "og_tot_i", 
+            "default": 0, 
+            "dep_string": "", 
+            "dependencies": [], 
+            "fun_src": "\n\ndef aggregate(self, childVS):\n    if (childVS.get(System)[0] == 'o'):\n        self.value += childVS.get(costOffGrid.OffGridSystemInitialCost)\n", 
+            "id": "OffGridSystemTotalInitialCost", 
+            "name": "OffGridSystemTotalInitialCost", 
+            "section": "", 
+            "type": "AGGREGATE", 
+            "units": "dollars", 
+            "x": 12413.0, 
+            "y": 1386.0
+        }, 
+        {
+            "alias": "pkdemf_r", 
+            "default": 0.4, 
+            "dep_string": "", 
+            "dependencies": [], 
+            "id": "demand.RuralPeakDemandAsFractionOfNodalDemandOccurringDuringPeakHours", 
+            "name": "demand.RuralPeakDemandAsFractionOfNodalDemandOccurringDuringPeakHours", 
+            "section": "demand", 
+            "type": "LEAF_VAR", 
+            "units": "", 
+            "x": 12365.0, 
+            "y": 378.0
+        }, 
+        {
+            "alias": "gi_ini", 
+            "default": "", 
+            "dep_string": "costDistribution.LowVoltageLineInitialCost;costGrid.GridInstallationCost;costGrid.GridTransformerCost;costGrid.LowVoltageLineEquipmentCost", 
+            "dependencies": [
+                "costDistribution.LowVoltageLineInitialCost", 
+                "costGrid.GridInstallationCost", 
+                "costGrid.GridTransformerCost", 
+                "costGrid.LowVoltageLineEquipmentCost"
+            ], 
+            "fun_src": "\n\ndef compute(self):\n    return sum([self.get(GridInstallationCost), self.get(GridTransformerCost), self.get(LowVoltageLineEquipmentCost), self.get(costDistribution.LowVoltageLineInitialCost)])\n", 
+            "id": "costGrid.GridInternalSystemInitialCost", 
+            "name": "costGrid.GridInternalSystemInitialCost", 
+            "section": "costGrid", 
+            "type": "SINGLE_STMT_OTHER", 
+            "units": "dollars", 
+            "x": 6006.0, 
+            "y": 1026.0
+        }, 
+        {
+            "alias": "og_nod_ddc", 
+            "default": "", 
+            "dep_string": "costOffGrid.DieselComponentInitialCost;costOffGrid.DieselComponentRecurringCostPerYear;demand.ProjectedNodalDemandPerYear;finance.DiscountedCashFlowFactor", 
+            "dependencies": [
+                "costOffGrid.DieselComponentInitialCost", 
+                "costOffGrid.DieselComponentRecurringCostPerYear", 
+                "demand.ProjectedNodalDemandPerYear", 
+                "finance.DiscountedCashFlowFactor"
+            ], 
+            "fun_src": "\n\ndef compute(self):\n    if (self.get(demand.ProjectedNodalDemandPerYear) == 0):\n        return 0\n    return (self.get(DieselComponentInitialCost) + (self.get(DieselComponentRecurringCostPerYear) * self.get(finance.DiscountedCashFlowFactor)))\n", 
+            "id": "costOffGrid.OffGridSystemNodalDiscountedDieselCost", 
+            "name": "costOffGrid.OffGridSystemNodalDiscountedDieselCost", 
+            "section": "costOffGrid", 
+            "type": "OTHER", 
+            "units": "dollars", 
+            "x": 12030.0, 
+            "y": 1170.0
+        }, 
+        {
+            "alias": "mg_g_rep", 
+            "default": "", 
+            "dep_string": "costMiniGrid.GenerationCost;costMiniGrid.GenerationLifetime", 
+            "dependencies": [
+                "costMiniGrid.GenerationCost", 
+                "costMiniGrid.GenerationLifetime"
+            ], 
+            "fun_src": "\n\ndef compute(self):\n    return (self.get(GenerationCost) / float(self.get(GenerationLifetime)))\n", 
+            "id": "costMiniGrid.GenerationReplacementCostPerYear", 
+            "name": "costMiniGrid.GenerationReplacementCostPerYear", 
+            "section": "costMiniGrid", 
+            "type": "SINGLE_STMT_OTHER", 
+            "units": "dollars per year", 
+            "x": 2186.0, 
+            "y": 1026.0
+        }, 
+        {
+            "alias": "co_cc_t", 
+            "default": "ZeroLogisticLinear", 
+            "dep_string": "", 
+            "dependencies": [], 
+            "id": "demand.CommercialFacilityCountCurveType", 
+            "name": "demand.CommercialFacilityCountCurveType", 
+            "section": "demand", 
+            "type": "CURVE_TYPE", 
+            "units": "", 
+            "x": 8088.0, 
+            "y": 306.0
+        }, 
+        {
+            "alias": "gr_tot_drc", 
+            "default": "", 
+            "dep_string": "GridSystemTotalExternalDiscountedRecurringCost;GridSystemTotalInternalDiscountedRecurringCost", 
+            "dependencies": [
+                "GridSystemTotalExternalDiscountedRecurringCost", 
+                "GridSystemTotalInternalDiscountedRecurringCost"
+            ], 
+            "fun_src": "\n\ndef compute(self):\n    intlCostPerYear = self.get(GridSystemTotalExternalDiscountedRecurringCost)\n    extlCostPerYear = self.get(GridSystemTotalInternalDiscountedRecurringCost)\n    return (intlCostPerYear + extlCostPerYear)\n", 
+            "id": "GridSystemTotalDiscountedRecurringCost", 
+            "name": "GridSystemTotalDiscountedRecurringCost", 
+            "section": "", 
+            "type": "OTHER", 
+            "units": "dollars", 
+            "x": 5918.0, 
+            "y": 1242.0
+        }, 
+        {
+            "alias": "pkdemf", 
+            "default": "", 
+            "dep_string": "demand.RuralPeakDemandAsFractionOfNodalDemandOccurringDuringPeakHours;demand.UrbanPeakDemandAsFractionOfNodalDemandOccurringDuringPeakHours;demographics.IsRural", 
+            "dependencies": [
+                "demand.RuralPeakDemandAsFractionOfNodalDemandOccurringDuringPeakHours", 
+                "demand.UrbanPeakDemandAsFractionOfNodalDemandOccurringDuringPeakHours", 
+                "demographics.IsRural"
+            ], 
+            "fun_src": "\n\ndef compute(self):\n    return (self.get(RuralPeakDemandAsFractionOfNodalDemandOccurringDuringPeakHours) if self.get(demographics.IsRural) else self.get(UrbanPeakDemandAsFractionOfNodalDemandOccurringDuringPeakHours))\n", 
+            "id": "demand.PeakDemandAsFractionOfNodalDemandOccurringDuringPeakHours", 
+            "name": "demand.PeakDemandAsFractionOfNodalDemandOccurringDuringPeakHours", 
+            "section": "demand", 
+            "type": "SINGLE_STMT_OTHER", 
+            "units": "", 
+            "x": 12772.0, 
+            "y": 450.0
+        }, 
+        {
+            "alias": "he_cc_pts", 
+            "default": "50 0.16; 500 1.6; 5000 5; 10000 20", 
+            "dep_string": "", 
+            "dependencies": [], 
+            "id": "demand.HealthFacilityCountCurvePoints", 
+            "name": "demand.HealthFacilityCountCurvePoints", 
+            "section": "demand", 
+            "type": "CURVE_POINTS", 
+            "units": "population and facility count list", 
+            "x": 6727.0, 
+            "y": 306.0
+        }, 
+        {
+            "alias": "og_pp_acp", 
+            "default": "", 
+            "dep_string": "costOffGrid.PhotovoltaicPanelActualSystemCapacityCounts;costOffGrid.PhotovoltaicPanelAvailableSystemCapacities", 
+            "dependencies": [
+                "costOffGrid.PhotovoltaicPanelActualSystemCapacityCounts", 
+                "costOffGrid.PhotovoltaicPanelAvailableSystemCapacities"
+            ], 
+            "fun_src": "\n\ndef compute(self):\n    return numpy.dot(self.get(PhotovoltaicPanelAvailableSystemCapacities), self.get(PhotovoltaicPanelActualSystemCapacityCounts))\n", 
+            "id": "costOffGrid.PhotovoltaicPanelActualSystemCapacity", 
+            "name": "costOffGrid.PhotovoltaicPanelActualSystemCapacity", 
+            "section": "costOffGrid", 
+            "type": "SINGLE_STMT_OTHER", 
+            "units": "kilowatts", 
+            "x": 9156.0, 
+            "y": 738.0
+        }, 
+        {
+            "alias": "mg_le", 
+            "default": "", 
+            "dep_string": "costDistribution.LowVoltageLineEquipmentCostPerConnection;demand.TargetHouseholdCount", 
+            "dependencies": [
+                "costDistribution.LowVoltageLineEquipmentCostPerConnection", 
+                "demand.TargetHouseholdCount"
+            ], 
+            "fun_src": "\n\ndef compute(self):\n    return (self.get(costDistribution.LowVoltageLineEquipmentCostPerConnection) * self.get(demand.TargetHouseholdCount))\n", 
+            "id": "costMiniGrid.LowVoltageLineEquipmentCost", 
+            "name": "costMiniGrid.LowVoltageLineEquipmentCost", 
+            "section": "costMiniGrid", 
+            "type": "SINGLE_STMT_SIMPLE", 
+            "units": "dollars", 
+            "x": 250.0, 
+            "y": 954.0
+        }, 
+        {
+            "alias": "ed_cc_t", 
+            "default": "ZeroLogisticLinear", 
+            "dep_string": "", 
+            "dependencies": [], 
+            "id": "demand.EducationFacilityCountCurveType", 
+            "name": "demand.EducationFacilityCountCurveType", 
+            "section": "demand", 
+            "type": "CURVE_TYPE", 
+            "units": "", 
+            "x": 5803.0, 
+            "y": 306.0
+        }, 
+        {
+            "alias": "ho_dc", 
+            "default": "", 
+            "dep_string": "demand.HouseholdDemandCurvePoints;demand.HouseholdDemandCurveType", 
+            "dependencies": [
+                "demand.HouseholdDemandCurvePoints", 
+                "demand.HouseholdDemandCurveType"
+            ], 
+            "fun_src": "\n\ndef compute(self):\n    curveType = self.get(HouseholdDemandCurveType)\n    curvePoints = self.get(HouseholdDemandCurvePoints)\n    return curve.fit(curveType, curvePoints)\n", 
+            "id": "demand.HouseholdDemandCurve", 
+            "name": "demand.HouseholdDemandCurve", 
+            "section": "demand", 
+            "type": "CURVE_FUN", 
+            "units": "", 
+            "x": 10435.0, 
+            "y": 450.0
+        }, 
+        {
+            "alias": "ho_dc_pts", 
+            "default": "500 1; 1000 1.56; 5000 6.16; 10000 11.5", 
+            "dep_string": "", 
+            "dependencies": [], 
+            "id": "demand.HouseholdDemandCurvePoints", 
+            "name": "demand.HouseholdDemandCurvePoints", 
+            "section": "demand", 
+            "type": "CURVE_POINTS", 
+            "units": "population and multiplier list", 
+            "x": 10464.0, 
+            "y": 378.0
+        }, 
+        {
+            "alias": "mg_ini_gc", 
+            "default": "", 
+            "dep_string": "costMiniGrid.GenerationCost;costMiniGrid.GenerationInstallationCost", 
+            "dependencies": [
+                "costMiniGrid.GenerationCost", 
+                "costMiniGrid.GenerationInstallationCost"
+            ], 
+            "fun_src": "\n\ndef compute(self):\n    return sum([self.get(GenerationCost), self.get(GenerationInstallationCost)])\n", 
+            "id": "costMiniGrid.MiniGridSystemInitialGenerationCost", 
+            "name": "costMiniGrid.MiniGridSystemInitialGenerationCost", 
+            "section": "costMiniGrid", 
+            "type": "SINGLE_STMT_OTHER", 
+            "units": "dollars", 
+            "x": 1962.0, 
+            "y": 1098.0
+        }, 
+        {
+            "alias": "pr_dc_t", 
+            "default": "ZeroLogisticLinear", 
+            "dep_string": "", 
+            "dependencies": [], 
+            "id": "demand.ProductiveDemandCurveType", 
+            "name": "demand.ProductiveDemandCurveType", 
+            "section": "demand", 
+            "type": "CURVE_TYPE", 
+            "units": "", 
+            "x": 4417.0, 
+            "y": 378.0
+        }, 
+        {
+            "alias": "og_p_loss", 
+            "default": 0.1, 
+            "dep_string": "", 
+            "dependencies": [], 
+            "id": "costOffGrid.PhotovoltaicComponentEfficiencyLoss", 
+            "name": "costOffGrid.PhotovoltaicComponentEfficiencyLoss", 
+            "section": "costOffGrid", 
+            "type": "LEAF_VAR", 
+            "units": "fraction", 
+            "x": 10366.0, 
+            "y": 522.0
+        }, 
+        {
+            "alias": "di_ll_life", 
+            "default": 10, 
+            "dep_string": "", 
+            "dependencies": [], 
+            "id": "costDistribution.LowVoltageLineLifetime", 
+            "name": "costDistribution.LowVoltageLineLifetime", 
+            "section": "costDistribution", 
+            "type": "LEAF_VAR", 
+            "units": "years", 
+            "x": 4741.0, 
+            "y": 882.0
+        }, 
+        {
+            "alias": "og_pp_acps", 
+            "default": "", 
+            "dep_string": "costOffGrid.PhotovoltaicPanelAvailableSystemCapacities;costOffGrid.PhotovoltaicPanelDesiredSystemCapacity", 
+            "dependencies": [
+                "costOffGrid.PhotovoltaicPanelAvailableSystemCapacities", 
+                "costOffGrid.PhotovoltaicPanelDesiredSystemCapacity"
+            ], 
+            "fun_src": "\n\ndef compute(self):\n    return metric.computeSystemCounts(self.get(PhotovoltaicPanelDesiredSystemCapacity), self.get(PhotovoltaicPanelAvailableSystemCapacities))\n", 
+            "id": "costOffGrid.PhotovoltaicPanelActualSystemCapacityCounts", 
+            "name": "costOffGrid.PhotovoltaicPanelActualSystemCapacityCounts", 
+            "section": "costOffGrid", 
+            "type": "SINGLE_STMT_OTHER", 
+            "units": "capacity count list", 
+            "x": 10364.0, 
+            "y": 666.0
+        }, 
+        {
+            "alias": "pop", 
+            "default": 0, 
+            "dep_string": "", 
+            "dependencies": [], 
+            "id": "demographics.PopulationCount", 
+            "name": "demographics.PopulationCount", 
+            "section": "demographics", 
+            "type": "LEAF_VAR", 
+            "units": "person count", 
+            "x": 4298.0, 
+            "y": 18.0
+        }, 
+        {
+            "alias": "mg_nod_desc", 
+            "default": "", 
+            "dep_string": "costMiniGrid.EnergyStorageCostPerYear;finance.DiscountedCashFlowFactor", 
+            "dependencies": [
+                "costMiniGrid.EnergyStorageCostPerYear", 
+                "finance.DiscountedCashFlowFactor"
+            ], 
+            "fun_src": "\n\ndef compute(self):\n    return (self.get(EnergyStorageCostPerYear) * self.get(finance.DiscountedCashFlowFactor))\n", 
+            "id": "costMiniGrid.MiniGridSystemNodalDiscountedEnergyStorageCost", 
+            "name": "costMiniGrid.MiniGridSystemNodalDiscountedEnergyStorageCost", 
+            "section": "costMiniGrid", 
+            "type": "SINGLE_STMT_SIMPLE", 
+            "units": "dollars", 
+            "x": 3715.0, 
+            "y": 1170.0
+        }, 
+        {
+            "alias": "mg_pd_kwhrs", 
+            "default": 1.0, 
+            "dep_string": "", 
+            "dependencies": [], 
+            "id": "costMiniGrid.PercentOfDailyKilowattHourLoadRequiringStorage", 
+            "name": "costMiniGrid.PercentOfDailyKilowattHourLoadRequiringStorage", 
+            "section": "costMiniGrid", 
+            "type": "LEAF_VAR", 
+            "units": "fraction", 
+            "x": 2522.0, 
+            "y": 666.0
+        }, 
+        {
+            "alias": "gr_ml_cm", 
+            "default": 20, 
+            "dep_string": "", 
+            "dependencies": [], 
+            "id": "costGrid.GridMediumVoltageLineCostPerMeter", 
+            "name": "costGrid.GridMediumVoltageLineCostPerMeter", 
+            "section": "costGrid", 
+            "type": "LEAF_VAR", 
+            "units": "dollars per meter", 
+            "x": 15705.0, 
+            "y": 1026.0
+        }, 
+        {
+            "alias": "gr_ml_omm", 
+            "default": "", 
+            "dep_string": "costGrid.GridMediumVoltageLineCostPerMeter;costGrid.GridMediumVoltageLineOperationsAndMaintenanceCostPerYearAsFractionOfLineCost", 
+            "dependencies": [
+                "costGrid.GridMediumVoltageLineCostPerMeter", 
+                "costGrid.GridMediumVoltageLineOperationsAndMaintenanceCostPerYearAsFractionOfLineCost"
+            ], 
+            "fun_src": "\n\ndef compute(self):\n    return (self.get(GridMediumVoltageLineOperationsAndMaintenanceCostPerYearAsFractionOfLineCost) * self.get(GridMediumVoltageLineCostPerMeter))\n", 
+            "id": "costGrid.GridMediumVoltageLineOperationsAndMaintenanceCostPerMeterPerYear", 
+            "name": "costGrid.GridMediumVoltageLineOperationsAndMaintenanceCostPerMeterPerYear", 
+            "section": "costGrid", 
+            "type": "SINGLE_STMT_SIMPLE", 
+            "units": "dollars per meter per year", 
+            "x": 14563.0, 
+            "y": 1098.0
+        }, 
+        {
+            "alias": "mg_escpy", 
+            "default": "", 
+            "dep_string": "costMiniGrid.EnergyStorageCostPerKilowattHour;costMiniGrid.EnergyStorageDemandPerYear", 
+            "dependencies": [
+                "costMiniGrid.EnergyStorageCostPerKilowattHour", 
+                "costMiniGrid.EnergyStorageDemandPerYear"
+            ], 
+            "fun_src": "\n\ndef compute(self):\n    return (self.get(EnergyStorageCostPerKilowattHour) * self.get(EnergyStorageDemandPerYear))\n", 
+            "id": "costMiniGrid.EnergyStorageCostPerYear", 
+            "name": "costMiniGrid.EnergyStorageCostPerYear", 
+            "section": "costMiniGrid", 
+            "type": "SINGLE_STMT_SIMPLE", 
+            "units": "dollars per year", 
+            "x": 1683.0, 
+            "y": 1026.0
+        }, 
+        {
+            "alias": "gr_tot_ext_ic", 
+            "default": 0, 
+            "dep_string": "", 
+            "dependencies": [], 
+            "fun_src": "\n\ndef aggregate(self, childVS):\n    childDataset = childVS.state[0]\n    childNode = childVS.state[1]\n    if ((childVS.get(System)[0] == 'g') and (not childDataset.wasNodeAlreadyConnected(childNode))):\n        newConnections = childDataset.cycleConnections(childNode, is_existing=False)\n        newConnectionLengthHalved = (sum((x.weight for x in newConnections)) / 2.0)\n        externalCostPerMeter = childVS.get(costGrid.GridExternalSystemInitialCostPerMeter)\n        externalCost = (externalCostPerMeter * newConnectionLengthHalved)\n        self.value += externalCost\n", 
+            "id": "GridSystemTotalExternalInitialCost", 
+            "name": "GridSystemTotalExternalInitialCost", 
+            "section": "", 
+            "type": "AGGREGATE", 
+            "units": "dollars", 
+            "x": 12514.0, 
+            "y": 1314.0
+        }, 
+        {
+            "alias": "mg_tot_d", 
+            "default": 0, 
+            "dep_string": "", 
+            "dependencies": [], 
+            "fun_src": "\n\ndef aggregate(self, childVS):\n    if (childVS.get(System)[0] == 'm'):\n        self.value += childVS.get(costMiniGrid.MiniGridSystemNodalDiscountedCost)\n", 
+            "id": "MiniGridSystemTotalDiscountedCost", 
+            "name": "MiniGridSystemTotalDiscountedCost", 
+            "section": "", 
+            "type": "AGGREGATE", 
+            "units": "dollars", 
+            "x": 12135.0, 
+            "y": 1314.0
+        }, 
+        {
+            "alias": "di_le_cc", 
+            "default": 200, 
+            "dep_string": "", 
+            "dependencies": [], 
+            "id": "costDistribution.LowVoltageLineEquipmentCostPerConnection", 
+            "name": "costDistribution.LowVoltageLineEquipmentCostPerConnection", 
+            "section": "costDistribution", 
+            "type": "LEAF_VAR", 
+            "units": "dollars per connection", 
+            "x": 3770.0, 
+            "y": 882.0
+        }, 
+        {
+            "alias": "mg_u_fctr", 
+            "default": 0.416667, 
+            "dep_string": "", 
+            "dependencies": [], 
+            "id": "costMiniGrid.UtilizationFactor", 
+            "name": "costMiniGrid.UtilizationFactor", 
+            "section": "costMiniGrid", 
+            "type": "LEAF_VAR", 
+            "units": "fraction", 
+            "x": 3783.0, 
+            "y": 666.0
+        }, 
+        {
+            "alias": "og_p_ini", 
+            "default": "", 
+            "dep_string": "costOffGrid.PhotovoltaicBalanceCost;costOffGrid.PhotovoltaicBatteryCost;costOffGrid.PhotovoltaicPanelCost", 
+            "dependencies": [
+                "costOffGrid.PhotovoltaicBalanceCost", 
+                "costOffGrid.PhotovoltaicBatteryCost", 
+                "costOffGrid.PhotovoltaicPanelCost"
+            ], 
+            "fun_src": "\n\ndef compute(self):\n    return ((self.get(PhotovoltaicPanelCost) + self.get(PhotovoltaicBatteryCost)) + self.get(PhotovoltaicBalanceCost))\n", 
+            "id": "costOffGrid.PhotovoltaicComponentInitialCost", 
+            "name": "costOffGrid.PhotovoltaicComponentInitialCost", 
+            "section": "costOffGrid", 
+            "type": "SINGLE_STMT_SIMPLE", 
+            "units": "dollars", 
+            "x": 10296.0, 
+            "y": 954.0
+        }, 
+        {
+            "alias": "p_dem_ed", 
+            "default": "", 
+            "dep_string": "demand.EducationFacilityUnitDemandPerEducationFacilityPerYear;demand.ProjectedEducationFacilityCount;demand.SocialInfrastructureDemandCurve;demographics.ProjectedPopulationCount;finance.ElectricityDemandMultiplier", 
+            "dependencies": [
+                "demand.EducationFacilityUnitDemandPerEducationFacilityPerYear", 
+                "demand.ProjectedEducationFacilityCount", 
+                "demand.SocialInfrastructureDemandCurve", 
+                "demographics.ProjectedPopulationCount", 
+                "finance.ElectricityDemandMultiplier"
+            ], 
+            "fun_src": "\n\ndef compute(self):\n    return (((self.get(finance.ElectricityDemandMultiplier) * self.get(SocialInfrastructureDemandCurve).interpolate(self.get(demographics.ProjectedPopulationCount))) * self.get(EducationFacilityUnitDemandPerEducationFacilityPerYear)) * self.get(ProjectedEducationFacilityCount))\n", 
+            "id": "demand.ProjectedEducationFacilityDemandPerYear", 
+            "name": "demand.ProjectedEducationFacilityDemandPerYear", 
+            "section": "demand", 
+            "type": "CURVE_INTERPOLATE", 
+            "units": "kilowatt-hours per year", 
+            "x": 8419.0, 
+            "y": 522.0
+        }, 
+        {
+            "alias": "gr_ml_omf", 
+            "default": 0.01, 
+            "dep_string": "", 
+            "dependencies": [], 
+            "id": "costGrid.GridMediumVoltageLineOperationsAndMaintenanceCostPerYearAsFractionOfLineCost", 
+            "name": "costGrid.GridMediumVoltageLineOperationsAndMaintenanceCostPerYearAsFractionOfLineCost", 
+            "section": "costGrid", 
+            "type": "LEAF_VAR", 
+            "units": "", 
+            "x": 14563.0, 
+            "y": 1026.0
+        }, 
+        {
+            "alias": "ho_size", 
+            "default": "", 
+            "dep_string": "demographics.IsRural;demographics.RuralMeanHouseholdSize;demographics.UrbanMeanHouseholdSize", 
+            "dependencies": [
+                "demographics.IsRural", 
+                "demographics.RuralMeanHouseholdSize", 
+                "demographics.UrbanMeanHouseholdSize"
+            ], 
+            "fun_src": "\n\ndef compute(self):\n    return (self.get(RuralMeanHouseholdSize) if self.get(IsRural) else self.get(UrbanMeanHouseholdSize))\n", 
+            "id": "demographics.MeanHouseholdSize", 
+            "name": "demographics.MeanHouseholdSize", 
+            "section": "demographics", 
+            "type": "SINGLE_STMT_OTHER", 
+            "units": "person count", 
+            "x": 4001.0, 
+            "y": 306.0
+        }, 
+        {
+            "alias": "mg_nod_lev", 
+            "default": "", 
+            "dep_string": "costMiniGrid.MiniGridSystemNodalDiscountedCost;demand.ProjectedNodalDiscountedDemand", 
+            "dependencies": [
+                "costMiniGrid.MiniGridSystemNodalDiscountedCost", 
+                "demand.ProjectedNodalDiscountedDemand"
+            ], 
+            "fun_src": "\n\ndef compute(self):\n    if (self.get(demand.ProjectedNodalDiscountedDemand) == 0):\n        return 0\n    return (self.get(MiniGridSystemNodalDiscountedCost) / float(self.get(demand.ProjectedNodalDiscountedDemand)))\n", 
+            "id": "costMiniGrid.MiniGridSystemNodalLevelizedCost", 
+            "name": "costMiniGrid.MiniGridSystemNodalLevelizedCost", 
+            "section": "costMiniGrid", 
+            "type": "OTHER", 
+            "units": "dollars per kilowatt-hour", 
+            "x": 4874.0, 
+            "y": 1242.0
+        }, 
+        {
+            "alias": "og_pb_ckwh", 
+            "default": 400, 
+            "dep_string": "", 
+            "dependencies": [], 
+            "id": "costOffGrid.PhotovoltaicBatteryCostPerKilowattHour", 
+            "name": "costOffGrid.PhotovoltaicBatteryCostPerKilowattHour", 
+            "section": "costOffGrid", 
+            "type": "LEAF_VAR", 
+            "units": "dollars per kilowatt-hour", 
+            "x": 8757.0, 
+            "y": 810.0
+        }, 
+        {
+            "alias": "ed_cc", 
+            "default": "", 
+            "dep_string": "demand.EducationFacilityCountCurvePoints;demand.EducationFacilityCountCurveType", 
+            "dependencies": [
+                "demand.EducationFacilityCountCurvePoints", 
+                "demand.EducationFacilityCountCurveType"
+            ], 
+            "fun_src": "\n\ndef compute(self):\n    curveType = self.get(EducationFacilityCountCurveType)\n    curvePoints = self.get(EducationFacilityCountCurvePoints)\n    return curve.fit(curveType, curvePoints)\n", 
+            "id": "demand.EducationFacilityCountCurve", 
+            "name": "demand.EducationFacilityCountCurve", 
+            "section": "demand", 
+            "type": "CURVE_FUN", 
+            "units": "", 
+            "x": 6194.0, 
+            "y": 378.0
+        }, 
+        {
+            "alias": "og_dg_rep", 
+            "default": "", 
+            "dep_string": "costOffGrid.DieselGeneratorCost;costOffGrid.DieselGeneratorLifetime", 
+            "dependencies": [
+                "costOffGrid.DieselGeneratorCost", 
+                "costOffGrid.DieselGeneratorLifetime"
+            ], 
+            "fun_src": "\n\ndef compute(self):\n    return (self.get(DieselGeneratorCost) / float(self.get(DieselGeneratorLifetime)))\n", 
+            "id": "costOffGrid.DieselGeneratorReplacementCostPerYear", 
+            "name": "costOffGrid.DieselGeneratorReplacementCostPerYear", 
+            "section": "costOffGrid", 
+            "type": "SINGLE_STMT_OTHER", 
+            "units": "dollars per year", 
+            "x": 13274.0, 
+            "y": 1026.0
+        }, 
+        {
+            "alias": "mg_g_i", 
+            "default": "", 
+            "dep_string": "costMiniGrid.GenerationCost;costMiniGrid.GenerationInstallationCostAsFractionOfGenerationCost", 
+            "dependencies": [
+                "costMiniGrid.GenerationCost", 
+                "costMiniGrid.GenerationInstallationCostAsFractionOfGenerationCost"
+            ], 
+            "fun_src": "\n\ndef compute(self):\n    return (self.get(GenerationInstallationCostAsFractionOfGenerationCost) * self.get(GenerationCost))\n", 
+            "id": "costMiniGrid.GenerationInstallationCost", 
+            "name": "costMiniGrid.GenerationInstallationCost", 
+            "section": "costMiniGrid", 
+            "type": "SINGLE_STMT_SIMPLE", 
+            "units": "dollars", 
+            "x": 1261.0, 
+            "y": 1026.0
+        }, 
+        {
+            "alias": "p_he", 
+            "default": "", 
+            "dep_string": "demand.HealthFacilityCountCurve;demographics.ProjectedPopulationCount", 
+            "dependencies": [
+                "demand.HealthFacilityCountCurve", 
+                "demographics.ProjectedPopulationCount"
+            ], 
+            "fun_src": "\n\ndef compute(self):\n    return self.get(HealthFacilityCountCurve).interpolate(self.get(demographics.ProjectedPopulationCount))\n", 
+            "id": "demand.ProjectedHealthFacilityCount", 
+            "name": "demand.ProjectedHealthFacilityCount", 
+            "section": "demand", 
+            "type": "CURVE_INTERPOLATE", 
+            "units": "health facility count", 
+            "x": 6608.0, 
+            "y": 450.0
+        }, 
+        {
+            "alias": "mg_mnesc", 
+            "default": 24, 
+            "dep_string": "", 
+            "dependencies": [], 
+            "id": "costMiniGrid.MinimumEnergyStorageCapacity", 
+            "name": "costMiniGrid.MinimumEnergyStorageCapacity", 
+            "section": "costMiniGrid", 
+            "type": "LEAF_VAR", 
+            "units": "kilowatt-hours per day", 
+            "x": 1959.0, 
+            "y": 666.0
+        }, 
+        {
+            "alias": "og_tot_d", 
+            "default": 0, 
+            "dep_string": "", 
+            "dependencies": [], 
+            "fun_src": "\n\ndef aggregate(self, childVS):\n    if (childVS.get(System)[0] == 'o'):\n        self.value += childVS.get(costOffGrid.OffGridSystemNodalDiscountedCost)\n", 
+            "id": "OffGridSystemTotalDiscountedCost", 
+            "name": "OffGridSystemTotalDiscountedCost", 
+            "section": "", 
+            "type": "AGGREGATE", 
+            "units": "dollars", 
+            "x": 13659.0, 
+            "y": 1314.0
+        }, 
+        {
+            "alias": "mg_le_om", 
+            "default": "", 
+            "dep_string": "costDistribution.LowVoltageLineEquipmentOperationsAndMaintenanceCostPerYearAsFractionOfEquipmentCost;costMiniGrid.LowVoltageLineEquipmentCost", 
+            "dependencies": [
+                "costDistribution.LowVoltageLineEquipmentOperationsAndMaintenanceCostPerYearAsFractionOfEquipmentCost", 
+                "costMiniGrid.LowVoltageLineEquipmentCost"
+            ], 
+            "fun_src": "\n\ndef compute(self):\n    return (self.get(costDistribution.LowVoltageLineEquipmentOperationsAndMaintenanceCostPerYearAsFractionOfEquipmentCost) * self.get(LowVoltageLineEquipmentCost))\n", 
+            "id": "costMiniGrid.LowVoltageLineEquipmentOperationsAndMaintenanceCostPerYear", 
+            "name": "costMiniGrid.LowVoltageLineEquipmentOperationsAndMaintenanceCostPerYear", 
+            "section": "costMiniGrid", 
+            "type": "SINGLE_STMT_SIMPLE", 
+            "units": "dollars per year", 
+            "x": 3487.0, 
+            "y": 1026.0
+        }, 
+        {
+            "alias": "pr_dc", 
+            "default": "", 
+            "dep_string": "demand.ProductiveDemandCurvePoints;demand.ProductiveDemandCurveType", 
+            "dependencies": [
+                "demand.ProductiveDemandCurvePoints", 
+                "demand.ProductiveDemandCurveType"
+            ], 
+            "fun_src": "\n\ndef compute(self):\n    curveType = self.get(ProductiveDemandCurveType)\n    curvePoints = self.get(ProductiveDemandCurvePoints)\n    return curve.fit(curveType, curvePoints)\n", 
+            "id": "demand.ProductiveDemandCurve", 
+            "name": "demand.ProductiveDemandCurve", 
+            "section": "demand", 
+            "type": "CURVE_FUN", 
+            "units": "", 
+            "x": 5092.0, 
+            "y": 450.0
+        }, 
+        {
+            "alias": "og_tot_lev", 
+            "default": "", 
+            "dep_string": "OffGridSystemTotalDiscountedCost;OffGridSystemTotalDiscountedDemand", 
+            "dependencies": [
+                "OffGridSystemTotalDiscountedCost", 
+                "OffGridSystemTotalDiscountedDemand"
+            ], 
+            "fun_src": "\n\ndef compute(self):\n    if (self.get(OffGridSystemTotalDiscountedDemand) == 0):\n        return 0\n    return (self.get(OffGridSystemTotalDiscountedCost) / float(self.get(OffGridSystemTotalDiscountedDemand)))\n", 
+            "id": "OffGridSystemTotalLevelizedCost", 
+            "name": "OffGridSystemTotalLevelizedCost", 
+            "section": "", 
+            "type": "OTHER", 
+            "units": "dollars per kilowatt-hour", 
+            "x": 13465.0, 
+            "y": 1386.0
+        }, 
+        {
+            "alias": "dem_pkdemf", 
+            "default": "", 
+            "dep_string": "demand.PeakDemandAsFractionOfNodalDemandOccurringDuringPeakHours;demand.PeakElectricalHoursOfOperationPerYear", 
+            "dependencies": [
+                "demand.PeakDemandAsFractionOfNodalDemandOccurringDuringPeakHours", 
+                "demand.PeakElectricalHoursOfOperationPerYear"
+            ], 
+            "fun_src": "\n\ndef compute(self):\n    return (self.get(PeakDemandAsFractionOfNodalDemandOccurringDuringPeakHours) / float(self.get(PeakElectricalHoursOfOperationPerYear)))\n", 
+            "id": "demand.DemandToPeakDemandConversionFactor", 
+            "name": "demand.DemandToPeakDemandConversionFactor", 
+            "section": "demand", 
+            "type": "SINGLE_STMT_OTHER", 
+            "units": "", 
+            "x": 11623.0, 
+            "y": 522.0
+        }, 
+        {
+            "alias": "p_dem_co", 
+            "default": "", 
+            "dep_string": "demand.CommercialFacilityUnitDemandPerCommercialFacilityPerYear;demand.ProjectedCommercialFacilityCount;demand.SocialInfrastructureDemandCurve;demographics.ProjectedPopulationCount;finance.ElectricityDemandMultiplier", 
+            "dependencies": [
+                "demand.CommercialFacilityUnitDemandPerCommercialFacilityPerYear", 
+                "demand.ProjectedCommercialFacilityCount", 
+                "demand.SocialInfrastructureDemandCurve", 
+                "demographics.ProjectedPopulationCount", 
+                "finance.ElectricityDemandMultiplier"
+            ], 
+            "fun_src": "\n\ndef compute(self):\n    return (((self.get(finance.ElectricityDemandMultiplier) * self.get(SocialInfrastructureDemandCurve).interpolate(self.get(demographics.ProjectedPopulationCount))) * self.get(CommercialFacilityUnitDemandPerCommercialFacilityPerYear)) * self.get(ProjectedCommercialFacilityCount))\n", 
+            "id": "demand.ProjectedCommercialFacilityDemandPerYear", 
+            "name": "demand.ProjectedCommercialFacilityDemandPerYear", 
+            "section": "demand", 
+            "type": "CURVE_INTERPOLATE", 
+            "units": "kilowatt-hours per year", 
+            "x": 10893.0, 
+            "y": 522.0
+        }, 
+        {
+            "alias": "pksu_hr", 
+            "default": 1320, 
+            "dep_string": "", 
+            "dependencies": [], 
+            "id": "costOffGrid.PeakSunHoursPerYear", 
+            "name": "costOffGrid.PeakSunHoursPerYear", 
+            "section": "costOffGrid", 
+            "type": "LEAF_VAR", 
+            "units": "hours per year", 
+            "x": 9927.0, 
+            "y": 522.0
+        }, 
+        {
+            "alias": "gr_tot_enl", 
+            "default": "", 
+            "dep_string": "", 
+            "dependencies": [], 
+            "fun_src": "\n\ndef compute(self):\n    return self.state[0].sumNetworkWeight(is_existing=True)\n", 
+            "id": "GridSystemTotalExistingNetworkLength", 
+            "name": "GridSystemTotalExistingNetworkLength", 
+            "section": "", 
+            "type": "SINGLE_STMT_OTHER", 
+            "units": "meters", 
+            "x": 17693.0, 
+            "y": 1386.0
+        }, 
+        {
+            "alias": "ed_cc_pts", 
+            "default": "50 0.1; 500 1; 5000 3; 10000 15", 
+            "dep_string": "", 
+            "dependencies": [], 
+            "id": "demand.EducationFacilityCountCurvePoints", 
+            "name": "demand.EducationFacilityCountCurvePoints", 
+            "section": "demand", 
+            "type": "CURVE_POINTS", 
+            "units": "population and facility count list", 
+            "x": 6251.0, 
+            "y": 306.0
+        }, 
+        {
+            "alias": "so_dc_pts", 
+            "default": "500 1; 1000 1.5; 5000 2.25; 10000 3.375", 
+            "dep_string": "", 
+            "dependencies": [], 
+            "id": "demand.SocialInfrastructureDemandCurvePoints", 
+            "name": "demand.SocialInfrastructureDemandCurvePoints", 
+            "section": "demand", 
+            "type": "CURVE_POINTS", 
+            "units": "population and multiplier list", 
+            "x": 8899.0, 
+            "y": 378.0
+        }, 
+        {
+            "alias": "og_dg_mnhr", 
+            "default": 1460, 
+            "dep_string": "", 
+            "dependencies": [], 
+            "id": "costOffGrid.DieselGeneratorMinimumHoursOfOperationPerYear", 
+            "name": "costOffGrid.DieselGeneratorMinimumHoursOfOperationPerYear", 
+            "section": "costOffGrid", 
+            "type": "LEAF_VAR", 
+            "units": "hours per year", 
+            "x": 11189.0, 
+            "y": 882.0
+        }, 
+        {
+            "alias": "di_ll_rec", 
+            "default": "", 
+            "dep_string": "costDistribution.LowVoltageLineOperationsAndMaintenanceCostPerYear;costDistribution.LowVoltageLineReplacementCostPerYear", 
+            "dependencies": [
+                "costDistribution.LowVoltageLineOperationsAndMaintenanceCostPerYear", 
+                "costDistribution.LowVoltageLineReplacementCostPerYear"
+            ], 
+            "fun_src": "\n\ndef compute(self):\n    return sum([self.get(LowVoltageLineOperationsAndMaintenanceCostPerYear), self.get(LowVoltageLineReplacementCostPerYear)])\n", 
+            "id": "costDistribution.LowVoltageLineRecurringCostPerYear", 
+            "name": "costDistribution.LowVoltageLineRecurringCostPerYear", 
+            "section": "costDistribution", 
+            "type": "SINGLE_STMT_OTHER", 
+            "units": "dollars per year", 
+            "x": 4163.0, 
+            "y": 1026.0
+        }, 
+        {
+            "alias": "gr_so", 
+            "default": "", 
+            "dep_string": "demand.ProjectedCommercialFacilityCount;demand.ProjectedEducationFacilityCount;demand.ProjectedHealthFacilityCount;demand.ProjectedPublicLightingFacilityCount", 
+            "dependencies": [
+                "demand.ProjectedCommercialFacilityCount", 
+                "demand.ProjectedEducationFacilityCount", 
+                "demand.ProjectedHealthFacilityCount", 
+                "demand.ProjectedPublicLightingFacilityCount"
+            ], 
+            "fun_src": "\n\ndef compute(self):\n    return (((self.get(demand.ProjectedHealthFacilityCount) + self.get(demand.ProjectedEducationFacilityCount)) + self.get(demand.ProjectedPublicLightingFacilityCount)) + self.get(demand.ProjectedCommercialFacilityCount))\n", 
+            "id": "costGrid.GridSocialInfrastructureCount", 
+            "name": "costGrid.GridSocialInfrastructureCount", 
+            "section": "costGrid", 
+            "type": "SINGLE_STMT_SIMPLE", 
+            "units": "facility count", 
+            "x": 6194.0, 
+            "y": 522.0
+        }, 
+        {
+            "alias": "mg_ini", 
+            "default": "", 
+            "dep_string": "costDistribution.LowVoltageLineInitialCost;costMiniGrid.GenerationCost;costMiniGrid.GenerationInstallationCost;costMiniGrid.LowVoltageLineEquipmentCost", 
+            "dependencies": [
+                "costDistribution.LowVoltageLineInitialCost", 
+                "costMiniGrid.GenerationCost", 
+                "costMiniGrid.GenerationInstallationCost", 
+                "costMiniGrid.LowVoltageLineEquipmentCost"
+            ], 
+            "fun_src": "\n\ndef compute(self):\n    return sum([self.get(GenerationCost), self.get(GenerationInstallationCost), self.get(LowVoltageLineEquipmentCost), self.get(costDistribution.LowVoltageLineInitialCost)])\n", 
+            "id": "costMiniGrid.MiniGridSystemInitialCost", 
+            "name": "costMiniGrid.MiniGridSystemInitialCost", 
+            "section": "costMiniGrid", 
+            "type": "SINGLE_STMT_OTHER", 
+            "units": "dollars", 
+            "x": 1032.0, 
+            "y": 1098.0
+        }, 
+        {
+            "alias": "elasticity", 
+            "default": 1.5, 
+            "dep_string": "", 
+            "dependencies": [], 
+            "id": "finance.ElasticityOfElectricityDemand", 
+            "name": "finance.ElasticityOfElectricityDemand", 
+            "section": "finance", 
+            "type": "LEAF_VAR", 
+            "units": "", 
+            "x": 9405.0, 
+            "y": 306.0
+        }, 
+        {
+            "alias": "og_dg_ini", 
+            "default": "", 
+            "dep_string": "costOffGrid.DieselGeneratorActualSystemCapacity;costOffGrid.DieselGeneratorCostPerDieselSystemKilowatt", 
+            "dependencies": [
+                "costOffGrid.DieselGeneratorActualSystemCapacity", 
+                "costOffGrid.DieselGeneratorCostPerDieselSystemKilowatt"
+            ], 
+            "fun_src": "\n\ndef compute(self):\n    return (self.get(DieselGeneratorCostPerDieselSystemKilowatt) * self.get(DieselGeneratorActualSystemCapacity))\n", 
+            "id": "costOffGrid.DieselGeneratorCost", 
+            "name": "costOffGrid.DieselGeneratorCost", 
+            "section": "costOffGrid", 
+            "type": "SINGLE_STMT_SIMPLE", 
+            "units": "dollars", 
+            "x": 13640.0, 
+            "y": 954.0
+        }, 
+        {
+            "alias": "time", 
+            "default": 10, 
+            "dep_string": "", 
+            "dependencies": [], 
+            "id": "finance.TimeHorizon", 
+            "name": "finance.TimeHorizon", 
+            "section": "finance", 
+            "type": "LEAF_VAR", 
+            "units": "years", 
+            "x": 4581.0, 
+            "y": 18.0
+        }, 
+        {
+            "alias": "ge_nodm_d", 
+            "default": "", 
+            "dep_string": "costGrid.GridExternalSystemInitialCostPerMeter;costGrid.GridExternalSystemNodalDiscountedRecurringCostPerMeter", 
+            "dependencies": [
+                "costGrid.GridExternalSystemInitialCostPerMeter", 
+                "costGrid.GridExternalSystemNodalDiscountedRecurringCostPerMeter"
+            ], 
+            "fun_src": "\n\ndef compute(self):\n    return (self.get(GridExternalSystemInitialCostPerMeter) + self.get(GridExternalSystemNodalDiscountedRecurringCostPerMeter))\n", 
+            "id": "costGrid.GridExternalSystemNodalDiscountedCostPerMeter", 
+            "name": "costGrid.GridExternalSystemNodalDiscountedCostPerMeter", 
+            "section": "costGrid", 
+            "type": "SINGLE_STMT_SIMPLE", 
+            "units": "dollars per meter", 
+            "x": 11219.0, 
+            "y": 1314.0
+        }, 
+        {
+            "alias": "gr_tot_idrc", 
+            "default": 0, 
+            "dep_string": "finance.DiscountedCashFlowFactor", 
+            "dependencies": [
+                "finance.DiscountedCashFlowFactor"
+            ], 
+            "fun_src": "\n\ndef aggregate(self, childVS):\n    childDataset = childVS.state[0]\n    childNode = childVS.state[1]\n    if ((childVS.get(System)[0] == 'g') and (not childDataset.wasNodeAlreadyConnected(childNode))):\n        internalAnnualCost = childVS.get(costGrid.GridInternalSystemRecurringCostPerYear)\n        dcff = self.get(finance.DiscountedCashFlowFactor)\n        self.value += (dcff * internalAnnualCost)\n", 
+            "id": "GridSystemTotalInternalDiscountedRecurringCost", 
+            "name": "GridSystemTotalInternalDiscountedRecurringCost", 
+            "section": "", 
+            "type": "AGGREGATE", 
+            "units": "dollars", 
+            "x": 5893.0, 
+            "y": 1170.0
+        }, 
+        {
+            "alias": "li_cc_pts", 
+            "default": "50 0.1; 500 1; 5000 7; 10000 25", 
+            "dep_string": "", 
+            "dependencies": [], 
+            "id": "demand.PublicLightingFacilityCountCurvePoints", 
+            "name": "demand.PublicLightingFacilityCountCurvePoints", 
+            "section": "demand", 
+            "type": "CURVE_POINTS", 
+            "units": "population and facility count list", 
+            "x": 4735.0, 
+            "y": 306.0
+        }, 
+        {
+            "alias": "gr_tr_acp", 
+            "default": "", 
+            "dep_string": "costGrid.GridTransformerActualSystemCapacityCounts;costGrid.GridTransformerAvailableSystemCapacities", 
+            "dependencies": [
+                "costGrid.GridTransformerActualSystemCapacityCounts", 
+                "costGrid.GridTransformerAvailableSystemCapacities"
+            ], 
+            "fun_src": "\n\ndef compute(self):\n    return numpy.dot(self.get(GridTransformerAvailableSystemCapacities), self.get(GridTransformerActualSystemCapacityCounts))\n", 
+            "id": "costGrid.GridTransformerActualSystemCapacity", 
+            "name": "costGrid.GridTransformerActualSystemCapacity", 
+            "section": "costGrid", 
+            "type": "SINGLE_STMT_OTHER", 
+            "units": "kilowatts", 
+            "x": 6745.0, 
+            "y": 882.0
+        }, 
+        {
+            "alias": "mg_g_ck", 
+            "default": 150, 
+            "dep_string": "", 
+            "dependencies": [], 
+            "id": "costMiniGrid.GenerationCostPerSystemKilowatt", 
+            "name": "costMiniGrid.GenerationCostPerSystemKilowatt", 
+            "section": "costMiniGrid", 
+            "type": "LEAF_VAR", 
+            "units": "dollars per kilowatt", 
+            "x": 2487.0, 
+            "y": 882.0
+        }, 
+        {
+            "alias": "co_cc_pts", 
+            "default": "50 0.12; 500 1.2; 5000 25; 10000 125", 
+            "dep_string": "", 
+            "dependencies": [], 
+            "id": "demand.CommercialFacilityCountCurvePoints", 
+            "name": "demand.CommercialFacilityCountCurvePoints", 
+            "section": "demand", 
+            "type": "CURVE_POINTS", 
+            "units": "population and facility count list", 
+            "x": 7622.0, 
+            "y": 306.0
+        }, 
+        {
+            "alias": "gr_tr_om", 
+            "default": "", 
+            "dep_string": "costGrid.GridTransformerCost;costGrid.GridTransformerOperationsAndMaintenanceCostPerYearAsFractionOfTransformerCost", 
+            "dependencies": [
+                "costGrid.GridTransformerCost", 
+                "costGrid.GridTransformerOperationsAndMaintenanceCostPerYearAsFractionOfTransformerCost"
+            ], 
+            "fun_src": "\n\ndef compute(self):\n    return (self.get(GridTransformerOperationsAndMaintenanceCostPerYearAsFractionOfTransformerCost) * self.get(GridTransformerCost))\n", 
+            "id": "costGrid.GridTransformerOperationsAndMaintenanceCostPerYear", 
+            "name": "costGrid.GridTransformerOperationsAndMaintenanceCostPerYear", 
+            "section": "costGrid", 
+            "type": "SINGLE_STMT_SIMPLE", 
+            "units": "dollars per year", 
+            "x": 7059.0, 
+            "y": 1026.0
+        }, 
+        {
+            "alias": "gi_rec", 
+            "default": "", 
+            "dep_string": "costDistribution.LowVoltageLineRecurringCostPerYear;costGrid.GridElectricityCostPerYear;costGrid.GridTransformerOperationsAndMaintenanceCostPerYear;costGrid.GridTransformerReplacementCostPerYear;costGrid.LowVoltageLineEquipmentOperationsAndMaintenanceCostPerYear", 
+            "dependencies": [
+                "costDistribution.LowVoltageLineRecurringCostPerYear", 
+                "costGrid.GridElectricityCostPerYear", 
+                "costGrid.GridTransformerOperationsAndMaintenanceCostPerYear", 
+                "costGrid.GridTransformerReplacementCostPerYear", 
+                "costGrid.LowVoltageLineEquipmentOperationsAndMaintenanceCostPerYear"
+            ], 
+            "fun_src": "\n\ndef compute(self):\n    return sum([self.get(GridTransformerOperationsAndMaintenanceCostPerYear), self.get(GridTransformerReplacementCostPerYear), self.get(GridElectricityCostPerYear), self.get(LowVoltageLineEquipmentOperationsAndMaintenanceCostPerYear), self.get(costDistribution.LowVoltageLineRecurringCostPerYear)])\n", 
+            "id": "costGrid.GridInternalSystemRecurringCostPerYear", 
+            "name": "costGrid.GridInternalSystemRecurringCostPerYear", 
+            "section": "costGrid", 
+            "type": "SINGLE_STMT_OTHER", 
+            "units": "dollars per year", 
+            "x": 6474.0, 
+            "y": 1098.0
+        }, 
+        {
+            "alias": "dem_g", 
+            "default": "", 
+            "dep_string": "finance.EconomicGrowthRatePerYear;finance.ElasticityOfElectricityDemand", 
+            "dependencies": [
+                "finance.EconomicGrowthRatePerYear", 
+                "finance.ElasticityOfElectricityDemand"
+            ], 
+            "fun_src": "\n\ndef compute(self):\n    return (abs(self.get(ElasticityOfElectricityDemand)) * self.get(EconomicGrowthRatePerYear))\n", 
+            "id": "finance.ElectricityDemandGrowthRatePerYear", 
+            "name": "finance.ElectricityDemandGrowthRatePerYear", 
+            "section": "finance", 
+            "type": "SINGLE_STMT_OTHER", 
+            "units": "fraction per year", 
+            "x": 9386.0, 
+            "y": 378.0
+        }, 
+        {
+            "alias": "og_pp_ini", 
+            "default": "", 
+            "dep_string": "costOffGrid.PhotovoltaicPanelActualSystemCapacity;costOffGrid.PhotovoltaicPanelCostPerPhotovoltaicComponentKilowatt", 
+            "dependencies": [
+                "costOffGrid.PhotovoltaicPanelActualSystemCapacity", 
+                "costOffGrid.PhotovoltaicPanelCostPerPhotovoltaicComponentKilowatt"
+            ], 
+            "fun_src": "\n\ndef compute(self):\n    return (self.get(PhotovoltaicPanelCostPerPhotovoltaicComponentKilowatt) * self.get(PhotovoltaicPanelActualSystemCapacity))\n", 
+            "id": "costOffGrid.PhotovoltaicPanelCost", 
+            "name": "costOffGrid.PhotovoltaicPanelCost", 
+            "section": "costOffGrid", 
+            "type": "SINGLE_STMT_SIMPLE", 
+            "units": "dollars", 
+            "x": 9851.0, 
+            "y": 810.0
+        }, 
+        {
+            "alias": "gr_tot_d", 
+            "default": 0, 
+            "dep_string": "", 
+            "dependencies": [], 
+            "fun_src": "\n\ndef aggregate(self, childVS):\n    childDataset = childVS.state[0]\n    childNode = childVS.state[1]\n    if ((childVS.get(System)[0] == 'g') and (not childDataset.wasNodeAlreadyConnected(childNode))):\n        internalCost = childVS.get(costGrid.GridInternalSystemNodalDiscountedCost)\n        newConnections = childDataset.cycleConnections(childNode, is_existing=False)\n        newConnectionLengthHalved = (sum((x.weight for x in newConnections)) / 2.0)\n        externalCostPerMeter = childVS.get(costGrid.GridExternalSystemNodalDiscountedCostPerMeter)\n        externalCost = (externalCostPerMeter * newConnectionLengthHalved)\n        self.value += (internalCost + externalCost)\n", 
+            "id": "GridSystemTotalDiscountedCost", 
+            "name": "GridSystemTotalDiscountedCost", 
+            "section": "", 
+            "type": "AGGREGATE", 
+            "units": "dollars", 
+            "x": 14016.0, 
+            "y": 1314.0
+        }, 
+        {
+            "alias": "he_cc_t", 
+            "default": "ZeroLogisticLinear", 
+            "dep_string": "", 
+            "dependencies": [], 
+            "id": "demand.HealthFacilityCountCurveType", 
+            "name": "demand.HealthFacilityCountCurveType", 
+            "section": "demand", 
+            "type": "CURVE_TYPE", 
+            "units": "", 
+            "x": 7143.0, 
+            "y": 306.0
+        }, 
+        {
+            "alias": "pkel_hr", 
+            "default": 1460, 
+            "dep_string": "", 
+            "dependencies": [], 
+            "id": "demand.PeakElectricalHoursOfOperationPerYear", 
+            "name": "demand.PeakElectricalHoursOfOperationPerYear", 
+            "section": "demand", 
+            "type": "LEAF_VAR", 
+            "units": "hours per year", 
+            "x": 12143.0, 
+            "y": 450.0
+        }, 
+        {
+            "alias": "ct_hh_t", 
+            "default": "", 
+            "dep_string": "demand.TargetHouseholdPenetrationRate;demographics.ProjectedHouseholdCount", 
+            "dependencies": [
+                "demand.TargetHouseholdPenetrationRate", 
+                "demographics.ProjectedHouseholdCount"
+            ], 
+            "fun_src": "\n\ndef compute(self):\n    return math.ceil((self.get(TargetHouseholdPenetrationRate) * self.get(demographics.ProjectedHouseholdCount)))\n", 
+            "id": "demand.TargetHouseholdCount", 
+            "name": "demand.TargetHouseholdCount", 
+            "section": "demand", 
+            "type": "SINGLE_STMT_OTHER", 
+            "units": "households", 
+            "x": 4072.0, 
+            "y": 450.0
+        }, 
+        {
+            "alias": "di_ll_rep", 
+            "default": "", 
+            "dep_string": "costDistribution.LowVoltageLineInitialCost;costDistribution.LowVoltageLineLifetime", 
+            "dependencies": [
+                "costDistribution.LowVoltageLineInitialCost", 
+                "costDistribution.LowVoltageLineLifetime"
+            ], 
+            "fun_src": "\n\ndef compute(self):\n    return (self.get(LowVoltageLineInitialCost) / float(self.get(LowVoltageLineLifetime)))\n", 
+            "id": "costDistribution.LowVoltageLineReplacementCostPerYear", 
+            "name": "costDistribution.LowVoltageLineReplacementCostPerYear", 
+            "section": "costDistribution", 
+            "type": "SINGLE_STMT_OTHER", 
+            "units": "dollars per year", 
+            "x": 3667.0, 
+            "y": 954.0
+        }, 
+        {
+            "alias": "li_dc_unit", 
+            "default": 0, 
+            "dep_string": "", 
+            "dependencies": [], 
+            "id": "demand.PublicLightingFacilityUnitDemandPerPublicLightingFacilityPerYear", 
+            "name": "demand.PublicLightingFacilityUnitDemandPerPublicLightingFacilityPerYear", 
+            "section": "demand", 
+            "type": "LEAF_VAR", 
+            "units": "kilowatt-hours per year", 
+            "x": 7670.0, 
+            "y": 450.0
+        }, 
+        {
+            "alias": "pr_dc_unit", 
+            "default": 0, 
+            "dep_string": "", 
+            "dependencies": [], 
+            "id": "demand.ProductiveUnitDemandPerHouseholdPerYear", 
+            "name": "demand.ProductiveUnitDemandPerHouseholdPerYear", 
+            "section": "demand", 
+            "type": "LEAF_VAR", 
+            "units": "kilowatt-hours per year", 
+            "x": 4644.0, 
+            "y": 450.0
+        }, 
+        {
+            "alias": "di_ll_cm", 
+            "default": 10, 
+            "dep_string": "", 
+            "dependencies": [], 
+            "id": "costDistribution.LowVoltageLineCostPerMeter", 
+            "name": "costDistribution.LowVoltageLineCostPerMeter", 
+            "section": "costDistribution", 
+            "type": "LEAF_VAR", 
+            "units": "dollars per meter", 
+            "x": 3829.0, 
+            "y": 810.0
+        }, 
+        {
+            "alias": "p_co", 
+            "default": "", 
+            "dep_string": "demand.CommercialFacilityCountCurve;demographics.ProjectedPopulationCount", 
+            "dependencies": [
+                "demand.CommercialFacilityCountCurve", 
+                "demographics.ProjectedPopulationCount"
+            ], 
+            "fun_src": "\n\ndef compute(self):\n    return self.get(CommercialFacilityCountCurve).interpolate(self.get(demographics.ProjectedPopulationCount))\n", 
+            "id": "demand.ProjectedCommercialFacilityCount", 
+            "name": "demand.ProjectedCommercialFacilityCount", 
+            "section": "demand", 
+            "type": "CURVE_INTERPOLATE", 
+            "units": "commercial facility count", 
+            "x": 7069.0, 
+            "y": 450.0
+        }, 
+        {
+            "alias": "ge_inim", 
+            "default": "", 
+            "dep_string": "costGrid.GridMediumVoltageLineCostPerMeter", 
+            "dependencies": [
+                "costGrid.GridMediumVoltageLineCostPerMeter"
+            ], 
+            "fun_src": "\n\ndef compute(self):\n    return self.get(GridMediumVoltageLineCostPerMeter)\n", 
+            "id": "costGrid.GridExternalSystemInitialCostPerMeter", 
+            "name": "costGrid.GridExternalSystemInitialCostPerMeter", 
+            "section": "costGrid", 
+            "type": "SINGLE_STMT_SIMPLE", 
+            "units": "dollars per meter", 
+            "x": 13736.0, 
+            "y": 1242.0
+        }, 
+        {
+            "alias": "gr_ml_repm", 
+            "default": "", 
+            "dep_string": "costGrid.GridMediumVoltageLineCostPerMeter;costGrid.GridMediumVoltageLineLifetime", 
+            "dependencies": [
+                "costGrid.GridMediumVoltageLineCostPerMeter", 
+                "costGrid.GridMediumVoltageLineLifetime"
+            ], 
+            "fun_src": "\n\ndef compute(self):\n    return (self.get(GridMediumVoltageLineCostPerMeter) / float(self.get(GridMediumVoltageLineLifetime)))\n", 
+            "id": "costGrid.GridMediumVoltageLineReplacementCostPerMeterPerYear", 
+            "name": "costGrid.GridMediumVoltageLineReplacementCostPerMeterPerYear", 
+            "section": "costGrid", 
+            "type": "SINGLE_STMT_OTHER", 
+            "units": "dollars per meter per year", 
+            "x": 15312.0, 
+            "y": 1098.0
+        }, 
+        {
+            "alias": "og_tot_ddc", 
+            "default": 0, 
+            "dep_string": "", 
+            "dependencies": [], 
+            "fun_src": "\n\ndef aggregate(self, childVS):\n    if (childVS.get(System)[0] == 'o'):\n        self.value += childVS.get(costOffGrid.OffGridSystemNodalDiscountedDieselCost)\n", 
+            "id": "OffGridSystemTotalDiscountedDieselCost", 
+            "name": "OffGridSystemTotalDiscountedDieselCost", 
+            "section": "", 
+            "type": "AGGREGATE", 
+            "units": "dollars", 
+            "x": 18117.0, 
+            "y": 1386.0
+        }, 
+        {
+            "alias": "og_pp_rep", 
+            "default": "", 
+            "dep_string": "costOffGrid.PhotovoltaicPanelCost;costOffGrid.PhotovoltaicPanelLifetime", 
+            "dependencies": [
+                "costOffGrid.PhotovoltaicPanelCost", 
+                "costOffGrid.PhotovoltaicPanelLifetime"
+            ], 
+            "fun_src": "\n\ndef compute(self):\n    return (self.get(PhotovoltaicPanelCost) / float(self.get(PhotovoltaicPanelLifetime)))\n", 
+            "id": "costOffGrid.PhotovoltaicPanelReplacementCostPerYear", 
+            "name": "costOffGrid.PhotovoltaicPanelReplacementCostPerYear", 
+            "section": "costOffGrid", 
+            "type": "SINGLE_STMT_OTHER", 
+            "units": "dollars per year", 
+            "x": 9115.0, 
+            "y": 1026.0
+        }, 
+        {
+            "alias": "gi_nod_lev", 
+            "default": "", 
+            "dep_string": "costGrid.GridInternalSystemNodalDiscountedCost;demand.ProjectedNodalDiscountedDemand", 
+            "dependencies": [
+                "costGrid.GridInternalSystemNodalDiscountedCost", 
+                "demand.ProjectedNodalDiscountedDemand"
+            ], 
+            "fun_src": "\n\ndef compute(self):\n    if (self.get(demand.ProjectedNodalDiscountedDemand) == 0):\n        return 0\n    return (self.get(GridInternalSystemNodalDiscountedCost) / float(self.get(demand.ProjectedNodalDiscountedDemand)))\n", 
+            "id": "costGrid.GridInternalSystemNodalLevelizedCost", 
+            "name": "costGrid.GridInternalSystemNodalLevelizedCost", 
+            "section": "costGrid", 
+            "type": "OTHER", 
+            "units": "dollars per kilowatt-hour", 
+            "x": 5452.0, 
+            "y": 1242.0
+        }, 
+        {
+            "alias": "og_pb_hkw", 
+            "default": 5, 
+            "dep_string": "", 
+            "dependencies": [], 
+            "id": "costOffGrid.PhotovoltaicBatteryKilowattHoursPerPhotovoltaicComponentKilowatt", 
+            "name": "costOffGrid.PhotovoltaicBatteryKilowattHoursPerPhotovoltaicComponentKilowatt", 
+            "section": "costOffGrid", 
+            "type": "LEAF_VAR", 
+            "units": "kilowatt-hours per kilowatt", 
+            "x": 8083.0, 
+            "y": 810.0
+        }, 
+        {
+            "alias": "mvmax", 
+            "default": "", 
+            "dep_string": "costGrid.GridExternalSystemNodalDiscountedCostPerMeter;costGrid.GridInternalSystemNodalDiscountedCost;costGrid.GridInternalSystemNodalLevelizedCost;costMiniGrid.MiniGridSystemNodalDiscountedCost;costMiniGrid.MiniGridSystemNodalLevelizedCost;costOffGrid.OffGridSystemNodalDiscountedCost;costOffGrid.OffGridSystemNodalLevelizedCost", 
+            "dependencies": [
+                "costGrid.GridExternalSystemNodalDiscountedCostPerMeter", 
+                "costGrid.GridInternalSystemNodalDiscountedCost", 
+                "costGrid.GridInternalSystemNodalLevelizedCost", 
+                "costMiniGrid.MiniGridSystemNodalDiscountedCost", 
+                "costMiniGrid.MiniGridSystemNodalLevelizedCost", 
+                "costOffGrid.OffGridSystemNodalDiscountedCost", 
+                "costOffGrid.OffGridSystemNodalLevelizedCost"
+            ], 
+            "fun_src": "\n\ndef compute(self):\n    self.get(costOffGrid.OffGridSystemNodalLevelizedCost)\n    self.get(costMiniGrid.MiniGridSystemNodalLevelizedCost)\n    self.get(costGrid.GridInternalSystemNodalLevelizedCost)\n    standaloneCost = min(self.get(costOffGrid.OffGridSystemNodalDiscountedCost), self.get(costMiniGrid.MiniGridSystemNodalDiscountedCost))\n    gridExternalBudget = max(0, (standaloneCost - self.get(costGrid.GridInternalSystemNodalDiscountedCost)))\n    return (gridExternalBudget / float(self.get(costGrid.GridExternalSystemNodalDiscountedCostPerMeter)))\n", 
+            "id": "Metric", 
+            "name": "Metric", 
+            "section": "", 
+            "type": "OTHER", 
+            "units": "meters", 
+            "x": 6482.0, 
+            "y": 1386.0
+        }, 
+        {
+            "alias": "p_dem_pr", 
+            "default": "", 
+            "dep_string": "demand.ProductiveDemandCurve;demand.ProductiveUnitDemandPerHouseholdPerYear;demand.TargetHouseholdCount;demographics.ProjectedPopulationCount;finance.ElectricityDemandMultiplier", 
+            "dependencies": [
+                "demand.ProductiveDemandCurve", 
+                "demand.ProductiveUnitDemandPerHouseholdPerYear", 
+                "demand.TargetHouseholdCount", 
+                "demographics.ProjectedPopulationCount", 
+                "finance.ElectricityDemandMultiplier"
+            ], 
+            "fun_src": "\n\ndef compute(self):\n    return (((self.get(finance.ElectricityDemandMultiplier) * self.get(ProductiveDemandCurve).interpolate(self.get(demographics.ProjectedPopulationCount))) * self.get(ProductiveUnitDemandPerHouseholdPerYear)) * self.get(TargetHouseholdCount))\n", 
+            "id": "demand.ProjectedProductiveDemandPerYear", 
+            "name": "demand.ProjectedProductiveDemandPerYear", 
+            "section": "demand", 
+            "type": "CURVE_INTERPOLATE", 
+            "units": "kilowatt-hours per year", 
+            "x": 5623.0, 
+            "y": 522.0
+        }, 
+        {
+            "alias": "gr_tr_life", 
+            "default": 10, 
+            "dep_string": "", 
+            "dependencies": [], 
+            "id": "costGrid.GridTransformerLifetime", 
+            "name": "costGrid.GridTransformerLifetime", 
+            "section": "costGrid", 
+            "type": "LEAF_VAR", 
+            "units": "years", 
+            "x": 6082.0, 
+            "y": 954.0
+        }, 
+        {
+            "alias": "gr_loss", 
+            "default": 0.15, 
+            "dep_string": "", 
+            "dependencies": [], 
+            "id": "costGrid.DistributionLoss", 
+            "name": "costGrid.DistributionLoss", 
+            "section": "costGrid", 
+            "type": "LEAF_VAR", 
+            "units": "fraction", 
+            "x": 6921.0, 
+            "y": 666.0
+        }, 
+        {
+            "alias": "mg_tot_drc", 
+            "default": 0, 
+            "dep_string": "", 
+            "dependencies": [], 
+            "fun_src": "\n\ndef aggregate(self, childVS):\n    if (childVS.get(System)[0] == 'm'):\n        self.value += (childVS.get(costMiniGrid.MiniGridSystemRecurringCostPerYear) * childVS.get(finance.DiscountedCashFlowFactor))\n", 
+            "id": "MiniGridSystemTotalDiscountedRecurringCost", 
+            "name": "MiniGridSystemTotalDiscountedRecurringCost", 
+            "section": "", 
+            "type": "AGGREGATE", 
+            "units": "dollars", 
+            "x": 14599.0, 
+            "y": 1386.0
+        }, 
+        {
+            "alias": "pr_dc_pts", 
+            "default": "500 1; 1000 3.06; 5000 3.57; 10000 5.10", 
+            "dep_string": "", 
+            "dependencies": [], 
+            "id": "demand.ProductiveDemandCurvePoints", 
+            "name": "demand.ProductiveDemandCurvePoints", 
+            "section": "demand", 
+            "type": "CURVE_POINTS", 
+            "units": "population and multiplier list", 
+            "x": 4822.0, 
+            "y": 378.0
+        }, 
+        {
+            "alias": "gr_tot_pnl", 
+            "default": "", 
+            "dep_string": "", 
+            "dependencies": [], 
+            "fun_src": "\n\ndef compute(self):\n    return self.state[0].sumNetworkWeight(is_existing=False)\n", 
+            "id": "GridSystemTotalProposedNetworkLength", 
+            "name": "GridSystemTotalProposedNetworkLength", 
+            "section": "", 
+            "type": "SINGLE_STMT_OTHER", 
+            "units": "meters", 
+            "x": 15054.0, 
+            "y": 1386.0
+        }, 
+        {
+            "alias": "og_dg_life", 
+            "default": 5, 
+            "dep_string": "", 
+            "dependencies": [], 
+            "id": "costOffGrid.DieselGeneratorLifetime", 
+            "name": "costOffGrid.DieselGeneratorLifetime", 
+            "section": "costOffGrid", 
+            "type": "LEAF_VAR", 
+            "units": "years", 
+            "x": 13274.0, 
+            "y": 954.0
+        }, 
+        {
+            "alias": "li_cc", 
+            "default": "", 
+            "dep_string": "demand.PublicLightingFacilityCountCurvePoints;demand.PublicLightingFacilityCountCurveType", 
+            "dependencies": [
+                "demand.PublicLightingFacilityCountCurvePoints", 
+                "demand.PublicLightingFacilityCountCurveType"
+            ], 
+            "fun_src": "\n\ndef compute(self):\n    curveType = self.get(PublicLightingFacilityCountCurveType)\n    curvePoints = self.get(PublicLightingFacilityCountCurvePoints)\n    return curve.fit(curveType, curvePoints)\n", 
+            "id": "demand.PublicLightingFacilityCountCurve", 
+            "name": "demand.PublicLightingFacilityCountCurve", 
+            "section": "demand", 
+            "type": "CURVE_FUN", 
+            "units": "", 
+            "x": 5248.0, 
+            "y": 378.0
+        }, 
+        {
+            "alias": "og_tot_drc", 
+            "default": 0, 
+            "dep_string": "", 
+            "dependencies": [], 
+            "fun_src": "\n\ndef aggregate(self, childVS):\n    if (childVS.get(System)[0] == 'o'):\n        self.value += (childVS.get(costOffGrid.OffGridSystemRecurringCostPerYear) * childVS.get(finance.DiscountedCashFlowFactor))\n", 
+            "id": "OffGridSystemTotalDiscountedRecurringCost", 
+            "name": "OffGridSystemTotalDiscountedRecurringCost", 
+            "section": "", 
+            "type": "AGGREGATE", 
+            "units": "dollars", 
+            "x": 15502.0, 
+            "y": 1386.0
+        }, 
+        {
+            "alias": "og_pb_rep", 
+            "default": "", 
+            "dep_string": "costOffGrid.PhotovoltaicBatteryCost;costOffGrid.PhotovoltaicBatteryLifetime", 
+            "dependencies": [
+                "costOffGrid.PhotovoltaicBatteryCost", 
+                "costOffGrid.PhotovoltaicBatteryLifetime"
+            ], 
+            "fun_src": "\n\ndef compute(self):\n    return (self.get(PhotovoltaicBatteryCost) / float(self.get(PhotovoltaicBatteryLifetime)))\n", 
+            "id": "costOffGrid.PhotovoltaicBatteryReplacementCostPerYear", 
+            "name": "costOffGrid.PhotovoltaicBatteryReplacementCostPerYear", 
+            "section": "costOffGrid", 
+            "type": "SINGLE_STMT_OTHER", 
+            "units": "dollars per year", 
+            "x": 7967.0, 
+            "y": 1026.0
+        }, 
+        {
+            "alias": "mg_g_life", 
+            "default": 5, 
+            "dep_string": "", 
+            "dependencies": [], 
+            "id": "costMiniGrid.GenerationLifetime", 
+            "name": "costMiniGrid.GenerationLifetime", 
+            "section": "costMiniGrid", 
+            "type": "LEAF_VAR", 
+            "units": "years", 
+            "x": 2246.0, 
+            "y": 954.0
+        }, 
+        {
+            "alias": "p_pop", 
+            "default": "", 
+            "dep_string": "demographics.ProjectedPopulationCounts", 
+            "dependencies": [
+                "demographics.ProjectedPopulationCounts"
+            ], 
+            "fun_src": "\n\ndef compute(self):\n    return self.get(ProjectedPopulationCounts)[(-1)]\n", 
+            "id": "demographics.ProjectedPopulationCount", 
+            "name": "demographics.ProjectedPopulationCount", 
+            "section": "demographics", 
+            "type": "SINGLE_STMT_OTHER", 
+            "units": "person count", 
+            "x": 6497.0, 
+            "y": 162.0
+        }, 
+        {
+            "alias": "gr_le", 
+            "default": "", 
+            "dep_string": "costDistribution.LowVoltageLineEquipmentCostPerConnection;costGrid.GridInternalConnectionCount", 
+            "dependencies": [
+                "costDistribution.LowVoltageLineEquipmentCostPerConnection", 
+                "costGrid.GridInternalConnectionCount"
+            ], 
+            "fun_src": "\n\ndef compute(self):\n    return (self.get(costDistribution.LowVoltageLineEquipmentCostPerConnection) * self.get(GridInternalConnectionCount))\n", 
+            "id": "costGrid.LowVoltageLineEquipmentCost", 
+            "name": "costGrid.LowVoltageLineEquipmentCost", 
+            "section": "costGrid", 
+            "type": "SINGLE_STMT_SIMPLE", 
+            "units": "dollars", 
+            "x": 5338.0, 
+            "y": 954.0
+        }, 
+        {
+            "alias": "he_dc_unit", 
+            "default": 0, 
+            "dep_string": "", 
+            "dependencies": [], 
+            "id": "demand.HealthFacilityUnitDemandPerHealthFacilityPerYear", 
+            "name": "demand.HealthFacilityUnitDemandPerHealthFacilityPerYear", 
+            "section": "demand", 
+            "type": "LEAF_VAR", 
+            "units": "kilowatt-hours per year", 
+            "x": 9918.0, 
+            "y": 450.0
+        }, 
+        {
+            "alias": "mg_esdpy", 
+            "default": "", 
+            "dep_string": "costMiniGrid.DistributionLoss;costMiniGrid.MinimumEnergyStorageCapacity;costMiniGrid.PercentOfDailyKilowattHourLoadRequiringStorage;demand.ProjectedNodalDemandPerYear", 
+            "dependencies": [
+                "costMiniGrid.DistributionLoss", 
+                "costMiniGrid.MinimumEnergyStorageCapacity", 
+                "costMiniGrid.PercentOfDailyKilowattHourLoadRequiringStorage", 
+                "demand.ProjectedNodalDemandPerYear"
+            ], 
+            "fun_src": "\n\ndef compute(self):\n    effectiveDemandPerYear = (self.get(demand.ProjectedNodalDemandPerYear) / float((1 - self.get(DistributionLoss))))\n    return max((self.get(MinimumEnergyStorageCapacity) * 365), (effectiveDemandPerYear * float(self.get(PercentOfDailyKilowattHourLoadRequiringStorage))))\n", 
+            "id": "costMiniGrid.EnergyStorageDemandPerYear", 
+            "name": "costMiniGrid.EnergyStorageDemandPerYear", 
+            "section": "costMiniGrid", 
+            "type": "OTHER", 
+            "units": "kilowatt-hours per year", 
+            "x": 1959.0, 
+            "y": 738.0
+        }, 
+        {
+            "alias": "mg_tot_i", 
+            "default": 0, 
+            "dep_string": "", 
+            "dependencies": [], 
+            "fun_src": "\n\ndef aggregate(self, childVS):\n    if (childVS.get(System)[0] == 'm'):\n        self.value += childVS.get(costMiniGrid.MiniGridSystemInitialCost)\n", 
+            "id": "MiniGridSystemTotalInitialCost", 
+            "name": "MiniGridSystemTotalInitialCost", 
+            "section": "", 
+            "type": "AGGREGATE", 
+            "units": "dollars", 
+            "x": 16126.0, 
+            "y": 1386.0
+        }, 
+        {
+            "alias": "g_ct", 
+            "default": 0, 
+            "dep_string": "", 
+            "dependencies": [], 
+            "fun_src": "\n\ndef aggregate(self, childVS):\n    if (childVS.get(System)[0] == 'g'):\n        self.value += 1\n", 
+            "id": "GridSystemTotal", 
+            "name": "GridSystemTotal", 
+            "section": "", 
+            "type": "AGGREGATE", 
+            "units": "count", 
+            "x": 16392.0, 
+            "y": 1386.0
+        }, 
+        {
+            "alias": "gr_el", 
+            "default": "", 
+            "dep_string": "costGrid.DistributionLoss;costGrid.GridElectricityCostPerKilowattHour;demand.ProjectedNodalDemandPerYear", 
+            "dependencies": [
+                "costGrid.DistributionLoss", 
+                "costGrid.GridElectricityCostPerKilowattHour", 
+                "demand.ProjectedNodalDemandPerYear"
+            ], 
+            "fun_src": "\n\ndef compute(self):\n    return ((self.get(GridElectricityCostPerKilowattHour) * self.get(demand.ProjectedNodalDemandPerYear)) / float((1 - self.get(DistributionLoss))))\n", 
+            "id": "costGrid.GridElectricityCostPerYear", 
+            "name": "costGrid.GridElectricityCostPerYear", 
+            "section": "costGrid", 
+            "type": "SINGLE_STMT_OTHER", 
+            "units": "dollars per year", 
+            "x": 7369.0, 
+            "y": 738.0
+        }, 
+        {
+            "alias": "og_dg_acp", 
+            "default": "", 
+            "dep_string": "costOffGrid.DieselGeneratorActualSystemCapacityCounts;costOffGrid.DieselGeneratorAvailableSystemCapacities", 
+            "dependencies": [
+                "costOffGrid.DieselGeneratorActualSystemCapacityCounts", 
+                "costOffGrid.DieselGeneratorAvailableSystemCapacities"
+            ], 
+            "fun_src": "\n\ndef compute(self):\n    return numpy.dot(self.get(DieselGeneratorAvailableSystemCapacities), self.get(DieselGeneratorActualSystemCapacityCounts))\n", 
+            "id": "costOffGrid.DieselGeneratorActualSystemCapacity", 
+            "name": "costOffGrid.DieselGeneratorActualSystemCapacity", 
+            "section": "costOffGrid", 
+            "type": "SINGLE_STMT_OTHER", 
+            "units": "kilowatts", 
+            "x": 12118.0, 
+            "y": 882.0
+        }, 
+        {
+            "alias": "mg_tot_desc", 
+            "default": 0, 
+            "dep_string": "", 
+            "dependencies": [], 
+            "fun_src": "\n\ndef aggregate(self, childVS):\n    if (childVS.get(System)[0] == 'm'):\n        self.value += childVS.get(costMiniGrid.MiniGridSystemNodalDiscountedEnergyStorageCost)\n", 
+            "id": "MiniGridSystemTotalDiscountedEnergyStorageCost", 
+            "name": "MiniGridSystemTotalDiscountedEnergyStorageCost", 
+            "section": "", 
+            "type": "AGGREGATE", 
+            "units": "dollars", 
+            "x": 16752.0, 
+            "y": 1386.0
+        }, 
+        {
+            "alias": "p_ed", 
+            "default": "", 
+            "dep_string": "demand.EducationFacilityCountCurve;demographics.ProjectedPopulationCount", 
+            "dependencies": [
+                "demand.EducationFacilityCountCurve", 
+                "demographics.ProjectedPopulationCount"
+            ], 
+            "fun_src": "\n\ndef compute(self):\n    return self.get(EducationFacilityCountCurve).interpolate(self.get(demographics.ProjectedPopulationCount))\n", 
+            "id": "demand.ProjectedEducationFacilityCount", 
+            "name": "demand.ProjectedEducationFacilityCount", 
+            "section": "demand", 
+            "type": "CURVE_INTERPOLATE", 
+            "units": "education facility count", 
+            "x": 6194.0, 
+            "y": 450.0
+        }, 
+        {
+            "alias": "gr_tot_lev", 
+            "default": "", 
+            "dep_string": "GridSystemTotalDiscountedCost;GridSystemTotalDiscountedDemand", 
+            "dependencies": [
+                "GridSystemTotalDiscountedCost", 
+                "GridSystemTotalDiscountedDemand"
+            ], 
+            "fun_src": "\n\ndef compute(self):\n    if (self.get(GridSystemTotalDiscountedDemand) == 0):\n        return 0\n    return (self.get(GridSystemTotalDiscountedCost) / float(self.get(GridSystemTotalDiscountedDemand)))\n", 
+            "id": "GridSystemTotalLevelizedCost", 
+            "name": "GridSystemTotalLevelizedCost", 
+            "section": "", 
+            "type": "OTHER", 
+            "units": "dollars per kilowatt-hour", 
+            "x": 14196.0, 
+            "y": 1386.0
+        }, 
+        {
+            "alias": "gr_tr", 
+            "default": "", 
+            "dep_string": "costGrid.GridTransformerActualSystemCapacity;costGrid.GridTransformerCostPerGridSystemKilowatt", 
+            "dependencies": [
+                "costGrid.GridTransformerActualSystemCapacity", 
+                "costGrid.GridTransformerCostPerGridSystemKilowatt"
+            ], 
+            "fun_src": "\n\ndef compute(self):\n    return (self.get(GridTransformerCostPerGridSystemKilowatt) * self.get(GridTransformerActualSystemCapacity))\n", 
+            "id": "costGrid.GridTransformerCost", 
+            "name": "costGrid.GridTransformerCost", 
+            "section": "costGrid", 
+            "type": "SINGLE_STMT_SIMPLE", 
+            "units": "dollars", 
+            "x": 6424.0, 
+            "y": 954.0
+        }, 
+        {
+            "alias": "og_dg_i", 
+            "default": "", 
+            "dep_string": "costOffGrid.DieselGeneratorCost;costOffGrid.DieselGeneratorInstallationCostAsFractionOfGeneratorCost", 
+            "dependencies": [
+                "costOffGrid.DieselGeneratorCost", 
+                "costOffGrid.DieselGeneratorInstallationCostAsFractionOfGeneratorCost"
+            ], 
+            "fun_src": "\n\ndef compute(self):\n    return (self.get(DieselGeneratorInstallationCostAsFractionOfGeneratorCost) * self.get(DieselGeneratorCost))\n", 
+            "id": "costOffGrid.DieselGeneratorInstallationCost", 
+            "name": "costOffGrid.DieselGeneratorInstallationCost", 
+            "section": "costOffGrid", 
+            "type": "SINGLE_STMT_SIMPLE", 
+            "units": "dollars", 
+            "x": 13867.0, 
+            "y": 1026.0
+        }, 
+        {
+            "alias": "pop_g_u", 
+            "default": 0.036, 
+            "dep_string": "", 
+            "dependencies": [], 
+            "id": "demographics.UrbanPopulationGrowthRatePerYear", 
+            "name": "demographics.UrbanPopulationGrowthRatePerYear", 
+            "section": "demographics", 
+            "type": "LEAF_VAR", 
+            "units": "fraction per year", 
+            "x": 3362.0, 
+            "y": 18.0
+        }, 
+        {
+            "alias": "gr_tr_rep", 
+            "default": "", 
+            "dep_string": "costGrid.GridTransformerCost;costGrid.GridTransformerLifetime", 
+            "dependencies": [
+                "costGrid.GridTransformerCost", 
+                "costGrid.GridTransformerLifetime"
+            ], 
+            "fun_src": "\n\ndef compute(self):\n    return (self.get(GridTransformerCost) / float(self.get(GridTransformerLifetime)))\n", 
+            "id": "costGrid.GridTransformerReplacementCostPerYear", 
+            "name": "costGrid.GridTransformerReplacementCostPerYear", 
+            "section": "costGrid", 
+            "type": "SINGLE_STMT_OTHER", 
+            "units": "dollars per year", 
+            "x": 6470.0, 
+            "y": 1026.0
+        }, 
+        {
+            "alias": "gr_tr_acps", 
+            "default": "", 
+            "dep_string": "costGrid.GridTransformerAvailableSystemCapacities;costGrid.GridTransformerDesiredSystemCapacity", 
+            "dependencies": [
+                "costGrid.GridTransformerAvailableSystemCapacities", 
+                "costGrid.GridTransformerDesiredSystemCapacity"
+            ], 
+            "fun_src": "\n\ndef compute(self):\n    return metric.computeSystemCounts(self.get(GridTransformerDesiredSystemCapacity), self.get(GridTransformerAvailableSystemCapacities))\n", 
+            "id": "costGrid.GridTransformerActualSystemCapacityCounts", 
+            "name": "costGrid.GridTransformerActualSystemCapacityCounts", 
+            "section": "costGrid", 
+            "type": "SINGLE_STMT_OTHER", 
+            "units": "capacity count list", 
+            "x": 6745.0, 
+            "y": 810.0
+        }, 
+        {
+            "alias": "og_ct", 
+            "default": 0, 
+            "dep_string": "", 
+            "dependencies": [], 
+            "fun_src": "\n\ndef aggregate(self, childVS):\n    if (childVS.get(System)[0] == 'o'):\n        self.value += 1\n", 
+            "id": "OffGridSystemTotal", 
+            "name": "OffGridSystemTotal", 
+            "section": "", 
+            "type": "AGGREGATE", 
+            "units": "count", 
+            "x": 15846.0, 
+            "y": 1386.0
+        }, 
+        {
+            "alias": "ho_dc_t", 
+            "default": "ZeroLogisticLinear", 
+            "dep_string": "", 
+            "dependencies": [], 
+            "id": "demand.HouseholdDemandCurveType", 
+            "name": "demand.HouseholdDemandCurveType", 
+            "section": "demand", 
+            "type": "CURVE_TYPE", 
+            "units": "", 
+            "x": 10868.0, 
+            "y": 378.0
+        }, 
+        {
+            "alias": "gr_tr_cps", 
+            "default": "1000 900 800 700 600 500 400 300 200 100 90 80 70 60 50 40 30 20 15 5", 
+            "dep_string": "", 
+            "dependencies": [], 
+            "id": "costGrid.GridTransformerAvailableSystemCapacities", 
+            "name": "costGrid.GridTransformerAvailableSystemCapacities", 
+            "section": "costGrid", 
+            "type": "LEAF_VAR", 
+            "units": "kilowatts list", 
+            "x": 6401.0, 
+            "y": 738.0
+        }, 
+        {
+            "alias": "ho_size_r", 
+            "default": 9.6, 
+            "dep_string": "", 
+            "dependencies": [], 
+            "id": "demographics.RuralMeanHouseholdSize", 
+            "name": "demographics.RuralMeanHouseholdSize", 
+            "section": "demographics", 
+            "type": "LEAF_VAR", 
+            "units": "person count", 
+            "x": 3574.0, 
+            "y": 234.0
+        }, 
+        {
+            "alias": "p_dem_he", 
+            "default": "", 
+            "dep_string": "demand.HealthFacilityUnitDemandPerHealthFacilityPerYear;demand.ProjectedHealthFacilityCount;demand.SocialInfrastructureDemandCurve;demographics.ProjectedPopulationCount;finance.ElectricityDemandMultiplier", 
+            "dependencies": [
+                "demand.HealthFacilityUnitDemandPerHealthFacilityPerYear", 
+                "demand.ProjectedHealthFacilityCount", 
+                "demand.SocialInfrastructureDemandCurve", 
+                "demographics.ProjectedPopulationCount", 
+                "finance.ElectricityDemandMultiplier"
+            ], 
+            "fun_src": "\n\ndef compute(self):\n    return (((self.get(finance.ElectricityDemandMultiplier) * self.get(SocialInfrastructureDemandCurve).interpolate(self.get(demographics.ProjectedPopulationCount))) * self.get(HealthFacilityUnitDemandPerHealthFacilityPerYear)) * self.get(ProjectedHealthFacilityCount))\n", 
+            "id": "demand.ProjectedHealthFacilityDemandPerYear", 
+            "name": "demand.ProjectedHealthFacilityDemandPerYear", 
+            "section": "demand", 
+            "type": "CURVE_INTERPOLATE", 
+            "units": "kilowatt-hours per year", 
+            "x": 9042.0, 
+            "y": 522.0
+        }, 
+        {
+            "alias": "mg_nod_d", 
+            "default": "", 
+            "dep_string": "costMiniGrid.MiniGridSystemInitialCost;costMiniGrid.MiniGridSystemRecurringCostPerYear;demand.ProjectedNodalDemandPerYear;finance.DiscountedCashFlowFactor", 
+            "dependencies": [
+                "costMiniGrid.MiniGridSystemInitialCost", 
+                "costMiniGrid.MiniGridSystemRecurringCostPerYear", 
+                "demand.ProjectedNodalDemandPerYear", 
+                "finance.DiscountedCashFlowFactor"
+            ], 
+            "fun_src": "\n\ndef compute(self):\n    if (self.get(demand.ProjectedNodalDemandPerYear) == 0):\n        return 0\n    return (self.get(MiniGridSystemInitialCost) + (self.get(MiniGridSystemRecurringCostPerYear) * self.get(finance.DiscountedCashFlowFactor)))\n", 
+            "id": "costMiniGrid.MiniGridSystemNodalDiscountedCost", 
+            "name": "costMiniGrid.MiniGridSystemNodalDiscountedCost", 
+            "section": "costMiniGrid", 
+            "type": "OTHER", 
+            "units": "dollars", 
+            "x": 3121.0, 
+            "y": 1170.0
+        }, 
+        {
+            "alias": "og_px_ini", 
+            "default": "", 
+            "dep_string": "costOffGrid.PhotovoltaicBalanceCostAsFractionOfPanelCost;costOffGrid.PhotovoltaicPanelCost", 
+            "dependencies": [
+                "costOffGrid.PhotovoltaicBalanceCostAsFractionOfPanelCost", 
+                "costOffGrid.PhotovoltaicPanelCost"
+            ], 
+            "fun_src": "\n\ndef compute(self):\n    return (self.get(PhotovoltaicBalanceCostAsFractionOfPanelCost) * self.get(PhotovoltaicPanelCost))\n", 
+            "id": "costOffGrid.PhotovoltaicBalanceCost", 
+            "name": "costOffGrid.PhotovoltaicBalanceCost", 
+            "section": "costOffGrid", 
+            "type": "SINGLE_STMT_SIMPLE", 
+            "units": "dollars", 
+            "x": 8971.0, 
+            "y": 882.0
+        }, 
+        {
+            "alias": "p_dem_li", 
+            "default": "", 
+            "dep_string": "demand.ProjectedPublicLightingFacilityCount;demand.PublicLightingFacilityUnitDemandPerPublicLightingFacilityPerYear;demand.SocialInfrastructureDemandCurve;demographics.ProjectedPopulationCount;finance.ElectricityDemandMultiplier", 
+            "dependencies": [
+                "demand.ProjectedPublicLightingFacilityCount", 
+                "demand.PublicLightingFacilityUnitDemandPerPublicLightingFacilityPerYear", 
+                "demand.SocialInfrastructureDemandCurve", 
+                "demographics.ProjectedPopulationCount", 
+                "finance.ElectricityDemandMultiplier"
+            ], 
+            "fun_src": "\n\ndef compute(self):\n    return (((self.get(finance.ElectricityDemandMultiplier) * self.get(SocialInfrastructureDemandCurve).interpolate(self.get(demographics.ProjectedPopulationCount))) * self.get(PublicLightingFacilityUnitDemandPerPublicLightingFacilityPerYear)) * self.get(ProjectedPublicLightingFacilityCount))\n", 
+            "id": "demand.ProjectedPublicLightingFacilityDemandPerYear", 
+            "name": "demand.ProjectedPublicLightingFacilityDemandPerYear", 
+            "section": "demand", 
+            "type": "CURVE_INTERPOLATE", 
+            "units": "kilowatt-hours per year", 
+            "x": 7670.0, 
+            "y": 522.0
+        }, 
+        {
+            "alias": "og_dg_dcp", 
+            "default": "", 
+            "dep_string": "demand.ProjectedPeakCommercialFacilityDemand;demand.ProjectedPeakProductiveDemand", 
+            "dependencies": [
+                "demand.ProjectedPeakCommercialFacilityDemand", 
+                "demand.ProjectedPeakProductiveDemand"
+            ], 
+            "fun_src": "\n\ndef compute(self):\n    return sum([self.get(demand.ProjectedPeakCommercialFacilityDemand), self.get(demand.ProjectedPeakProductiveDemand)])\n", 
+            "id": "costOffGrid.DieselGeneratorDesiredSystemCapacity", 
+            "name": "costOffGrid.DieselGeneratorDesiredSystemCapacity", 
+            "section": "costOffGrid", 
+            "type": "SINGLE_STMT_OTHER", 
+            "units": "kilowatts", 
+            "x": 11623.0, 
+            "y": 666.0
+        }, 
+        {
+            "alias": "og_pb_ini", 
+            "default": "", 
+            "dep_string": "costOffGrid.PhotovoltaicBatteryCostPerKilowattHour;costOffGrid.PhotovoltaicBatteryKilowattHoursPerPhotovoltaicComponentKilowatt;costOffGrid.PhotovoltaicPanelActualSystemCapacity", 
+            "dependencies": [
+                "costOffGrid.PhotovoltaicBatteryCostPerKilowattHour", 
+                "costOffGrid.PhotovoltaicBatteryKilowattHoursPerPhotovoltaicComponentKilowatt", 
+                "costOffGrid.PhotovoltaicPanelActualSystemCapacity"
+            ], 
+            "fun_src": "\n\ndef compute(self):\n    return ((self.get(PhotovoltaicBatteryCostPerKilowattHour) * self.get(PhotovoltaicBatteryKilowattHoursPerPhotovoltaicComponentKilowatt)) * self.get(PhotovoltaicPanelActualSystemCapacity))\n", 
+            "id": "costOffGrid.PhotovoltaicBatteryCost", 
+            "name": "costOffGrid.PhotovoltaicBatteryCost", 
+            "section": "costOffGrid", 
+            "type": "SINGLE_STMT_SIMPLE", 
+            "units": "dollars", 
+            "x": 8586.0, 
+            "y": 882.0
+        }, 
+        {
+            "alias": "og_tot_ddfc", 
+            "default": 0, 
+            "dep_string": "", 
+            "dependencies": [], 
+            "fun_src": "\n\ndef aggregate(self, childVS):\n    if (childVS.get(System)[0] == 'o'):\n        self.value += childVS.get(costOffGrid.OffGridSystemNodalDiscountedDieselFuelCost)\n", 
+            "id": "OffGridSystemTotalDiscountedDieselFuelCost", 
+            "name": "OffGridSystemTotalDiscountedDieselFuelCost", 
+            "section": "", 
+            "type": "AGGREGATE", 
+            "units": "dollars", 
+            "x": 17249.0, 
+            "y": 1386.0
+        }, 
+        {
+            "alias": "mg_rec", 
+            "default": "", 
+            "dep_string": "costDistribution.LowVoltageLineRecurringCostPerYear;costMiniGrid.EnergyStorageCostPerYear;costMiniGrid.GenerationOperationsAndMaintenanceCostPerYear;costMiniGrid.GenerationReplacementCostPerYear;costMiniGrid.LowVoltageLineEquipmentOperationsAndMaintenanceCostPerYear", 
+            "dependencies": [
+                "costDistribution.LowVoltageLineRecurringCostPerYear", 
+                "costMiniGrid.EnergyStorageCostPerYear", 
+                "costMiniGrid.GenerationOperationsAndMaintenanceCostPerYear", 
+                "costMiniGrid.GenerationReplacementCostPerYear", 
+                "costMiniGrid.LowVoltageLineEquipmentOperationsAndMaintenanceCostPerYear"
+            ], 
+            "fun_src": "\n\ndef compute(self):\n    return sum([self.get(GenerationOperationsAndMaintenanceCostPerYear), self.get(GenerationReplacementCostPerYear), self.get(EnergyStorageCostPerYear), self.get(LowVoltageLineEquipmentOperationsAndMaintenanceCostPerYear), self.get(costDistribution.LowVoltageLineRecurringCostPerYear)])\n", 
+            "id": "costMiniGrid.MiniGridSystemRecurringCostPerYear", 
+            "name": "costMiniGrid.MiniGridSystemRecurringCostPerYear", 
+            "section": "costMiniGrid", 
+            "type": "SINGLE_STMT_OTHER", 
+            "units": "dollars per year", 
+            "x": 3121.0, 
+            "y": 1098.0
+        }, 
+        {
+            "alias": "ho_dc_unit", 
+            "default": 0, 
+            "dep_string": "", 
+            "dependencies": [], 
+            "id": "demand.HouseholdUnitDemandPerHouseholdPerYear", 
+            "name": "demand.HouseholdUnitDemandPerHouseholdPerYear", 
+            "section": "demand", 
+            "type": "LEAF_VAR", 
+            "units": "kilowatt-hours per year", 
+            "x": 10881.0, 
+            "y": 450.0
+        }, 
+        {
+            "alias": "gr_i", 
+            "default": "", 
+            "dep_string": "costGrid.GridInstallationCostPerConnection;costGrid.GridInternalConnectionCount", 
+            "dependencies": [
+                "costGrid.GridInstallationCostPerConnection", 
+                "costGrid.GridInternalConnectionCount"
+            ], 
+            "fun_src": "\n\ndef compute(self):\n    return (self.get(GridInstallationCostPerConnection) * self.get(GridInternalConnectionCount))\n", 
+            "id": "costGrid.GridInstallationCost", 
+            "name": "costGrid.GridInstallationCost", 
+            "section": "costGrid", 
+            "type": "SINGLE_STMT_SIMPLE", 
+            "units": "dollars", 
+            "x": 5744.0, 
+            "y": 954.0
+        }, 
+        {
+            "alias": "mg_g_acps", 
+            "default": "", 
+            "dep_string": "costMiniGrid.GenerationAvailableSystemCapacities;costMiniGrid.GenerationDesiredSystemCapacity", 
+            "dependencies": [
+                "costMiniGrid.GenerationAvailableSystemCapacities", 
+                "costMiniGrid.GenerationDesiredSystemCapacity"
+            ], 
+            "fun_src": "\n\ndef compute(self):\n    return metric.computeSystemCounts(self.get(GenerationDesiredSystemCapacity), self.get(GenerationAvailableSystemCapacities))\n", 
+            "id": "costMiniGrid.GenerationActualSystemCapacityCounts", 
+            "name": "costMiniGrid.GenerationActualSystemCapacityCounts", 
+            "section": "costMiniGrid", 
+            "type": "SINGLE_STMT_OTHER", 
+            "units": "capacity count list", 
+            "x": 2357.0, 
+            "y": 810.0
+        }, 
+        {
+            "alias": "og_fl_lkwh", 
+            "default": 0.5, 
+            "dep_string": "", 
+            "dependencies": [], 
+            "id": "costOffGrid.DieselFuelLitersConsumedPerKilowattHour", 
+            "name": "costOffGrid.DieselFuelLitersConsumedPerKilowattHour", 
+            "section": "costOffGrid", 
+            "type": "LEAF_VAR", 
+            "units": "liters per kilowatt-hour", 
+            "x": 11448.0, 
+            "y": 954.0
+        }, 
+        {
+            "alias": "system", 
+            "default": "", 
+            "dep_string": "costMiniGrid.MiniGridSystemNodalDiscountedCost;costOffGrid.OffGridSystemNodalDiscountedCost;demand.ProjectedNodalDemandPerYear", 
+            "dependencies": [
+                "costMiniGrid.MiniGridSystemNodalDiscountedCost", 
+                "costOffGrid.OffGridSystemNodalDiscountedCost", 
+                "demand.ProjectedNodalDemandPerYear"
+            ], 
+            "fun_src": "\n\ndef compute(self):\n    if (self.get(demand.ProjectedNodalDemandPerYear) == 0):\n        return 'unelectrified'\n    elif self.state[0].isNodeConnected(self.state[1]):\n        return 'grid'\n    elif (self.get(costMiniGrid.MiniGridSystemNodalDiscountedCost) < self.get(costOffGrid.OffGridSystemNodalDiscountedCost)):\n        return 'mini-grid'\n    else:\n        return 'off-grid'\n", 
+            "id": "System", 
+            "name": "System", 
+            "section": "", 
+            "type": "OTHER", 
+            "units": "", 
+            "x": 6592.0, 
+            "y": 1314.0
+        }, 
+        {
+            "alias": "p_dem", 
+            "default": "", 
+            "dep_string": "demand.ProjectedCommercialFacilityDemandPerYear;demand.ProjectedEducationFacilityDemandPerYear;demand.ProjectedHealthFacilityDemandPerYear;demand.ProjectedHouseholdDemandPerYear;demand.ProjectedProductiveDemandPerYear;demand.ProjectedPublicLightingFacilityDemandPerYear", 
+            "dependencies": [
+                "demand.ProjectedCommercialFacilityDemandPerYear", 
+                "demand.ProjectedEducationFacilityDemandPerYear", 
+                "demand.ProjectedHealthFacilityDemandPerYear", 
+                "demand.ProjectedHouseholdDemandPerYear", 
+                "demand.ProjectedProductiveDemandPerYear", 
+                "demand.ProjectedPublicLightingFacilityDemandPerYear"
+            ], 
+            "fun_src": "\n\ndef compute(self):\n    return sum([self.get(ProjectedHouseholdDemandPerYear), self.get(ProjectedProductiveDemandPerYear), self.get(ProjectedHealthFacilityDemandPerYear), self.get(ProjectedEducationFacilityDemandPerYear), self.get(ProjectedCommercialFacilityDemandPerYear), self.get(ProjectedPublicLightingFacilityDemandPerYear)])\n", 
+            "id": "demand.ProjectedNodalDemandPerYear", 
+            "name": "demand.ProjectedNodalDemandPerYear", 
+            "section": "demand", 
+            "type": "SINGLE_STMT_OTHER", 
+            "units": "kilowatt-hours per year", 
+            "x": 7603.0, 
+            "y": 594.0
+        }, 
+        {
+            "alias": "li_cc_t", 
+            "default": "ZeroLogisticLinear", 
+            "dep_string": "", 
+            "dependencies": [], 
+            "id": "demand.PublicLightingFacilityCountCurveType", 
+            "name": "demand.PublicLightingFacilityCountCurveType", 
+            "section": "demand", 
+            "type": "CURVE_TYPE", 
+            "units": "", 
+            "x": 5226.0, 
+            "y": 306.0
+        }, 
+        {
+            "alias": "demf", 
+            "default": "", 
+            "dep_string": "finance.ElectricityDemandGrowthRatePerYear;finance.TimeHorizon", 
+            "dependencies": [
+                "finance.ElectricityDemandGrowthRatePerYear", 
+                "finance.TimeHorizon"
+            ], 
+            "fun_src": "\n\ndef compute(self):\n    return ((1 + self.get(ElectricityDemandGrowthRatePerYear)) ** self.get(TimeHorizon))\n", 
+            "id": "finance.ElectricityDemandMultiplier", 
+            "name": "finance.ElectricityDemandMultiplier", 
+            "section": "finance", 
+            "type": "SINGLE_STMT_SIMPLE", 
+            "units": "", 
+            "x": 9386.0, 
+            "y": 450.0
+        }, 
+        {
+            "alias": "og_ini", 
+            "default": "", 
+            "dep_string": "costOffGrid.DieselComponentInitialCost;costOffGrid.PhotovoltaicComponentInitialCost", 
+            "dependencies": [
+                "costOffGrid.DieselComponentInitialCost", 
+                "costOffGrid.PhotovoltaicComponentInitialCost"
+            ], 
+            "fun_src": "\n\ndef compute(self):\n    return (self.get(PhotovoltaicComponentInitialCost) + self.get(DieselComponentInitialCost))\n", 
+            "id": "costOffGrid.OffGridSystemInitialCost", 
+            "name": "costOffGrid.OffGridSystemInitialCost", 
+            "section": "costOffGrid", 
+            "type": "SINGLE_STMT_SIMPLE", 
+            "units": "dollars", 
+            "x": 12501.0, 
+            "y": 1170.0
+        }, 
+        {
+            "alias": "p_pkdem", 
+            "default": "", 
+            "dep_string": "demand.DemandToPeakDemandConversionFactor;demand.ProjectedNodalDemandPerYear", 
+            "dependencies": [
+                "demand.DemandToPeakDemandConversionFactor", 
+                "demand.ProjectedNodalDemandPerYear"
+            ], 
+            "fun_src": "\n\ndef compute(self):\n    return (self.get(ProjectedNodalDemandPerYear) * self.get(DemandToPeakDemandConversionFactor))\n", 
+            "id": "demand.ProjectedPeakNodalDemand", 
+            "name": "demand.ProjectedPeakNodalDemand", 
+            "section": "demand", 
+            "type": "SINGLE_STMT_SIMPLE", 
+            "units": "kilowatts", 
+            "x": 6587.0, 
+            "y": 666.0
+        }, 
+        {
+            "alias": "gr_tr_omf", 
+            "default": 0.03, 
+            "dep_string": "", 
+            "dependencies": [], 
+            "id": "costGrid.GridTransformerOperationsAndMaintenanceCostPerYearAsFractionOfTransformerCost", 
+            "name": "costGrid.GridTransformerOperationsAndMaintenanceCostPerYearAsFractionOfTransformerCost", 
+            "section": "costGrid", 
+            "type": "LEAF_VAR", 
+            "units": "", 
+            "x": 7057.0, 
+            "y": 954.0
+        }, 
+        {
+            "alias": "mid", 
+            "default": 25, 
+            "dep_string": "", 
+            "dependencies": [], 
+            "id": "demographics.MeanInterhouseholdDistance", 
+            "name": "demographics.MeanInterhouseholdDistance", 
+            "section": "demographics", 
+            "type": "LEAF_VAR", 
+            "units": "meters", 
+            "x": 4318.0, 
+            "y": 738.0
+        }, 
+        {
+            "alias": "u_pop_thre", 
+            "default": 5000, 
+            "dep_string": "", 
+            "dependencies": [], 
+            "id": "demographics.UrbanPopulationThreshold", 
+            "name": "demographics.UrbanPopulationThreshold", 
+            "section": "demographics", 
+            "type": "LEAF_VAR", 
+            "units": "person count", 
+            "x": 2890.0, 
+            "y": 18.0
+        }, 
+        {
+            "alias": "gr_le_om", 
+            "default": "", 
+            "dep_string": "costDistribution.LowVoltageLineEquipmentOperationsAndMaintenanceCostPerYearAsFractionOfEquipmentCost;costGrid.LowVoltageLineEquipmentCost", 
+            "dependencies": [
+                "costDistribution.LowVoltageLineEquipmentOperationsAndMaintenanceCostPerYearAsFractionOfEquipmentCost", 
+                "costGrid.LowVoltageLineEquipmentCost"
+            ], 
+            "fun_src": "\n\ndef compute(self):\n    return (self.get(costDistribution.LowVoltageLineEquipmentOperationsAndMaintenanceCostPerYearAsFractionOfEquipmentCost) * self.get(LowVoltageLineEquipmentCost))\n", 
+            "id": "costGrid.LowVoltageLineEquipmentOperationsAndMaintenanceCostPerYear", 
+            "name": "costGrid.LowVoltageLineEquipmentOperationsAndMaintenanceCostPerYear", 
+            "section": "costGrid", 
+            "type": "SINGLE_STMT_SIMPLE", 
+            "units": "dollars per year", 
+            "x": 5425.0, 
+            "y": 1026.0
+        }, 
+        {
+            "alias": "mg_g_ini", 
+            "default": "", 
+            "dep_string": "costMiniGrid.GenerationActualSystemCapacity;costMiniGrid.GenerationCostPerSystemKilowatt", 
+            "dependencies": [
+                "costMiniGrid.GenerationActualSystemCapacity", 
+                "costMiniGrid.GenerationCostPerSystemKilowatt"
+            ], 
+            "fun_src": "\n\ndef compute(self):\n    return (self.get(GenerationCostPerSystemKilowatt) * self.get(GenerationActualSystemCapacity))\n", 
+            "id": "costMiniGrid.GenerationCost", 
+            "name": "costMiniGrid.GenerationCost", 
+            "section": "costMiniGrid", 
+            "type": "SINGLE_STMT_SIMPLE", 
+            "units": "dollars", 
+            "x": 1914.0, 
+            "y": 954.0
+        }, 
+        {
+            "alias": "rural", 
+            "default": "", 
+            "dep_string": "demographics.ProjectedPopulationCount;demographics.UrbanPopulationThreshold", 
+            "dependencies": [
+                "demographics.ProjectedPopulationCount", 
+                "demographics.UrbanPopulationThreshold"
+            ], 
+            "fun_src": "\n\ndef compute(self):\n    return (1 if (self.get(ProjectedPopulationCount) < self.get(UrbanPopulationThreshold)) else 0)\n", 
+            "id": "demographics.IsRural", 
+            "name": "demographics.IsRural", 
+            "section": "demographics", 
+            "type": "SINGLE_STMT_OTHER", 
+            "units": "binary", 
+            "x": 4331.0, 
+            "y": 234.0
+        }, 
+        {
+            "alias": "ge_nodm_drcpm", 
+            "default": "", 
+            "dep_string": "costGrid.GridExternalSystemRecurringCostPerMeterPerYear;finance.DiscountedCashFlowFactor", 
+            "dependencies": [
+                "costGrid.GridExternalSystemRecurringCostPerMeterPerYear", 
+                "finance.DiscountedCashFlowFactor"
+            ], 
+            "fun_src": "\n\ndef compute(self):\n    return (self.get(GridExternalSystemRecurringCostPerMeterPerYear) * self.get(finance.DiscountedCashFlowFactor))\n", 
+            "id": "costGrid.GridExternalSystemNodalDiscountedRecurringCostPerMeter", 
+            "name": "costGrid.GridExternalSystemNodalDiscountedRecurringCostPerMeter", 
+            "section": "costGrid", 
+            "type": "SINGLE_STMT_SIMPLE", 
+            "units": "dollars per meter", 
+            "x": 11219.0, 
+            "y": 1242.0
+        }, 
+        {
+            "alias": "interest_g", 
+            "default": 0.1, 
+            "dep_string": "", 
+            "dependencies": [], 
+            "id": "finance.InterestRatePerYear", 
+            "name": "finance.InterestRatePerYear", 
+            "section": "finance", 
+            "type": "LEAF_VAR", 
+            "units": "fraction per year", 
+            "x": 4859.0, 
+            "y": 1026.0
+        }, 
+        {
+            "alias": "mg_escpk", 
+            "default": 0.54, 
+            "dep_string": "", 
+            "dependencies": [], 
+            "id": "costMiniGrid.EnergyStorageCostPerKilowattHour", 
+            "name": "costMiniGrid.EnergyStorageCostPerKilowattHour", 
+            "section": "costMiniGrid", 
+            "type": "LEAF_VAR", 
+            "units": "dollars per kilowatt-hour", 
+            "x": 1465.0, 
+            "y": 954.0
+        }, 
+        {
+            "alias": "og_d_ini", 
+            "default": "", 
+            "dep_string": "costOffGrid.DieselGeneratorCost;costOffGrid.DieselGeneratorInstallationCost", 
+            "dependencies": [
+                "costOffGrid.DieselGeneratorCost", 
+                "costOffGrid.DieselGeneratorInstallationCost"
+            ], 
+            "fun_src": "\n\ndef compute(self):\n    return sum([self.get(DieselGeneratorCost), self.get(DieselGeneratorInstallationCost)])\n", 
+            "id": "costOffGrid.DieselComponentInitialCost", 
+            "name": "costOffGrid.DieselComponentInitialCost", 
+            "section": "costOffGrid", 
+            "type": "SINGLE_STMT_OTHER", 
+            "units": "dollars", 
+            "x": 13811.0, 
+            "y": 1098.0
+        }, 
+        {
+            "alias": "mg_nod_dgc", 
+            "default": "", 
+            "dep_string": "costMiniGrid.MiniGridSystemInitialGenerationCost;costMiniGrid.MiniGridSystemRecurringGenerationCostPerYear;finance.DiscountedCashFlowFactor", 
+            "dependencies": [
+                "costMiniGrid.MiniGridSystemInitialGenerationCost", 
+                "costMiniGrid.MiniGridSystemRecurringGenerationCostPerYear", 
+                "finance.DiscountedCashFlowFactor"
+            ], 
+            "fun_src": "\n\ndef compute(self):\n    return (self.get(MiniGridSystemInitialGenerationCost) + (self.get(MiniGridSystemRecurringGenerationCostPerYear) * self.get(finance.DiscountedCashFlowFactor)))\n", 
+            "id": "costMiniGrid.MiniGridSystemNodalDiscountedGenerationCost", 
+            "name": "costMiniGrid.MiniGridSystemNodalDiscountedGenerationCost", 
+            "section": "costMiniGrid", 
+            "type": "SINGLE_STMT_SIMPLE", 
+            "units": "dollars", 
+            "x": 4361.0, 
+            "y": 1170.0
+        }, 
+        {
+            "alias": "mg_tot_lev", 
+            "default": "", 
+            "dep_string": "MiniGridSystemTotalDiscountedCost;MiniGridSystemTotalDiscountedDemand", 
+            "dependencies": [
+                "MiniGridSystemTotalDiscountedCost", 
+                "MiniGridSystemTotalDiscountedDemand"
+            ], 
+            "fun_src": "\n\ndef compute(self):\n    if (self.get(MiniGridSystemTotalDiscountedDemand) == 0):\n        return 0\n    return (self.get(MiniGridSystemTotalDiscountedCost) / float(self.get(MiniGridSystemTotalDiscountedDemand)))\n", 
+            "id": "MiniGridSystemTotalLevelizedCost", 
+            "name": "MiniGridSystemTotalLevelizedCost", 
+            "section": "", 
+            "type": "OTHER", 
+            "units": "dollars per kilowatt-hour", 
+            "x": 11748.0, 
+            "y": 1386.0
+        }, 
+        {
+            "alias": "p_ho", 
+            "default": "", 
+            "dep_string": "demographics.MeanHouseholdSize;demographics.ProjectedPopulationCount", 
+            "dependencies": [
+                "demographics.MeanHouseholdSize", 
+                "demographics.ProjectedPopulationCount"
+            ], 
+            "fun_src": "\n\ndef compute(self):\n    return math.ceil((self.get(ProjectedPopulationCount) / float(self.get(MeanHouseholdSize))))\n", 
+            "id": "demographics.ProjectedHouseholdCount", 
+            "name": "demographics.ProjectedHouseholdCount", 
+            "section": "demographics", 
+            "type": "SINGLE_STMT_OTHER", 
+            "units": "households", 
+            "x": 4006.0, 
+            "y": 378.0
+        }, 
+        {
+            "alias": "di_ll_len", 
+            "default": "", 
+            "dep_string": "demand.TargetHouseholdCount;demographics.MeanInterhouseholdDistance", 
+            "dependencies": [
+                "demand.TargetHouseholdCount", 
+                "demographics.MeanInterhouseholdDistance"
+            ], 
+            "fun_src": "\n\ndef compute(self):\n    meanInterhouseholdDistance = self.get(demographics.MeanInterhouseholdDistance)\n    targetHouseholdCount = self.get(demand.TargetHouseholdCount)\n    return ((meanInterhouseholdDistance * (targetHouseholdCount - 1)) if (targetHouseholdCount > 1) else 0)\n", 
+            "id": "costDistribution.LowVoltageLineLength", 
+            "name": "costDistribution.LowVoltageLineLength", 
+            "section": "costDistribution", 
+            "type": "OTHER", 
+            "units": "meters", 
+            "x": 4276.0, 
+            "y": 810.0
+        }, 
+        {
+            "alias": "mg_g_om", 
+            "default": "", 
+            "dep_string": "costMiniGrid.GenerationCost;costMiniGrid.GenerationOperationsAndMaintenanceCostPerYearAsFractionOfGenerationCost", 
+            "dependencies": [
+                "costMiniGrid.GenerationCost", 
+                "costMiniGrid.GenerationOperationsAndMaintenanceCostPerYearAsFractionOfGenerationCost"
+            ], 
+            "fun_src": "\n\ndef compute(self):\n    return (self.get(GenerationOperationsAndMaintenanceCostPerYearAsFractionOfGenerationCost) * self.get(GenerationCost))\n", 
+            "id": "costMiniGrid.GenerationOperationsAndMaintenanceCostPerYear", 
+            "name": "costMiniGrid.GenerationOperationsAndMaintenanceCostPerYear", 
+            "section": "costMiniGrid", 
+            "type": "SINGLE_STMT_SIMPLE", 
+            "units": "dollars per year", 
+            "x": 2764.0, 
+            "y": 1026.0
+        }, 
+        {
+            "alias": "mg_g_if", 
+            "default": 0.25, 
+            "dep_string": "", 
+            "dependencies": [], 
+            "id": "costMiniGrid.GenerationInstallationCostAsFractionOfGenerationCost", 
+            "name": "costMiniGrid.GenerationInstallationCostAsFractionOfGenerationCost", 
+            "section": "costMiniGrid", 
+            "type": "LEAF_VAR", 
+            "units": "fraction", 
+            "x": 865.0, 
+            "y": 954.0
+        }, 
+        {
+            "alias": "mg_g_dcp", 
+            "default": "", 
+            "dep_string": "costMiniGrid.DistributionLoss;costMiniGrid.GenerationCapacityFactor;costMiniGrid.UtilizationFactor;demand.ProjectedNodalDemandPerYear", 
+            "dependencies": [
+                "costMiniGrid.DistributionLoss", 
+                "costMiniGrid.GenerationCapacityFactor", 
+                "costMiniGrid.UtilizationFactor", 
+                "demand.ProjectedNodalDemandPerYear"
+            ], 
+            "fun_src": "\n\ndef compute(self):\n    effectiveDemandPerYear = (self.get(demand.ProjectedNodalDemandPerYear) / float((1 - self.get(DistributionLoss))))\n    GenerationHoursOfOperationPerYear = (365 * 24)\n    return (((effectiveDemandPerYear / float(self.get(GenerationCapacityFactor))) / float(self.get(UtilizationFactor))) / GenerationHoursOfOperationPerYear)\n", 
+            "id": "costMiniGrid.GenerationDesiredSystemCapacity", 
+            "name": "costMiniGrid.GenerationDesiredSystemCapacity", 
+            "section": "costMiniGrid", 
+            "type": "OTHER", 
+            "units": "kilowatts", 
+            "x": 3413.0, 
+            "y": 738.0
+        }, 
+        {
+            "alias": "og_fl_cl", 
+            "default": 1.08, 
+            "dep_string": "", 
+            "dependencies": [], 
+            "id": "costOffGrid.DieselFuelCostPerLiter", 
+            "name": "costOffGrid.DieselFuelCostPerLiter", 
+            "section": "costOffGrid", 
+            "type": "LEAF_VAR", 
+            "units": "dollars per liter", 
+            "x": 11915.0, 
+            "y": 954.0
+        }, 
+        {
+            "alias": "og_pp_life", 
+            "default": 30, 
+            "dep_string": "", 
+            "dependencies": [], 
+            "id": "costOffGrid.PhotovoltaicPanelLifetime", 
+            "name": "costOffGrid.PhotovoltaicPanelLifetime", 
+            "section": "costOffGrid", 
+            "type": "LEAF_VAR", 
+            "units": "years", 
+            "x": 8795.0, 
+            "y": 954.0
+        }, 
+        {
+            "alias": "og_dem_d", 
+            "default": 0, 
+            "dep_string": "", 
+            "dependencies": [], 
+            "fun_src": "\n\ndef aggregate(self, childVS):\n    if (childVS.get(System)[0] == 'o'):\n        self.value += childVS.get(demand.ProjectedNodalDiscountedDemand)\n", 
+            "id": "OffGridSystemTotalDiscountedDemand", 
+            "name": "OffGridSystemTotalDiscountedDemand", 
+            "section": "", 
+            "type": "AGGREGATE", 
+            "units": "kilowatt-hours", 
+            "x": 13271.0, 
+            "y": 1314.0
+        }, 
+        {
+            "alias": "di_ll_ini", 
+            "default": "", 
+            "dep_string": "costDistribution.LowVoltageLineCostPerMeter;costDistribution.LowVoltageLineLength", 
+            "dependencies": [
+                "costDistribution.LowVoltageLineCostPerMeter", 
+                "costDistribution.LowVoltageLineLength"
+            ], 
+            "fun_src": "\n\ndef compute(self):\n    return (self.get(LowVoltageLineCostPerMeter) * self.get(LowVoltageLineLength))\n", 
+            "id": "costDistribution.LowVoltageLineInitialCost", 
+            "name": "costDistribution.LowVoltageLineInitialCost", 
+            "section": "costDistribution", 
+            "type": "SINGLE_STMT_SIMPLE", 
+            "units": "dollars", 
+            "x": 4307.0, 
+            "y": 882.0
+        }, 
+        {
+            "alias": "pkdemf_u", 
+            "default": 0.4, 
+            "dep_string": "", 
+            "dependencies": [], 
+            "id": "demand.UrbanPeakDemandAsFractionOfNodalDemandOccurringDuringPeakHours", 
+            "name": "demand.UrbanPeakDemandAsFractionOfNodalDemandOccurringDuringPeakHours", 
+            "section": "demand", 
+            "type": "LEAF_VAR", 
+            "units": "", 
+            "x": 13178.0, 
+            "y": 378.0
+        }, 
+        {
+            "alias": "gr_tr_ckw", 
+            "default": 1000, 
+            "dep_string": "", 
+            "dependencies": [], 
+            "id": "costGrid.GridTransformerCostPerGridSystemKilowatt", 
+            "name": "costGrid.GridTransformerCostPerGridSystemKilowatt", 
+            "section": "costGrid", 
+            "type": "LEAF_VAR", 
+            "units": "dollars per kilowatt", 
+            "x": 6227.0, 
+            "y": 882.0
+        }, 
+        {
+            "alias": "og_d_rec", 
+            "default": "", 
+            "dep_string": "costOffGrid.DieselFuelCostPerYear;costOffGrid.DieselGeneratorOperationsAndMaintenanceCostPerYear;costOffGrid.DieselGeneratorReplacementCostPerYear", 
+            "dependencies": [
+                "costOffGrid.DieselFuelCostPerYear", 
+                "costOffGrid.DieselGeneratorOperationsAndMaintenanceCostPerYear", 
+                "costOffGrid.DieselGeneratorReplacementCostPerYear"
+            ], 
+            "fun_src": "\n\ndef compute(self):\n    return sum([self.get(DieselGeneratorOperationsAndMaintenanceCostPerYear), self.get(DieselGeneratorReplacementCostPerYear), self.get(DieselFuelCostPerYear)])\n", 
+            "id": "costOffGrid.DieselComponentRecurringCostPerYear", 
+            "name": "costOffGrid.DieselComponentRecurringCostPerYear", 
+            "section": "costOffGrid", 
+            "type": "SINGLE_STMT_OTHER", 
+            "units": "dollars per year", 
+            "x": 12030.0, 
+            "y": 1098.0
+        }, 
+        {
+            "alias": "og_dg_omf", 
+            "default": 0.01, 
+            "dep_string": "", 
+            "dependencies": [], 
+            "id": "costOffGrid.DieselGeneratorOperationsAndMaintenanceCostPerYearAsFractionOfGeneratorCost", 
+            "name": "costOffGrid.DieselGeneratorOperationsAndMaintenanceCostPerYearAsFractionOfGeneratorCost", 
+            "section": "costOffGrid", 
+            "type": "LEAF_VAR", 
+            "units": "", 
+            "x": 12611.0, 
+            "y": 954.0
+        }, 
+        {
+            "alias": "gr_i_cc", 
+            "default": 130, 
+            "dep_string": "", 
+            "dependencies": [], 
+            "id": "costGrid.GridInstallationCostPerConnection", 
+            "name": "costGrid.GridInstallationCostPerConnection", 
+            "section": "costGrid", 
+            "type": "LEAF_VAR", 
+            "units": "dollars per connection", 
+            "x": 5729.0, 
+            "y": 882.0
+        }, 
+        {
+            "alias": "so_dc", 
+            "default": "", 
+            "dep_string": "demand.SocialInfrastructureDemandCurvePoints;demand.SocialInfrastructureDemandCurveType", 
+            "dependencies": [
+                "demand.SocialInfrastructureDemandCurvePoints", 
+                "demand.SocialInfrastructureDemandCurveType"
+            ], 
+            "fun_src": "\n\ndef compute(self):\n    curveType = self.get(SocialInfrastructureDemandCurveType)\n    curvePoints = self.get(SocialInfrastructureDemandCurvePoints)\n    return curve.fit(curveType, curvePoints)\n", 
+            "id": "demand.SocialInfrastructureDemandCurve", 
+            "name": "demand.SocialInfrastructureDemandCurve", 
+            "section": "demand", 
+            "type": "CURVE_FUN", 
+            "units": "", 
+            "x": 8974.0, 
+            "y": 450.0
+        }, 
+        {
+            "alias": "mg_tot_dgc", 
+            "default": 0, 
+            "dep_string": "", 
+            "dependencies": [], 
+            "fun_src": "\n\ndef aggregate(self, childVS):\n    if (childVS.get(System)[0] == 'm'):\n        self.value += childVS.get(costMiniGrid.MiniGridSystemNodalDiscountedGenerationCost)\n", 
+            "id": "MiniGridSystemTotalDiscountedGenerationCost", 
+            "name": "MiniGridSystemTotalDiscountedGenerationCost", 
+            "section": "", 
+            "type": "AGGREGATE", 
+            "units": "dollars", 
+            "x": 18576.0, 
+            "y": 1386.0
+        }, 
+        {
+            "alias": "gr_ml_life", 
+            "default": 30, 
+            "dep_string": "", 
+            "dependencies": [], 
+            "id": "costGrid.GridMediumVoltageLineLifetime", 
+            "name": "costGrid.GridMediumVoltageLineLifetime", 
+            "section": "costGrid", 
+            "type": "LEAF_VAR", 
+            "units": "years", 
+            "x": 15247.0, 
+            "y": 1026.0
+        }, 
+        {
+            "alias": "mg_g_cf", 
+            "default": 1.0, 
+            "dep_string": "", 
+            "dependencies": [], 
+            "id": "costMiniGrid.GenerationCapacityFactor", 
+            "name": "costMiniGrid.GenerationCapacityFactor", 
+            "section": "costMiniGrid", 
+            "type": "LEAF_VAR", 
+            "units": "fraction", 
+            "x": 3413.0, 
+            "y": 666.0
+        }, 
+        {
+            "alias": "co_cc", 
+            "default": "", 
+            "dep_string": "demand.CommercialFacilityCountCurvePoints;demand.CommercialFacilityCountCurveType", 
+            "dependencies": [
+                "demand.CommercialFacilityCountCurvePoints", 
+                "demand.CommercialFacilityCountCurveType"
+            ], 
+            "fun_src": "\n\ndef compute(self):\n    curveType = self.get(CommercialFacilityCountCurveType)\n    curvePoints = self.get(CommercialFacilityCountCurvePoints)\n    return curve.fit(curveType, curvePoints)\n", 
+            "id": "demand.CommercialFacilityCountCurve", 
+            "name": "demand.CommercialFacilityCountCurve", 
+            "section": "demand", 
+            "type": "CURVE_FUN", 
+            "units": "", 
+            "x": 7622.0, 
+            "y": 378.0
+        }, 
+        {
+            "alias": "p_dem_ho", 
+            "default": "", 
+            "dep_string": "demand.HouseholdDemandCurve;demand.HouseholdUnitDemandPerHouseholdPerYear;demand.TargetHouseholdCount;demographics.ProjectedPopulationCount;finance.ElectricityDemandMultiplier", 
+            "dependencies": [
+                "demand.HouseholdDemandCurve", 
+                "demand.HouseholdUnitDemandPerHouseholdPerYear", 
+                "demand.TargetHouseholdCount", 
+                "demographics.ProjectedPopulationCount", 
+                "finance.ElectricityDemandMultiplier"
+            ], 
+            "fun_src": "\n\ndef compute(self):\n    return (((self.get(finance.ElectricityDemandMultiplier) * self.get(HouseholdDemandCurve).interpolate(self.get(demographics.ProjectedPopulationCount))) * self.get(HouseholdUnitDemandPerHouseholdPerYear)) * self.get(TargetHouseholdCount))\n", 
+            "id": "demand.ProjectedHouseholdDemandPerYear", 
+            "name": "demand.ProjectedHouseholdDemandPerYear", 
+            "section": "demand", 
+            "type": "CURVE_INTERPOLATE", 
+            "units": "kilowatt-hours per year", 
+            "x": 9516.0, 
+            "y": 522.0
+        }, 
+        {
+            "alias": "di_ll_om", 
+            "default": "", 
+            "dep_string": "costDistribution.LowVoltageLineCostPerMeter;costDistribution.LowVoltageLineLength;costDistribution.LowVoltageLineOperationsAndMaintenanceCostPerYearAsFractionOfLineCost", 
+            "dependencies": [
+                "costDistribution.LowVoltageLineCostPerMeter", 
+                "costDistribution.LowVoltageLineLength", 
+                "costDistribution.LowVoltageLineOperationsAndMaintenanceCostPerYearAsFractionOfLineCost"
+            ], 
+            "fun_src": "\n\ndef compute(self):\n    return ((self.get(LowVoltageLineOperationsAndMaintenanceCostPerYearAsFractionOfLineCost) * self.get(LowVoltageLineCostPerMeter)) * self.get(LowVoltageLineLength))\n", 
+            "id": "costDistribution.LowVoltageLineOperationsAndMaintenanceCostPerYear", 
+            "name": "costDistribution.LowVoltageLineOperationsAndMaintenanceCostPerYear", 
+            "section": "costDistribution", 
+            "type": "SINGLE_STMT_SIMPLE", 
+            "units": "dollars per year", 
+            "x": 3094.0, 
+            "y": 882.0
+        }, 
+        {
+            "alias": "gr_dem_d", 
+            "default": 0, 
+            "dep_string": "", 
+            "dependencies": [], 
+            "fun_src": "\n\ndef aggregate(self, childVS):\n    childDataset = childVS.state[0]\n    childNode = childVS.state[1]\n    if ((childVS.get(System)[0] == 'g') and (not childDataset.wasNodeAlreadyConnected(childNode))):\n        self.value += childVS.get(demand.ProjectedNodalDiscountedDemand)\n", 
+            "id": "GridSystemTotalDiscountedDemand", 
+            "name": "GridSystemTotalDiscountedDemand", 
+            "section": "", 
+            "type": "AGGREGATE", 
+            "units": "kilowatt-hours", 
+            "x": 14376.0, 
+            "y": 1314.0
+        }, 
+        {
+            "alias": "gi_nod_d", 
+            "default": "", 
+            "dep_string": "costGrid.GridInternalSystemInitialCost;costGrid.GridInternalSystemRecurringCostPerYear;demand.ProjectedNodalDemandPerYear;finance.DiscountedCashFlowFactor", 
+            "dependencies": [
+                "costGrid.GridInternalSystemInitialCost", 
+                "costGrid.GridInternalSystemRecurringCostPerYear", 
+                "demand.ProjectedNodalDemandPerYear", 
+                "finance.DiscountedCashFlowFactor"
+            ], 
+            "fun_src": "\n\ndef compute(self):\n    if (self.get(demand.ProjectedNodalDemandPerYear) == 0):\n        return 0\n    return (self.get(GridInternalSystemInitialCost) + (self.get(GridInternalSystemRecurringCostPerYear) * self.get(finance.DiscountedCashFlowFactor)))\n", 
+            "id": "costGrid.GridInternalSystemNodalDiscountedCost", 
+            "name": "costGrid.GridInternalSystemNodalDiscountedCost", 
+            "section": "costGrid", 
+            "type": "OTHER", 
+            "units": "dollars", 
+            "x": 6482.0, 
+            "y": 1170.0
+        }, 
+        {
+            "alias": "p_pops", 
+            "default": "", 
+            "dep_string": "demographics.PopulationCount;demographics.RuralPopulationGrowthRatePerYear;demographics.UrbanPopulationGrowthRatePerYear;demographics.UrbanPopulationThreshold;finance.TimeHorizon", 
+            "dependencies": [
+                "demographics.PopulationCount", 
+                "demographics.RuralPopulationGrowthRatePerYear", 
+                "demographics.UrbanPopulationGrowthRatePerYear", 
+                "demographics.UrbanPopulationThreshold", 
+                "finance.TimeHorizon"
+            ], 
+            "fun_src": "\n\ndef compute(self):\n    populationCounts = [self.get(PopulationCount)]\n    urbanThreshold = self.get(UrbanPopulationThreshold)\n    ruralGrowthRate = self.get(RuralPopulationGrowthRatePerYear)\n    urbanGrowthRate = self.get(UrbanPopulationGrowthRatePerYear)\n    for year in xrange(self.get(finance.TimeHorizon)):\n        populationCount = populationCounts[(-1)]\n        populationGrowthRate = (ruralGrowthRate if (populationCount < urbanThreshold) else urbanGrowthRate)\n        populationCounts.append(int(math.ceil((populationCount * (1 + populationGrowthRate)))))\n    return populationCounts\n", 
+            "id": "demographics.ProjectedPopulationCounts", 
+            "name": "demographics.ProjectedPopulationCounts", 
+            "section": "demographics", 
+            "type": "OTHER", 
+            "units": "person count list", 
+            "x": 3619.0, 
+            "y": 90.0
+        }, 
+        {
+            "alias": "co_dc_unit", 
+            "default": 0, 
+            "dep_string": "", 
+            "dependencies": [], 
+            "id": "demand.CommercialFacilityUnitDemandPerCommercialFacilityPerYear", 
+            "name": "demand.CommercialFacilityUnitDemandPerCommercialFacilityPerYear", 
+            "section": "demand", 
+            "type": "LEAF_VAR", 
+            "units": "kilowatt-hours per year", 
+            "x": 11541.0, 
+            "y": 450.0
+        }, 
+        {
+            "alias": "og_px_rep", 
+            "default": "", 
+            "dep_string": "costOffGrid.PhotovoltaicBalanceCost;costOffGrid.PhotovoltaicBalanceLifetime", 
+            "dependencies": [
+                "costOffGrid.PhotovoltaicBalanceCost", 
+                "costOffGrid.PhotovoltaicBalanceLifetime"
+            ], 
+            "fun_src": "\n\ndef compute(self):\n    return (self.get(PhotovoltaicBalanceCost) / float(self.get(PhotovoltaicBalanceLifetime)))\n", 
+            "id": "costOffGrid.PhotovoltaicBalanceReplacementCostPerYear", 
+            "name": "costOffGrid.PhotovoltaicBalanceReplacementCostPerYear", 
+            "section": "costOffGrid", 
+            "type": "SINGLE_STMT_OTHER", 
+            "units": "dollars per year", 
+            "x": 8546.0, 
+            "y": 1026.0
+        }, 
+        {
+            "alias": "so_dc_t", 
+            "default": "ZeroLogisticLinear", 
+            "dep_string": "", 
+            "dependencies": [], 
+            "id": "demand.SocialInfrastructureDemandCurveType", 
+            "name": "demand.SocialInfrastructureDemandCurveType", 
+            "section": "demand", 
+            "type": "CURVE_TYPE", 
+            "units": "", 
+            "x": 8405.0, 
+            "y": 378.0
+        }, 
+        {
+            "alias": "p_dem_d", 
+            "default": "", 
+            "dep_string": "demand.ProjectedNodalDemandPerYear;finance.DiscountedCashFlowFactor", 
+            "dependencies": [
+                "demand.ProjectedNodalDemandPerYear", 
+                "finance.DiscountedCashFlowFactor"
+            ], 
+            "fun_src": "\n\ndef compute(self):\n    return (self.get(ProjectedNodalDemandPerYear) * self.get(finance.DiscountedCashFlowFactor))\n", 
+            "id": "demand.ProjectedNodalDiscountedDemand", 
+            "name": "demand.ProjectedNodalDiscountedDemand", 
+            "section": "demand", 
+            "type": "SINGLE_STMT_SIMPLE", 
+            "units": "kilowatt-hours", 
+            "x": 4898.0, 
+            "y": 1170.0
+        }, 
+        {
+            "alias": "og_px_cf", 
+            "default": 0.5, 
+            "dep_string": "", 
+            "dependencies": [], 
+            "id": "costOffGrid.PhotovoltaicBalanceCostAsFractionOfPanelCost", 
+            "name": "costOffGrid.PhotovoltaicBalanceCostAsFractionOfPanelCost", 
+            "section": "costOffGrid", 
+            "type": "LEAF_VAR", 
+            "units": "", 
+            "x": 9367.0, 
+            "y": 810.0
+        }, 
+        {
+            "alias": "di_ll_omf", 
+            "default": 0.01, 
+            "dep_string": "", 
+            "dependencies": [], 
+            "id": "costDistribution.LowVoltageLineOperationsAndMaintenanceCostPerYearAsFractionOfLineCost", 
+            "name": "costDistribution.LowVoltageLineOperationsAndMaintenanceCostPerYearAsFractionOfLineCost", 
+            "section": "costDistribution", 
+            "type": "LEAF_VAR", 
+            "units": "", 
+            "x": 3096.0, 
+            "y": 810.0
+        }, 
+        {
+            "alias": "og_dg_acps", 
+            "default": "", 
+            "dep_string": "costOffGrid.DieselGeneratorAvailableSystemCapacities;costOffGrid.DieselGeneratorDesiredSystemCapacity", 
+            "dependencies": [
+                "costOffGrid.DieselGeneratorAvailableSystemCapacities", 
+                "costOffGrid.DieselGeneratorDesiredSystemCapacity"
+            ], 
+            "fun_src": "\n\ndef compute(self):\n    return metric.computeSystemCounts(self.get(DieselGeneratorDesiredSystemCapacity), self.get(DieselGeneratorAvailableSystemCapacities))\n", 
+            "id": "costOffGrid.DieselGeneratorActualSystemCapacityCounts", 
+            "name": "costOffGrid.DieselGeneratorActualSystemCapacityCounts", 
+            "section": "costOffGrid", 
+            "type": "SINGLE_STMT_OTHER", 
+            "units": "capacity count list", 
+            "x": 11807.0, 
+            "y": 810.0
+        }, 
+        {
+            "alias": "og_pp_cps", 
+            "default": "1.5 1.0 0.4 0.15 0.075 0.05", 
+            "dep_string": "", 
+            "dependencies": [], 
+            "id": "costOffGrid.PhotovoltaicPanelAvailableSystemCapacities", 
+            "name": "costOffGrid.PhotovoltaicPanelAvailableSystemCapacities", 
+            "section": "costOffGrid", 
+            "type": "LEAF_VAR", 
+            "units": "kilowatts list", 
+            "x": 10542.0, 
+            "y": 594.0
+        }, 
+        {
+            "alias": "he_cc", 
+            "default": "", 
+            "dep_string": "demand.HealthFacilityCountCurvePoints;demand.HealthFacilityCountCurveType", 
+            "dependencies": [
+                "demand.HealthFacilityCountCurvePoints", 
+                "demand.HealthFacilityCountCurveType"
+            ], 
+            "fun_src": "\n\ndef compute(self):\n    curveType = self.get(HealthFacilityCountCurveType)\n    curvePoints = self.get(HealthFacilityCountCurvePoints)\n    return curve.fit(curveType, curvePoints)\n", 
+            "id": "demand.HealthFacilityCountCurve", 
+            "name": "demand.HealthFacilityCountCurve", 
+            "section": "demand", 
+            "type": "CURVE_FUN", 
+            "units": "", 
+            "x": 6727.0, 
+            "y": 378.0
+        }, 
+        {
+            "alias": "mg_g_omf", 
+            "default": 0.01, 
+            "dep_string": "", 
+            "dependencies": [], 
+            "id": "costMiniGrid.GenerationOperationsAndMaintenanceCostPerYearAsFractionOfGenerationCost", 
+            "name": "costMiniGrid.GenerationOperationsAndMaintenanceCostPerYearAsFractionOfGenerationCost", 
+            "section": "costMiniGrid", 
+            "type": "LEAF_VAR", 
+            "units": "fraction", 
+            "x": 2879.0, 
+            "y": 954.0
+        }, 
+        {
+            "alias": "og_rec", 
+            "default": "", 
+            "dep_string": "costOffGrid.DieselComponentRecurringCostPerYear;costOffGrid.PhotovoltaicComponentRecurringCostPerYear", 
+            "dependencies": [
+                "costOffGrid.DieselComponentRecurringCostPerYear", 
+                "costOffGrid.PhotovoltaicComponentRecurringCostPerYear"
+            ], 
+            "fun_src": "\n\ndef compute(self):\n    return (self.get(PhotovoltaicComponentRecurringCostPerYear) + self.get(DieselComponentRecurringCostPerYear))\n", 
+            "id": "costOffGrid.OffGridSystemRecurringCostPerYear", 
+            "name": "costOffGrid.OffGridSystemRecurringCostPerYear", 
+            "section": "costOffGrid", 
+            "type": "SINGLE_STMT_SIMPLE", 
+            "units": "dollars per year", 
+            "x": 8830.0, 
+            "y": 1170.0
+        }, 
+        {
+            "alias": "og_pb_life", 
+            "default": 3, 
+            "dep_string": "", 
+            "dependencies": [], 
+            "id": "costOffGrid.PhotovoltaicBatteryLifetime", 
+            "name": "costOffGrid.PhotovoltaicBatteryLifetime", 
+            "section": "costOffGrid", 
+            "type": "LEAF_VAR", 
+            "units": "years", 
+            "x": 7926.0, 
+            "y": 954.0
+        }, 
+        {
+            "alias": "og_pp_ckw", 
+            "default": 6000, 
+            "dep_string": "", 
+            "dependencies": [], 
+            "id": "costOffGrid.PhotovoltaicPanelCostPerPhotovoltaicComponentKilowatt", 
+            "name": "costOffGrid.PhotovoltaicPanelCostPerPhotovoltaicComponentKilowatt", 
+            "section": "costOffGrid", 
+            "type": "LEAF_VAR", 
+            "units": "dollars per kilowatt", 
+            "x": 9769.0, 
+            "y": 738.0
+        }, 
+        {
+            "alias": "gr_el_ckwh", 
+            "default": 0.17, 
+            "dep_string": "", 
+            "dependencies": [], 
+            "id": "costGrid.GridElectricityCostPerKilowattHour", 
+            "name": "costGrid.GridElectricityCostPerKilowattHour", 
+            "section": "costGrid", 
+            "type": "LEAF_VAR", 
+            "units": "dollars per kilowatt-hour", 
+            "x": 7294.0, 
+            "y": 666.0
+        }, 
+        {
+            "alias": "og_dg_cps", 
+            "default": "1000 750 500 400 200 150 100 70 32 19 12 10 8 6", 
+            "dep_string": "", 
+            "dependencies": [], 
+            "id": "costOffGrid.DieselGeneratorAvailableSystemCapacities", 
+            "name": "costOffGrid.DieselGeneratorAvailableSystemCapacities", 
+            "section": "costOffGrid", 
+            "type": "LEAF_VAR", 
+            "units": "kilowatts list", 
+            "x": 12085.0, 
+            "y": 738.0
+        }, 
+        {
+            "alias": "gr_tot_init", 
+            "default": "", 
+            "dep_string": "GridSystemTotalExternalInitialCost;GridSystemTotalInternalInitialCost", 
+            "dependencies": [
+                "GridSystemTotalExternalInitialCost", 
+                "GridSystemTotalInternalInitialCost"
+            ], 
+            "fun_src": "\n\ndef compute(self):\n    return (self.get(GridSystemTotalInternalInitialCost) + self.get(GridSystemTotalExternalInitialCost))\n", 
+            "id": "GridSystemTotalInitialCost", 
+            "name": "GridSystemTotalInitialCost", 
+            "section": "", 
+            "type": "SINGLE_STMT_SIMPLE", 
+            "units": "dollars", 
+            "x": 12851.0, 
+            "y": 1386.0
+        }, 
+        {
+            "alias": "og_dg_if", 
+            "default": 0.25, 
+            "dep_string": "", 
+            "dependencies": [], 
+            "id": "costOffGrid.DieselGeneratorInstallationCostAsFractionOfGeneratorCost", 
+            "name": "costOffGrid.DieselGeneratorInstallationCostAsFractionOfGeneratorCost", 
+            "section": "costOffGrid", 
+            "type": "LEAF_VAR", 
+            "units": "", 
+            "x": 14210.0, 
+            "y": 954.0
+        }, 
+        {
+            "alias": "gr_tot_iic", 
+            "default": 0, 
+            "dep_string": "", 
+            "dependencies": [], 
+            "fun_src": "\n\ndef aggregate(self, childVS):\n    childDataset = childVS.state[0]\n    childNode = childVS.state[1]\n    if ((childVS.get(System)[0] == 'g') and (not childDataset.wasNodeAlreadyConnected(childNode))):\n        internalCost = childVS.get(costGrid.GridInternalSystemInitialCost)\n        self.value += internalCost\n", 
+            "id": "GridSystemTotalInternalInitialCost", 
+            "name": "GridSystemTotalInternalInitialCost", 
+            "section": "", 
+            "type": "AGGREGATE", 
+            "units": "dollars", 
+            "x": 12884.0, 
+            "y": 1314.0
+        }, 
+        {
+            "alias": "p_pkdem_co", 
+            "default": "", 
+            "dep_string": "demand.DemandToPeakDemandConversionFactor;demand.ProjectedCommercialFacilityDemandPerYear", 
+            "dependencies": [
+                "demand.DemandToPeakDemandConversionFactor", 
+                "demand.ProjectedCommercialFacilityDemandPerYear"
+            ], 
+            "fun_src": "\n\ndef compute(self):\n    return (self.get(ProjectedCommercialFacilityDemandPerYear) * self.get(DemandToPeakDemandConversionFactor))\n", 
+            "id": "demand.ProjectedPeakCommercialFacilityDemand", 
+            "name": "demand.ProjectedPeakCommercialFacilityDemand", 
+            "section": "demand", 
+            "type": "SINGLE_STMT_SIMPLE", 
+            "units": "kilowatts", 
+            "x": 11623.0, 
+            "y": 594.0
+        }, 
+        {
+            "alias": "og_dg_om", 
+            "default": "", 
+            "dep_string": "costOffGrid.DieselGeneratorCost;costOffGrid.DieselGeneratorOperationsAndMaintenanceCostPerYearAsFractionOfGeneratorCost", 
+            "dependencies": [
+                "costOffGrid.DieselGeneratorCost", 
+                "costOffGrid.DieselGeneratorOperationsAndMaintenanceCostPerYearAsFractionOfGeneratorCost"
+            ], 
+            "fun_src": "\n\ndef compute(self):\n    return (self.get(DieselGeneratorOperationsAndMaintenanceCostPerYearAsFractionOfGeneratorCost) * self.get(DieselGeneratorCost))\n", 
+            "id": "costOffGrid.DieselGeneratorOperationsAndMaintenanceCostPerYear", 
+            "name": "costOffGrid.DieselGeneratorOperationsAndMaintenanceCostPerYear", 
+            "section": "costOffGrid", 
+            "type": "SINGLE_STMT_SIMPLE", 
+            "units": "dollars per year", 
+            "x": 12611.0, 
+            "y": 1026.0
+        }, 
+        {
+            "alias": "og_dg_efhr", 
+            "default": "", 
+            "dep_string": "costOffGrid.DieselGeneratorActualSystemCapacity;costOffGrid.DieselGeneratorMinimumHoursOfOperationPerYear;demand.ProjectedCommercialFacilityDemandPerYear;demand.ProjectedProductiveDemandPerYear", 
+            "dependencies": [
+                "costOffGrid.DieselGeneratorActualSystemCapacity", 
+                "costOffGrid.DieselGeneratorMinimumHoursOfOperationPerYear", 
+                "demand.ProjectedCommercialFacilityDemandPerYear", 
+                "demand.ProjectedProductiveDemandPerYear"
+            ], 
+            "fun_src": "\n\ndef compute(self):\n    dieselGeneratorActualSystemCapacity = self.get(DieselGeneratorActualSystemCapacity)\n    if (dieselGeneratorActualSystemCapacity == 0):\n        return 0\n    effectiveDemandPerYear = (self.get(demand.ProjectedCommercialFacilityDemandPerYear) + self.get(demand.ProjectedProductiveDemandPerYear))\n    return max(self.get(DieselGeneratorMinimumHoursOfOperationPerYear), (effectiveDemandPerYear / float(dieselGeneratorActualSystemCapacity)))\n", 
+            "id": "costOffGrid.DieselGeneratorEffectiveHoursOfOperationPerYear", 
+            "name": "costOffGrid.DieselGeneratorEffectiveHoursOfOperationPerYear", 
+            "section": "costOffGrid", 
+            "type": "OTHER", 
+            "units": "hours per year", 
+            "x": 10850.0, 
+            "y": 954.0
+        }, 
+        {
+            "alias": "og_dg_ck", 
+            "default": 150, 
+            "dep_string": "", 
+            "dependencies": [], 
+            "id": "costOffGrid.DieselGeneratorCostPerDieselSystemKilowatt", 
+            "name": "costOffGrid.DieselGeneratorCostPerDieselSystemKilowatt", 
+            "section": "costOffGrid", 
+            "type": "LEAF_VAR", 
+            "units": "dollars per kilowatt", 
+            "x": 13522.0, 
+            "y": 882.0
+        }, 
+        {
+            "alias": "gr_tot_ext_drc", 
+            "default": 0, 
+            "dep_string": "", 
+            "dependencies": [], 
+            "fun_src": "\n\ndef aggregate(self, childVS):\n    childDataset = childVS.state[0]\n    childNode = childVS.state[1]\n    if ((childVS.get(System)[0] == 'g') and (not childDataset.wasNodeAlreadyConnected(childNode))):\n        newConnections = childDataset.cycleConnections(childNode, is_existing=False)\n        newConnectionLengthHalved = (sum((x.weight for x in newConnections)) / 2.0)\n        discountedExternalCostPerMeter = childVS.get(costGrid.GridExternalSystemNodalDiscountedRecurringCostPerMeter)\n        externalRecurringCost = (discountedExternalCostPerMeter * newConnectionLengthHalved)\n        self.value += externalRecurringCost\n", 
+            "id": "GridSystemTotalExternalDiscountedRecurringCost", 
+            "name": "GridSystemTotalExternalDiscountedRecurringCost", 
+            "section": "", 
+            "type": "AGGREGATE", 
+            "units": "dollars", 
+            "x": 5379.0, 
+            "y": 1170.0
+        }
+    ]
+}
