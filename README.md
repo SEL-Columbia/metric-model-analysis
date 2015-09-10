@@ -28,6 +28,14 @@ python analyze.py ~/src/networkplanner/np/lib/metric/mvMax5
 Note:  using the --from-model method is not recommend.
 It was developed for testing purposes and depends heavily on networkplanner.
 
-## TODO:
+## View 
 
-Visualize via D3 using chrisnatali/network-view as a guide
+Output variables as json graph via the `--to-graph` option: 
+
+```
+python analyze.py --to-graph ~/src/networkplanner/np/lib/metric/mvMax5 > mv5_vars.json
+```
+
+Then modify graph-view.html to point to your file in this directory. Host it via `python -m SimpleHTTPServer 8888` and browse to localhost:8888/graph-view.html.
+
+[Sample view of mvMax5 variables here](http://sel-columbia.github.io/metric-model-analysis/graph-view.html)
